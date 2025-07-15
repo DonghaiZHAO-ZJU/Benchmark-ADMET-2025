@@ -1,3 +1,3 @@
 # Benchmark-ADMET-2025
 
-![](./figure/Protocol.png)
+!['Protocol for the systematic evaluation of ADMET models'](./figure/Protocol.png)
