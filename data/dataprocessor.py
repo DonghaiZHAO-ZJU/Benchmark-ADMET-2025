@@ -5,6 +5,8 @@ from rdkit import Chem
 from rdkit.Chem.MolStandardize import rdMolStandardize
 from rdkit.rdBase import BlockLogs
 
+
+# Borrowed from https://bitsilla.com/blog/2021/06/standardizing-a-molecule-using-rdkit/
 def standardize(smiles):
     mol = Chem.MolFromSmiles(smiles)
     clean_mol = rdMolStandardize.Cleanup(mol)
