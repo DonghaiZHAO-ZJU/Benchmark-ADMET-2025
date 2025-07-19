@@ -23,7 +23,7 @@ We selected a diverse set of datasets to ensure our benchmark is comprehensive. 
 
 The primary datasets used in this study are summarized below:
 
-| Dataset Name          | ADMET Property                | Data Size | Source / Reference                               |
+| Dataset Name          | Class               | Data Size | Source / Reference                               |
 | --------------------- | ----------------------------- | ----------- | ------------------------------------------------ |
 | **BBBP** | absorption     | 3873  | `https://doi.org/10.1093/nar/gkab255` `https://doi.org/10.1039/c7sc02664a` `https://doi.org/10.1093/bioinformatics/btaa918`|
 | **hERG** | toxicity   | 9673  | `https://doi.org/10.1038/s41467-023-38192-3`     |
@@ -35,7 +35,6 @@ The primary datasets used in this study are summarized below:
 | **VDss** | distribution                    | 1092    | `https://doi.org/10.48550/arXiv.2102.09548`                             |
 | **Tox21 NR ER** | toxicity                    | 5964    | `https://doi.org/10.1039/c7sc02664a`                             |
 | **Cycpept PAMPA** | absorption                    | 6637    | `https://pubs.acs.org/doi/10.1021/acs.jcim.2c01573`                             |
-
 <br>
 
 ### 2. Data Splitting Strategies
