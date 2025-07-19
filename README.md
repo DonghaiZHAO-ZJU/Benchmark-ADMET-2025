@@ -24,7 +24,7 @@ We selected a diverse set of datasets to ensure our benchmark is comprehensive. 
 The primary datasets used in this study are summarized below:
 
 | Dataset Name          | Class               | Data Size | Source / Reference                               |
-| --------------------- | ---------- | ----------- | ------------------------------------------------ |
+| ------------------------------ | ---------- | ----------- | ------------------------------------------------ |
 | **BBBP** | absorption     | 3873  | `https://doi.org/10.1093/nar/gkab255` `https://doi.org/10.1039/c7sc02664a` `https://doi.org/10.1093/bioinformatics/btaa918`|
 | **hERG** | toxicity   | 9673  | `https://doi.org/10.1038/s41467-023-38192-3`     |
 | **Mutagenicity** | toxicity                    | 8779    | `https://doi.org/10.1093/nar/gkab255`  `https://doi.org/10.1021/acs.jmedchem.1c00421`                           |
@@ -45,10 +45,6 @@ Our splitting strategies include:
 * **Random Split**: The standard, baseline approach where data is partitioned randomly. This tests a model's general interpolation ability.
 
 * **Scaffold Split**: This method separates molecules based on their core chemical structure (scaffold). All molecules sharing the same scaffold are placed in the same set (either train or test). This is crucial for testing a model's ability to **generalize to new chemical scaffolds**, which is a more realistic and challenging task.
-
-* **Perimeter Split**: To further stress-test the models, we used advanced splitters from the `mood` library. These methods create splits where the test set is intentionally dissimilar from the training set, testing the model's extrapolation capabilities. The specific methods used include:
-
-The implementation for these splitting methods can be found in the `data/datasplitting.py` file. This multi-faceted approach ensures a thorough and robust comparison of the different ADMET predictors.
 
 * **Perimeter Split**: To further stress-test the models, we used advanced splitters from the `mood` library. These methods create splits where the test set is intentionally dissimilar from the training set, testing the model's extrapolation capabilities. The specific methods used include:
 
