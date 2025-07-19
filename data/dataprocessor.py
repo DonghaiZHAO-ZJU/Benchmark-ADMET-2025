@@ -14,7 +14,7 @@ def standardize(smiles):
     uncharger = rdMolStandardize.Uncharger()
     uncharged_parent_clean_mol = uncharger.uncharge(parent_clean_mol)
     te = rdMolStandardize.TautomerEnumerator()
-    taut_uncharged_parent_clean_mol = te.Canonicalize(uncharged_parent_clean_mol)
+    taut_uncharged_parent_clean_mol = te.Canonicalize(uncharged_parent_clean_mol) # This step is not required when preprocessing CycPept-PAMPA
     return Chem.MolToSmiles(taut_uncharged_parent_clean_mol)
 
 def find_duplicates(lst):
