@@ -23,7 +23,7 @@ We selected a diverse set of datasets to ensure our benchmark is comprehensive. 
 
 The primary datasets used in this study are summarized below:
 
-| Dataset Name          | Class               | Data Size | Source / Reference                               |
+| Dataset Name                 | Class   | Data Size | Source / Reference                         |
 | ------------------------------ | ---------- | ----------- | ------------------------------------------------ |
 | **BBBP** | absorption     | 3873  | `https://doi.org/10.1093/nar/gkab255` `https://doi.org/10.1039/c7sc02664a` `https://doi.org/10.1093/bioinformatics/btaa918`|
 | **hERG** | toxicity   | 9673  | `https://doi.org/10.1038/s41467-023-38192-3`     |
