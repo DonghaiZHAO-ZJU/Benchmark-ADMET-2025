@@ -19,7 +19,7 @@ Our data processing pipeline involves two key stages: **(1) Data Curation** and 
 
 ### 1. Datasets Used
 
-We selected a diverse set of datasets to ensure our benchmark is comprehensive. All datasets are provided in the [ `data/` ](./data/) directory and have been meticulously cleaned, standardized, and deduplicated.
+We selected a diverse set of datasets to ensure our benchmark is comprehensive. All datasets are provided in the [`data/`](./data/) directory and have been meticulously cleaned, standardized, and deduplicated.
 
 The primary datasets used in this study are summarized below:
 
