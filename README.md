@@ -35,7 +35,6 @@ The primary datasets used in this study are summarized below:
 | **VDss** | distribution                    | 1092    | `https://doi.org/10.48550/arXiv.2102.09548`                             |
 | **Tox21 NR ER** | toxicity                    | 5964    | `https://doi.org/10.1039/c7sc02664a`                             |
 | **Cycpept PAMPA** | absorption                    | 6637    | `https://pubs.acs.org/doi/10.1021/acs.jcim.2c01573`                             |
-|
 
 <br>
 
