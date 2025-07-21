@@ -29,3 +29,9 @@ After cleaning, the `datasplitting.py` script partitions the dataset using vario
 ```bash
 python datasplitting.py
 ```
+
+**3. Split the Activity Cliff Dataset (MoleculeACE)**
+
+For splitting the **MoleculeACE** dataset, which specifically focuses on activity cliffs, the splitting logic is based on the implementation from the MolMCL repository.
+
+The script containing this splitter can be found at: [MolMCL Splitter Script](https://github.com/yuewan2/MolMCL/blob/main/molmcl/splitters.py).

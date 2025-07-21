@@ -53,8 +53,65 @@ Our splitting strategies include:
 The implementation for these splitting methods can be found in the [`data/datasplitting.py`](data/datasplitting.py) file. This multi-faceted approach ensures a thorough and robust comparison of the different ADMET predictors.
 
 
-## 🧪 **ADMET Predictors Evaluation**
+## 🎯 **ADMET Predictors Evaluation**
+We systematically evaluate highly representative drug-likeness prediction models, categorized into two primary technical paradigms:
+1. **End-to-End Deep Learning Models**: Directly process molecular graphs/sequences to automatically learn feature representations, suitable for complex nonlinear relationship modeling (GNNs and Transformers)
+2. **Feature-Based Classical & Tabular Models**: Rely on expert-engineered molecular descriptors (e.g., ECFP fingerprints, physicochemical properties) and structured tabular data
+
+The complete implementation code and supplementary documentation (including versioning details and custom modifications) are available at:[`selected_models/`](selected_models/).
+
 ---
 
-## 🧪 **Roughness Index Application**
+<style>
+.table-section {margin-top: 1.5em; margin-bottom: 1em; border-top: 1px solid #e0e0e0; padding-top: 0.8em;}
+</style>
+
+### **Deep Learning Models**
+| Model Name              | Class   | Pretrain         | Source / Reference                               |
+| ------------------------------ | ---------- | ----------- | ------------------------------------------------ |
+| **RGCN** | GNN     | No  | `https://doi.org/10.1038/s41467-023-38192-3`|
+| **AttentiveFP** | GNN   | No  | `https://doi.org/10.1021/acs.jmedchem.9b00959`     |
+| **D-MPNN** | GNN  | No    | `https://doi.org/10.1021/acs.jcim.3c01250`                           |
+| **CMMS-GCL** | GNN   | No    | `https://doi.org/10.1093/bioinformatics/btad503`                             |
+| **Vertical-GNN** | GNN    | No    | `https://doi.org/10.1021/acs.jcim.3c00554`                             |
+| **GNNAK** | GNN                   | No    | `https://doi.org/10.48550/arXiv.2110.03753`                             |
+| **K-BERT** | Transformer                    | Yes    | `https://doi.org/10.1093/bib/bbac131`                             |
+| **KPGT** | Graph Transformer                    | Yes    | `https://doi.org/10.1038/s41467-023-43214-1`                             |
+| **MOLMCL** | Graph Transformer                  | Yes    | `https://doi.org/10.1038/s41467-024-55082-4`                             |
+| **GEM** | 3D GNN                    | Yes    | `https://doi.org/10.1038/s42256-021-00438-4`                             |
+| **Uni-Mol** | Graph Transformer                   | Yes    | `https://doi.org/10.26434/chemrxiv-2022-jjm0j-v4`                             |
+
+<div class="table-section"></div>
+
+### **Classical Algorithms**
+| Model Name | Key Feature |
+| --- | --- |
+| **SVM** | Support Vector Machine, effective in high-dimensional spaces. |
+| **KNN** | K-Nearest Neighbors, a non-parametric instance-based learning algorithm. |
+| **Random Forest** | Ensemble method using multiple decision trees to improve accuracy. |
+| **XGBoost** | Optimized gradient boosting library known for its performance and speed. |
+| **LightGBM** | A gradient boosting framework that uses tree-based learning algorithms. |
+| **CatBoost** | Gradient boosting on decision trees with good handling of categorical data. |
+| **Neural Networks**| Standard feed-forward neural networks (Multi-layer Perceptrons). |
+
+<div class="table-section"></div>
+
+### **Tabular Models**
+| Model Name | Key Feature | Source / Reference |
+| --- | --- | --- |
+| **AutoGluon** | ​​Automates training, tuning, and ensembling of ML models for tabular data with minimal user effort​. |`https://doi.org/10.48550/arXiv.2003.06505`|
+| **TabPFNv2** | Transformer model for tabular data that performs fast inference and adaptation with limited training examples​. |`https://doi.org/10.1038/s41586-024-08328-6`|
+
+<span style="
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+    padding: 6px 10px;
+    border-radius: 6px;
+    border-left: 3px solid #6a5acd;
+    color: #4b0082;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+">💡 <strong>Impact</strong>: TabPFNv2 performs very well in the face of small <u> sample and OOD </u> scenarios.</span>
+
+
+## 📏 **Roughness Index Application**
 ---

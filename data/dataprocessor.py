@@ -96,6 +96,6 @@ for task in select_tasks:
         print("{} identical molecules has been dropped to one".format(m1))
         print("There are {} similar molecules".format(m2))
         print("There are {} strange molecules".format(n))
-        data_new.to_csv("data_after_processing2/{}.csv".format(task), index=False)
+        data_new.to_csv("data_after_processing/{}.csv".format(task), index=False)
     else:
-        data_new.to_csv("data_after_processing2/{}.csv".format(task), index=False)
+        data_new.to_csv("data_after_processing/{}.csv".format(task), index=False)
