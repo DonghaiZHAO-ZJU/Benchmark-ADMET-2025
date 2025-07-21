@@ -17,7 +17,7 @@ Our data processing pipeline involves two key stages: **(1) Data Curation** and 
 
 ---
 
-### 1. Datasets Used
+### Datasets Used
 
 We selected a diverse set of datasets to ensure our benchmark is comprehensive. All datasets are provided in the [`data/`](./data/) directory and have been meticulously cleaned, standardized, and deduplicated.
 
@@ -38,7 +38,7 @@ The primary datasets used in this study are summarized below:
 
 Please refer to [`data/dataprocessor.py`](data/dataprocessor.py) for the data cleaning and merging process of these datasets.
 
-### 2. Data Splitting Strategies
+### Data Splitting Strategies
 
 A critical aspect of evaluating model generalization is the data splitting strategy. To rigorously test the models and simulate real-world scenarios where models must predict on novel chemical matter, we employed several splitting methods beyond a simple random split.
 
