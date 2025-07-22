@@ -35,7 +35,7 @@ The primary datasets used in this study are summarized below:
 | **VDss** | distribution                    | 1092    | `https://doi.org/10.48550/arXiv.2102.09548`                             |
 | **Tox21 NR ER** | toxicity                    | 5964    | `https://doi.org/10.1039/c7sc02664a`                             |
 | **Cycpept PAMPA** | absorption                    | 6637    | `https://pubs.acs.org/doi/10.1021/acs.jcim.2c01573`                             |
-|
+
 
 Please refer to [`data/dataprocessor.py`](data/dataprocessor.py) for the data cleaning and merging process of these datasets.
 
@@ -75,7 +75,7 @@ The complete implementation code and supplementary documentation (including vers
 | **MOLMCL** | Graph Transformer                  | Yes    | `https://doi.org/10.1038/s41467-024-55082-4`                             |
 | **GEM** | 3D GNN                    | Yes    | `https://doi.org/10.1038/s42256-021-00438-4`                             |
 | **Uni-Mol** | Graph Transformer                   | Yes    | `https://doi.org/10.26434/chemrxiv-2022-jjm0j-v4`                             |
-|
+
 
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 
@@ -89,7 +89,7 @@ The complete implementation code and supplementary documentation (including vers
 | **LightGBM** | A gradient boosting framework that uses tree-based learning algorithms. |
 | **CatBoost** | Gradient boosting on decision trees with good handling of categorical data. |
 | **Neural Networks**| Standard feed-forward neural networks (Multi-layer Perceptrons). |
-|
+
 
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 
@@ -98,7 +98,7 @@ The complete implementation code and supplementary documentation (including vers
 | --- | --- | --- |
 | **AutoGluon** | ​​Automates training, tuning, and ensembling of ML models for tabular data with minimal user effort​. |`https://doi.org/10.48550/arXiv.2003.06505`|
 | **TabPFNv2** | Transformer model for tabular data that performs fast inference and adaptation with limited training examples​. |`https://doi.org/10.1038/s41586-024-08328-6`|
-|
+
 
 💡 **Impact**: TabPFNv2 performs very well in the face of small sample and OOD scenarios.
 
