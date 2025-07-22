@@ -79,7 +79,7 @@ The complete implementation code and supplementary documentation (including vers
 
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 
-### **Classical Algorithms**
+### **Classical ML Models**
 | Model Name | Key Feature |
 | --- | --- |
 | **SVM** | Support Vector Machine, effective in high-dimensional spaces. |
@@ -104,4 +104,17 @@ The complete implementation code and supplementary documentation (including vers
 
 
 ## 📏 **Roughness Index Application**
----
+We selected three representative Roughness Index variants—**MODI**, **SARI**, and **ROGI**—to analyze model performance and dataset difficulty.
+
+After completing the ADMET benchmark, we employed the **Roughness Index** to uncover hidden patterns:
+
+1. **Feature‑level analysis**  
+   - We confirmed that the Roughness Index reliably quantifies the “smoothness” of pretrained model embeddings.  
+   - Implementation: [`roughness_index/roughness_index_features.py`](roughness_index/roughness_index_features.py).
+
+2. **Dataset‑level analysis & Key finding**  
+   - We evaluated these three representative Roughness Index variants on **30 regression tasks** from the [**MoleculeACE**](https://pubs.acs.org/doi/10.1021/acs.jcim.2c01073) benchmark to assess correlation with modeling difficulty.  
+   - Implementation: [`roughness_index/roughness_index_datasets(MoleculeACE).py`](roughness_index/roughness_index_datasets(MoleculeACE).py).  
+   - **Key finding:** Among the three metrics, **MODI** showed the strongest correlation with out‑of‑distribution drop and overall error, making it the best predictor of task hardness.
+
+All three roughness indices (MODI, SARI, ROGI) were calculated using the [rogi](https://github.com/coleygroup/rogi) package made by **Coley et al.(2022)**.
