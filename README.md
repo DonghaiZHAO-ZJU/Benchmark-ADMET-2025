@@ -117,4 +117,4 @@ After completing the ADMET benchmark, we employed the **Roughness Index** to unc
    - Implementation: [`roughness_index/roughness_index_datasets(MoleculeACE).py`](roughness_index/roughness_index_datasets(MoleculeACE).py).  
    - **Key finding:** Among the three metrics, **MODI** showed the strongest correlation with out‑of‑distribution drop and overall error, making it the best predictor of task hardness.
 
-All three roughness indices (MODI, SARI, ROGI) were calculated using the [rogi](https://github.com/coleygroup/rogi) package made by **Coley et al. (2022)**.
+All three roughness indices (MODI, SARI, ROGI) were calculated using the [**rogi**](https://github.com/coleygroup/rogi) package made by **Coley et al. (2022)**.
