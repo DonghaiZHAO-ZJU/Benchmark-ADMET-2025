@@ -1,0 +1,2303 @@
+nohup: ignoring input
+epoch: 0
+Clustering...
+ROGI = 0.24138104635002905
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 1
+Clustering...
+ROGI = 0.23596520531821585
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 2
+Clustering...
+ROGI = 0.23939375846915978
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 3
+Clustering...
+ROGI = 0.23946924998279273
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 4
+Clustering...
+ROGI = 0.24009580553468005
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 5
+Clustering...
+ROGI = 0.23674441681889574
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 6
+Clustering...
+ROGI = 0.23653959471193167
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 7
+Clustering...
+ROGI = 0.23325558607432897
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 8
+Clustering...
+ROGI = 0.232910526945948
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 9
+Clustering...
+ROGI = 0.23521998391801582
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 10
+Clustering...
+ROGI = 0.23289304120636378
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 11
+Clustering...
+ROGI = 0.23108666779441306
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 12
+Clustering...
+ROGI = 0.2315513109012892
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 13
+Clustering...
+ROGI = 0.23025111725077174
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 14
+Clustering...
+ROGI = 0.2294370921677678
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 15
+Clustering...
+ROGI = 0.22908198383917983
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 16
+Clustering...
+ROGI = 0.22805723713507803
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 17
+Clustering...
+ROGI = 0.22670080607412507
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 18
+Clustering...
+ROGI = 0.22808814103613306
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 19
+Clustering...
+ROGI = 0.22878801809706317
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 20
+Clustering...
+ROGI = 0.2205882179586533
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:76: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig = plt.figure(figsize=(7,5), dpi=600)
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+Traceback (most recent call last):
+  File "/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py", line 81, in <module>
+    metircs['ROGI'] = roughness
+    ~~~~~~~^^^^^^^^
+  File "/root/data1/miniconda3/envs/DL2/lib/python3.11/site-packages/pandas/core/frame.py", line 4299, in __setitem__
+    self._set_item(key, value)
+  File "/root/data1/miniconda3/envs/DL2/lib/python3.11/site-packages/pandas/core/frame.py", line 4512, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/data1/miniconda3/envs/DL2/lib/python3.11/site-packages/pandas/core/frame.py", line 5253, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "/root/data1/miniconda3/envs/DL2/lib/python3.11/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (21) does not match length of index (30)
+nohup: ignoring input
+epoch: 0
+Clustering...
+ROGI = 0.24138104635002905
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 1
+Clustering...
+ROGI = 0.23596520531821585
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 2
+Clustering...
+ROGI = 0.23939375846915978
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 3
+Clustering...
+ROGI = 0.23946924998279273
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 4
+Clustering...
+ROGI = 0.24009580553468005
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 5
+Clustering...
+ROGI = 0.23674441681889574
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 6
+Clustering...
+ROGI = 0.23653959471193167
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 7
+Clustering...
+ROGI = 0.23325558607432897
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 8
+Clustering...
+ROGI = 0.232910526945948
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 9
+Clustering...
+ROGI = 0.23521998391801582
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 10
+Clustering...
+ROGI = 0.23289304120636378
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 11
+Clustering...
+ROGI = 0.23108666779441306
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 12
+Clustering...
+ROGI = 0.2315513109012892
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 13
+Clustering...
+ROGI = 0.23025111725077174
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 14
+Clustering...
+ROGI = 0.2294370921677678
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 15
+Clustering...
+ROGI = 0.22908198383917983
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 16
+Clustering...
+ROGI = 0.22805723713507803
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 17
+Clustering...
+ROGI = 0.22670080607412507
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 18
+Clustering...
+ROGI = 0.22808814103613306
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 19
+Clustering...
+ROGI = 0.22878801809706317
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 20
+Clustering...
+ROGI = 0.2205882179586533
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:77: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig = plt.figure(figsize=(7,5), dpi=600)
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 21
+Clustering...
+ROGI = 0.2266647760356099
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 22
+Clustering...
+ROGI = 0.22547342575805404
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 23
+Clustering...
+ROGI = 0.22546740551664887
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 24
+Clustering...
+ROGI = 0.218348938696345
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 25
+Clustering...
+ROGI = 0.22733419592647555
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 26
+Clustering...
+ROGI = 0.2249512534254126
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 27
+Clustering...
+ROGI = 0.222354440747552
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 28
+Clustering...
+ROGI = 0.217938798687625
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 29
+Clustering...
+ROGI = 0.22722907752960553
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 30
+Clustering...
+ROGI = 0.22439008539811442
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+Traceback (most recent call last):
+  File "/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py", line 83, in <module>
+    metrics.to_csv(f'features/{task}/{task}_metric_with_ROGI.csv', index=False)
+    ^^^^^^^
+NameError: name 'metrics' is not defined. Did you mean: 'metircs'?
+nohup: ignoring input
+HalfLife
+epoch: 0
+Clustering...
+ROGI = 0.17830928801107884
+projecting on 2D plane...
+nohup: ignoring input
+HalfLife
+epoch: 0
+Clustering...
+ROGI = 0.17830928801107884
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 1
+Clustering...
+ROGI = 0.17749647199527432
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 2
+Clustering...
+ROGI = 0.17729717632064793
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 3
+Clustering...
+ROGI = 0.17749813131412087
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 4
+Clustering...
+ROGI = 0.17566098619968845
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 5
+Clustering...
+ROGI = 0.1757358044518253
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 6
+Clustering...
+ROGI = 0.1736612246794523
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 7
+Clustering...
+ROGI = 0.174079820139808
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 8
+Clustering...
+ROGI = 0.1754499842849947
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 9
+Clustering...
+ROGI = 0.1704856496455501
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 10
+Clustering...
+ROGI = 0.17359030972968953
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 11
+Clustering...
+ROGI = 0.17211666988033228
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 12
+Clustering...
+ROGI = 0.17159271657032285
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 13
+Clustering...
+ROGI = 0.17344270638627773
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 14
+Clustering...
+ROGI = 0.17344042945251992
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 15
+Clustering...
+ROGI = 0.17236346282667644
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 16
+Clustering...
+ROGI = 0.17075468764773363
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 17
+Clustering...
+ROGI = 0.1707431614563472
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 18
+Clustering...
+ROGI = 0.171837521957393
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 19
+Clustering...
+ROGI = 0.17179763665071357
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 20
+Clustering...
+ROGI = 0.17132166657228112
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:78: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig = plt.figure(figsize=(7,5), dpi=600)
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 21
+Clustering...
+ROGI = 0.1714036682775044
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 22
+Clustering...
+ROGI = 0.17101671545399205
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 23
+Clustering...
+ROGI = 0.1719310430055184
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 24
+Clustering...
+ROGI = 0.17025557798748955
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 25
+Clustering...
+ROGI = 0.16977350411934897
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 26
+Clustering...
+ROGI = 0.17093203216360986
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 27
+Clustering...
+ROGI = 0.17229387389894463
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 28
+Clustering...
+ROGI = 0.17047988438301187
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 29
+Clustering...
+ROGI = 0.1718742349086631
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 30
+Clustering...
+ROGI = 0.17165322535420457
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 31
+Clustering...
+ROGI = 0.17060585423918023
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+nohup: ignoring input
+VDss
+epoch: 0
+Clustering...
+ROGI = 0.17262459287074786
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 1
+Clustering...
+ROGI = 0.17149686320109858
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 2
+Clustering...
+ROGI = 0.1725952748717424
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 3
+Clustering...
+ROGI = 0.17131714989897256
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 4
+Clustering...
+ROGI = 0.17334055408300447
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 5
+Clustering...
+ROGI = 0.16936919310021864
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 6
+Clustering...
+ROGI = 0.17145181454100986
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 7
+Clustering...
+ROGI = 0.16960876458638452
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 8
+Clustering...
+ROGI = 0.16631885928182716
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 9
+Clustering...
+ROGI = 0.16837984847979484
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 10
+Clustering...
+ROGI = 0.16704294095879496
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 11
+Clustering...
+ROGI = 0.1672467740399782
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 12
+Clustering...
+ROGI = 0.1673708879225376
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 13
+Clustering...
+ROGI = 0.16623030044312662
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 14
+Clustering...
+ROGI = 0.16805203178631817
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 15
+Clustering...
+ROGI = 0.1665873026180638
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 16
+Clustering...
+ROGI = 0.1665516122535484
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 17
+Clustering...
+ROGI = 0.1654943838361727
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 18
+Clustering...
+ROGI = 0.16599437052487404
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 19
+Clustering...
+ROGI = 0.1669636034701611
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 20
+Clustering...
+ROGI = 0.16560706972612835
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:78: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig = plt.figure(figsize=(7,5), dpi=600)
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 21
+Clustering...
+ROGI = 0.1664616473504244
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 22
+Clustering...
+ROGI = 0.16501761383378577
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 23
+Clustering...
+ROGI = 0.1640525513612779
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 24
+Clustering...
+ROGI = 0.16393148385382655
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 25
+Clustering...
+ROGI = 0.16349879299459935
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 26
+Clustering...
+ROGI = 0.1634485089613754
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 27
+Clustering...
+ROGI = 0.16704416370077482
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 28
+Clustering...
+ROGI = 0.166081428539187
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 29
+Clustering...
+ROGI = 0.16522024608970765
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 30
+Clustering...
+ROGI = 0.16591350225187387
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 31
+Clustering...
+ROGI = 0.16420179031609136
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 32
+Clustering...
+ROGI = 0.1649013894362347
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 33
+Clustering...
+ROGI = 0.1619040278370466
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 34
+Clustering...
+ROGI = 0.16555089273572238
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 35
+Clustering...
+ROGI = 0.16563025252732808
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 36
+Clustering...
+ROGI = 0.16501834134865695
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 37
+Clustering...
+ROGI = 0.16446640754369196
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 38
+Clustering...
+ROGI = 0.1631104401537039
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 39
+Clustering...
+ROGI = 0.16361156094317655
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+epoch: 40
+Clustering...
+ROGI = 0.1659221098896047
+projecting on 2D plane...
+plotting...
+/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py:37: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = cm.get_cmap("coolwarm")
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/root/data1/admet_models_validation/KPGT_latest/rough_index_change.py", line 1, in <module>
+    import rogi
+  File "/root/data1/miniconda3/envs/DL2/lib/python3.11/site-packages/rogi/__init__.py", line 6, in <module>
+    from .sari import SARI
+  File "/root/data1/miniconda3/envs/DL2/lib/python3.11/site-packages/rogi/sari.py", line 3, in <module>
+    from scipy import stats
+  File "<frozen importlib._bootstrap>", line 1229, in _handle_fromlist
+  File "/root/data1/miniconda3/envs/DL2/lib/python3.11/site-packages/scipy/__init__.py", line 134, in __getattr__
+    return _importlib.import_module(f'scipy.{name}')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/data1/miniconda3/envs/DL2/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/data1/miniconda3/envs/DL2/lib/python3.11/site-packages/scipy/stats/__init__.py", line 605, in <module>
+    from ._stats_py import *
+  File "/root/data1/miniconda3/envs/DL2/lib/python3.11/site-packages/scipy/stats/_stats_py.py", line 209, in <module>
+    @_axis_nan_policy_factory(
+     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/data1/miniconda3/envs/DL2/lib/python3.11/site-packages/scipy/stats/_axis_nan_policy.py", line 626, in axis_nan_policy_decorator
+    doc = str(doc).split("\n", 1)[1]  # remove signature
+          ^^^^^^^^
+  File "/root/data1/miniconda3/envs/DL2/lib/python3.11/site-packages/scipy/_lib/_docscrape.py", line 594, in __str__
+    out += super().__str__(func_role=self._role)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/data1/miniconda3/envs/DL2/lib/python3.11/site-packages/scipy/_lib/_docscrape.py", line 537, in __str__
+    out += self._str_section(s)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/root/data1/miniconda3/envs/DL2/lib/python3.11/site-packages/scipy/_lib/_docscrape.py", line 471, in _str_section
+    out += self._str_header(name)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/data1/miniconda3/envs/DL2/lib/python3.11/site-packages/scipy/_lib/_docscrape.py", line 425, in _str_header
+    def _str_header(self, name, symbol='-'):
+
+KeyboardInterrupt
+nohup: ignoring input
+nohup: ignoring input
+SARI
+Caco2
+epoch: 0
+SARI = 0.11716282370872758
+epoch: 1
+SARI = 0.1174721761760318
+epoch: 2
+SARI = 0.11742897928871394
+epoch: 3
+SARI = 0.11774261281538813
+epoch: 4
+SARI = 0.11860382774130616
+epoch: 5
+SARI = 0.11931967723284372
+epoch: 6
+SARI = 0.1199608644300354
+epoch: 7
+SARI = 0.12037248579465798
+epoch: 8
+SARI = 0.12075118223142205
+epoch: 9
+SARI = 0.12153073865500381
+epoch: 10
+SARI = 0.12176818892433688
+epoch: 11
+SARI = 0.12305708605600456
+epoch: 12
+SARI = 0.1238116183633689
+epoch: 13
+SARI = 0.1241634434396544
+epoch: 14
+SARI = 0.12425631490887692
+epoch: 15
+SARI = 0.12455002317842367
+epoch: 16
+SARI = 0.12493613976855701
+epoch: 17
+SARI = 0.12540470836113252
+epoch: 18
+SARI = 0.12563112852100736
+epoch: 19
+SARI = 0.12618893842091214
+epoch: 20
+SARI = 0.12635902276681413
+epoch: 21
+SARI = 0.12640054850042826
+epoch: 22
+SARI = 0.1264832287787481
+epoch: 23
+SARI = 0.12625994899087553
+epoch: 24
+SARI = 0.12646911068915628
+epoch: 25
+SARI = 0.12635517050821504
+epoch: 26
+SARI = 0.12651365674848938
+epoch: 27
+SARI = 0.12647453202114525
+epoch: 28
+SARI = 0.126737941808369
+epoch: 29
+SARI = 0.12670053411749932
+epoch: 30
+SARI = 0.12681931456561543
+HalfLife
+epoch: 0
+SARI = 0.13558710167536378
+epoch: 1
+SARI = 0.13631969448886638
+epoch: 2
+SARI = 0.13675120406281996
+epoch: 3
+SARI = 0.13687149621199649
+epoch: 4
+SARI = 0.13733927339573235
+epoch: 5
+SARI = 0.13750873559099708
+epoch: 6
+nohup: ignoring input
+SARI
+Caco2
+epoch: 0
+SARI = 0.11716282370872758
+epoch: 1
+SARI = 0.1174721761760318
+epoch: 2
+SARI = 0.11742897928871394
+epoch: 3
+SARI = 0.11774261281538813
+epoch: 4
+SARI = 0.11860382774130616
+epoch: 5
+SARI = 0.11931967723284372
+epoch: 6
+SARI = 0.1199608644300354
+epoch: 7
+SARI = 0.12037248579465798
+epoch: 8
+SARI = 0.12075118223142205
+epoch: 9
+SARI = 0.12153073865500381
+epoch: 10
+SARI = 0.12176818892433688
+epoch: 11
+SARI = 0.12305708605600456
+epoch: 12
+SARI = 0.1238116183633689
+epoch: 13
+SARI = 0.1241634434396544
+epoch: 14
+SARI = 0.12425631490887692
+epoch: 15
+SARI = 0.12455002317842367
+epoch: 16
+SARI = 0.12493613976855701
+epoch: 17
+SARI = 0.12540470836113252
+epoch: 18
+SARI = 0.12563112852100736
+epoch: 19
+SARI = 0.12618893842091214
+epoch: 20
+SARI = 0.12635902276681413
+epoch: 21
+SARI = 0.12640054850042826
+epoch: 22
+SARI = 0.1264832287787481
+epoch: 23
+SARI = 0.12625994899087553
+epoch: 24
+SARI = 0.12646911068915628
+epoch: 25
+SARI = 0.12635517050821504
+epoch: 26
+SARI = 0.12651365674848938
+epoch: 27
+SARI = 0.12647453202114525
+epoch: 28
+SARI = 0.126737941808369
+epoch: 29
+SARI = 0.12670053411749932
+epoch: 30
+SARI = 0.12681931456561543
+HalfLife
+epoch: 0
+SARI = 0.13558710167536378
+epoch: 1
+SARI = 0.13631969448886638
+epoch: 2
+SARI = 0.13675120406281996
+epoch: 3
+SARI = 0.13687149621199649
+epoch: 4
+SARI = 0.13733927339573235
+epoch: 5
+SARI = 0.13750873559099708
+epoch: 6
+SARI = 0.13748273543730252
+epoch: 7
+SARI = 0.13714894067769695
+epoch: 8
+SARI = 0.1373056567421349
+epoch: 9
+SARI = 0.13853868149290383
+epoch: 10
+SARI = 0.13931117278303456
+epoch: 11
+SARI = 0.14006510327895233
+epoch: 12
+SARI = 0.14022671105431408
+epoch: 13
+SARI = 0.14020833227561832
+epoch: 14
+SARI = 0.14108071070138678
+epoch: 15
+SARI = 0.14148875218466656
+epoch: 16
+SARI = 0.14168404379817143
+epoch: 17
+SARI = 0.1414930523286428
+epoch: 18
+SARI = 0.1417102414961492
+epoch: 19
+SARI = 0.14167906751786694
+epoch: 20
+SARI = 0.14177738673278475
+epoch: 21
+SARI = 0.14176441265882775
+epoch: 22
+SARI = 0.14207562136129567
+epoch: 23
+SARI = 0.142174739469206
+epoch: 24
+SARI = 0.14201040146933608
+epoch: 25
+SARI = 0.1424089261284666
+epoch: 26
+SARI = 0.14247155328784425
+epoch: 27
+SARI = 0.14243296131533836
+epoch: 28
+SARI = 0.14251359902693275
+epoch: 29
+SARI = 0.14231204785473497
+epoch: 30
+SARI = 0.14253863275936948
+epoch: 31
+SARI = 0.14252127348915347
+VDss
+epoch: 0
+SARI = 0.1407320093627591
+epoch: 1
+SARI = 0.14155169580943164
+epoch: 2
+SARI = 0.14155321695702533
+epoch: 3
+SARI = 0.14133323870634293
+epoch: 4
+SARI = 0.1414406528694395
+epoch: 5
+SARI = 0.1409907060468333
+epoch: 6
+SARI = 0.14222483381361536
+epoch: 7
+SARI = 0.14248603578703303
+epoch: 8
+SARI = 0.14325060500356437
+epoch: 9
+SARI = 0.14349897632941963
+epoch: 10
+SARI = 0.1443541403858867
+epoch: 11
+SARI = 0.14479190129806474
+epoch: 12
+SARI = 0.14494774622657353
+epoch: 13
+SARI = 0.14525788078599552
+epoch: 14
+SARI = 0.14554233148851323
+epoch: 15
+SARI = 0.14596603456498383
+epoch: 16
+SARI = 0.14664625613393925
+epoch: 17
+SARI = 0.1462782144367427
+epoch: 18
+SARI = 0.1462748481045271
+epoch: 19
+SARI = 0.1467353959000422
+epoch: 20
+SARI = 0.14658733433766888
+epoch: 21
+SARI = 0.1465468971936049
+epoch: 22
+SARI = 0.1467235047780801
+epoch: 23
+SARI = 0.1468509537527233
+epoch: 24
+SARI = 0.14713510633312862
+epoch: 25
+SARI = 0.14720659776355255
+epoch: 26
+SARI = 0.14734242330336386
+epoch: 27
+SARI = 0.14729469769447878
+epoch: 28
+SARI = 0.1474375047122203
+epoch: 29
+SARI = 0.14740886646191886
+epoch: 30
+SARI = 0.14773722407049283
+epoch: 31
+SARI = 0.14765080635387623
+epoch: 32
+SARI = 0.1476486518159347
+epoch: 33
+SARI = 0.1476908684872414
+epoch: 34
+SARI = 0.14782111654351224
+epoch: 35
+SARI = 0.14772790954385823
+epoch: 36
+SARI = 0.14780705279416975
+epoch: 37
+SARI = 0.14792668836156594
+epoch: 38
+SARI = 0.14792388528035552
+epoch: 39
+SARI = 0.14794672852997162
+epoch: 40
+SARI = 0.14790594351660377
+MODI
+Caco2
+epoch: 0
+RMODI = 0.39548693586698336
+epoch: 1
+RMODI = 0.39073634204275537
+epoch: 2
+RMODI = 0.38717339667458434
+epoch: 3
+RMODI = 0.3847980997624703
+epoch: 4
+RMODI = 0.3812351543942993
+epoch: 5
+RMODI = 0.37885985748218526
+epoch: 6
+RMODI = 0.3836104513064133
+epoch: 7
+RMODI = 0.38717339667458434
+epoch: 8
+RMODI = 0.3752969121140142
+epoch: 9
+RMODI = 0.3752969121140142
+epoch: 10
+RMODI = 0.37410926365795727
+epoch: 11
+RMODI = 0.38004750593824227
+epoch: 12
+RMODI = 0.37173396674584325
+epoch: 13
+RMODI = 0.38004750593824227
+epoch: 14
+RMODI = 0.37885985748218526
+epoch: 15
+RMODI = 0.3812351543942993
+epoch: 16
+RMODI = 0.37292161520190026
+epoch: 17
+RMODI = 0.3693586698337292
+epoch: 18
+RMODI = 0.37173396674584325
+epoch: 19
+RMODI = 0.3669833729216152
+epoch: 20
+RMODI = 0.3657957244655582
+epoch: 21
+RMODI = 0.37054631828978624
+epoch: 22
+RMODI = 0.3669833729216152
+epoch: 23
+RMODI = 0.3752969121140142
+epoch: 24
+RMODI = 0.37173396674584325
+epoch: 25
+RMODI = 0.3693586698337292
+epoch: 26
+RMODI = 0.3669833729216152
+epoch: 27
+RMODI = 0.37173396674584325
+epoch: 28
+RMODI = 0.3669833729216152
+epoch: 29
+RMODI = 0.3657957244655582
+epoch: 30
+RMODI = 0.37173396674584325
+HalfLife
+epoch: 0
+RMODI = 0.2343987823439878
+epoch: 1
+RMODI = 0.2343987823439878
+epoch: 2
+RMODI = 0.228310502283105
+epoch: 3
+RMODI = 0.21993911719939116
+epoch: 4
+RMODI = 0.2267884322678843
+epoch: 5
+RMODI = 0.2328767123287671
+epoch: 6
+RMODI = 0.24429223744292236
+epoch: 7
+RMODI = 0.24429223744292236
+epoch: 8
+RMODI = 0.2633181126331811
+epoch: 9
+RMODI = 0.271689497716895
+epoch: 10
+RMODI = 0.271689497716895
+epoch: 11
+RMODI = 0.2754946727549467
+epoch: 12
+RMODI = 0.2694063926940639
+epoch: 13
+RMODI = 0.2541856925418569
+epoch: 14
+RMODI = 0.2625570776255708
+epoch: 15
+RMODI = 0.2526636225266362
+epoch: 16
+RMODI = 0.2541856925418569
+epoch: 17
+RMODI = 0.258751902587519
+epoch: 18
+RMODI = 0.2511415525114155
+epoch: 19
+RMODI = 0.2640791476407915
+epoch: 20
+RMODI = 0.2450532724505327
+epoch: 21
+RMODI = 0.24733637747336376
+epoch: 22
+RMODI = 0.243531202435312
+epoch: 23
+RMODI = 0.24124809741248096
+epoch: 24
+RMODI = 0.243531202435312
+epoch: 25
+RMODI = 0.2404870624048706
+epoch: 26
+RMODI = 0.24277016742770166
+epoch: 27
+RMODI = 0.2420091324200913
+epoch: 28
+RMODI = 0.2480974124809741
+epoch: 29
+RMODI = 0.24124809741248096
+epoch: 30
+RMODI = 0.24733637747336376
+epoch: 31
+RMODI = 0.23972602739726026
+VDss
+epoch: 0
+RMODI = 0.32051282051282054
+epoch: 1
+RMODI = 0.31868131868131866
+epoch: 2
+RMODI = 0.31684981684981683
+epoch: 3
+RMODI = 0.3159340659340659
+epoch: 4
+RMODI = 0.31227106227106227
+epoch: 5
+RMODI = 0.31776556776556775
+epoch: 6
+RMODI = 0.3141025641025641
+epoch: 7
+RMODI = 0.31776556776556775
+epoch: 8
+RMODI = 0.32234432234432236
+epoch: 9
+RMODI = 0.3250915750915751
+epoch: 10
+RMODI = 0.326007326007326
+epoch: 11
+RMODI = 0.3232600732600733
+epoch: 12
+RMODI = 0.3232600732600733
+epoch: 13
+RMODI = 0.32234432234432236
+epoch: 14
+RMODI = 0.31776556776556775
+epoch: 15
+RMODI = 0.3131868131868132
+epoch: 16
+RMODI = 0.31227106227106227
+epoch: 17
+RMODI = 0.31227106227106227
+epoch: 18
+RMODI = 0.315018315018315
+epoch: 19
+RMODI = 0.3076923076923077
+epoch: 20
+RMODI = 0.31043956043956045
+epoch: 21
+RMODI = 0.31227106227106227
+epoch: 22
+RMODI = 0.3076923076923077
+epoch: 23
+RMODI = 0.3067765567765568
+epoch: 24
+RMODI = 0.30494505494505497
+epoch: 25
+RMODI = 0.3086080586080586
+epoch: 26
+RMODI = 0.3076923076923077
+epoch: 27
+RMODI = 0.31043956043956045
+epoch: 28
+RMODI = 0.3076923076923077
+epoch: 29
+RMODI = 0.3076923076923077
+epoch: 30
+RMODI = 0.3058608058608059
+epoch: 31
+RMODI = 0.30952380952380953
+epoch: 32
+RMODI = 0.3067765567765568
+epoch: 33
+RMODI = 0.30952380952380953
+epoch: 34
+RMODI = 0.3031135531135531
+epoch: 35
+RMODI = 0.31043956043956045
+epoch: 36
+RMODI = 0.3058608058608059
+epoch: 37
+RMODI = 0.30494505494505497
+epoch: 38
+RMODI = 0.30952380952380953
+epoch: 39
+RMODI = 0.3058608058608059
+epoch: 40
+RMODI = 0.3031135531135531
+nohup: ignoring input
+nohup: ignoring input
+SARI
+Caco2
+epoch: 0
+SARI = 0.09124125426573762
+epoch: 1
+SARI = 0.09155058565792673
+epoch: 2
+SARI = 0.09155825945649
+epoch: 3
+SARI = 0.09129280252106729
+epoch: 4
+SARI = 0.09107658353607126
+epoch: 5
+SARI = 0.09101808919845561
+epoch: 6
+SARI = 0.09105010687007499
+epoch: 7
+SARI = 0.09137409270638416
+epoch: 8
+SARI = 0.09170512895015309
+epoch: 9
+SARI = 0.09189888715511536
+epoch: 10
+SARI = 0.09226852861003536
+epoch: 11
+SARI = 0.0930246837259866
+epoch: 12
+SARI = 0.09357321312019652
+epoch: 13
+SARI = 0.09353765073508669
+epoch: 14
+SARI = 0.09358977739434363
+epoch: 15
+SARI = 0.09352563731458267
+epoch: 16
+SARI = 0.09363976992820805
+epoch: 17
+SARI = 0.09372936014698205
+epoch: 18
+SARI = 0.09381740438913187
+epoch: 19
+SARI = 0.09405308905771922
+epoch: 20
+SARI = 0.09395081179246274
+epoch: 21
+SARI = 0.09399248861552707
+epoch: 22
+SARI = 0.09396420868431665
+epoch: 23
+SARI = 0.09395182247287323
+epoch: 24
+SARI = 0.09396197460841842
+epoch: 25
+SARI = 0.09383858421854072
+epoch: 26
+SARI = 0.09395679946868421
+epoch: 27
+SARI = 0.09375300494270729
+epoch: 28
+SARI = 0.09398951517744786
+epoch: 29
+SARI = 0.09388732568452875
+epoch: 30
+SARI = 0.09389652528458739
+HalfLife
+epoch: 0
+SARI = 0.1023724031747933
+epoch: 1
+SARI = 0.10268305102995214
+epoch: 2
+SARI = 0.10291853354693362
+epoch: 3
+SARI = 0.10297099435626285
+epoch: 4
+SARI = 0.10307908357998566
+epoch: 5
+SARI = 0.10304621957908384
+epoch: 6
+SARI = 0.10276549407265666
+epoch: 7
+SARI = 0.10227963024458829
+epoch: 8
+SARI = 0.10216305125752222
+epoch: 9
+SARI = 0.10268737332632365
+epoch: 10
+SARI = 0.10295811190532832
+epoch: 11
+SARI = 0.10306571148543064
+epoch: 12
+SARI = 0.10317569127920712
+epoch: 13
+SARI = 0.10294292097587161
+epoch: 14
+SARI = 0.10307583122487267
+epoch: 15
+SARI = 0.10336121127218834
+epoch: 16
+SARI = 0.10338894132126805
+epoch: 17
+SARI = 0.10321854139711356
+epoch: 18
+SARI = 0.10329414688587371
+epoch: 19
+SARI = 0.10329025079327496
+epoch: 20
+SARI = 0.1032479553560727
+epoch: 21
+SARI = 0.10328416116243147
+epoch: 22
+SARI = 0.10337493971038282
+epoch: 23
+SARI = 0.1034055443152996
+epoch: 24
+SARI = 0.10336151878573423
+epoch: 25
+SARI = 0.10347368718482876
+epoch: 26
+SARI = 0.10349982108039144
+epoch: 27
+SARI = 0.10350977889835919
+epoch: 28
+SARI = 0.10358542914458119
+epoch: 29
+SARI = 0.10349744479205802
+epoch: 30
+SARI = 0.10353166898099628
+epoch: 31
+SARI = 0.1035765169993854
+VDss
+epoch: 0
+SARI = 0.09844771688837975
+epoch: 1
+SARI = 0.09872075294974549
+epoch: 2
+SARI = 0.09880219230752836
+epoch: 3
+SARI = 0.098741539408258
+epoch: 4
+SARI = 0.09875161789837028
+epoch: 5
+SARI = 0.09852849932012636
+epoch: 6
+SARI = 0.09863635549980314
+epoch: 7
+SARI = 0.09866025090519019
+epoch: 8
+SARI = 0.09865054718164298
+epoch: 9
+SARI = 0.09868192712468352
+epoch: 10
+SARI = 0.09884199040911573
+epoch: 11
+SARI = 0.0989291157560198
+epoch: 12
+SARI = 0.09906304132325283
+epoch: 13
+SARI = 0.09916743464926794
+epoch: 14
+SARI = 0.09919947668858056
+epoch: 15
+SARI = 0.09928978268226903
+epoch: 16
+SARI = 0.09962994546594384
+epoch: 17
+SARI = 0.09943503087741455
+epoch: 18
+SARI = 0.0994603346288589
+epoch: 19
+SARI = 0.09955052685708787
+epoch: 20
+SARI = 0.09952885221663206
+epoch: 21
+SARI = 0.0994567911402263
+epoch: 22
+SARI = 0.09957421840890204
+epoch: 23
+SARI = 0.09955835743189016
+epoch: 24
+SARI = 0.09967528239927519
+epoch: 25
+SARI = 0.09975737010739108
+epoch: 26
+SARI = 0.09977956235876162
+epoch: 27
+SARI = 0.09973423872619915
+epoch: 28
+SARI = 0.0997738893212706
+epoch: 29
+SARI = 0.09979926809460804
+epoch: 30
+SARI = 0.09987013690517162
+epoch: 31
+SARI = 0.0999318475944331
+epoch: 32
+SARI = 0.09988079240247566
+epoch: 33
+SARI = 0.09999519011174708
+epoch: 34
+SARI = 0.10000648259691552
+epoch: 35
+SARI = 0.0999673538460056
+epoch: 36
+SARI = 0.10003683721762792
+epoch: 37
+SARI = 0.10010251909547846
+epoch: 38
+SARI = 0.10009318363738472
+epoch: 39
+SARI = 0.10008971635386557
+epoch: 40
+SARI = 0.10010303940928292
+nohup: ignoring input
+SARI改成动态阈值,RMODI调整
+SARI
+Caco2
+epoch: 0
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.12417015174645053, raw_cont = 0.6916015902376025, raw_disc = 0.44336555250311405
+epoch: 1
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.12460712473533013, raw_cont = 0.6952523894149825, raw_disc = 0.44154786878488683
+epoch: 2
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.12498225824995854, raw_cont = 0.6936955086140648, raw_disc = 0.4382206642747459
+epoch: 3
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.12519029573792398, raw_cont = 0.6870400219649244, raw_disc = 0.43417023173966696
+epoch: 4
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.12564284632059566, raw_cont = 0.6821778277826274, raw_disc = 0.4289974265650675
+epoch: 5
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.12631679192631898, raw_cont = 0.6802361910366994, raw_disc = 0.4233273750725769
+epoch: 6
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.12685109742704367, raw_cont = 0.6804327491191455, raw_disc = 0.4195102013112527
+epoch: 7
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.12724717550956802, raw_cont = 0.683916294043108, raw_disc = 0.4179818464058102
+epoch: 8
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.12780985374795242, raw_cont = 0.6854958116327683, raw_disc = 0.41451048835090953
+epoch: 9
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.12832143108673577, raw_cont = 0.6879024685714725, raw_disc = 0.41173854967941964
+epoch: 10
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.1285389415165564, raw_cont = 0.6912632160160683, raw_disc = 0.41146637765983385
+epoch: 11
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.12933032338243347, raw_cont = 0.6978429161325297, raw_disc = 0.40829571499959266
+epoch: 12
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.12999132560872792, raw_cont = 0.7032785498914182, raw_disc = 0.4056318743916141
+epoch: 13
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.13006499948365458, raw_cont = 0.703223357363557, raw_disc = 0.4050824997457489
+epoch: 14
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.13032910791046318, raw_cont = 0.7030935146836117, raw_disc = 0.40313994635637806
+epoch: 15
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.13035975343332618, raw_cont = 0.7024358920448743, raw_disc = 0.40266819110583124
+epoch: 16
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.13053729748745518, raw_cont = 0.7042547490004152, raw_disc = 0.40209406362982053
+epoch: 17
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.1306834318543449, raw_cont = 0.7048550494809758, raw_disc = 0.4012783058945405
+epoch: 18
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.13097985008437826, raw_cont = 0.7055015940283731, raw_disc = 0.3994066044870887
+epoch: 19
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.13127058209717818, raw_cont = 0.7082327402467299, raw_disc = 0.398375900109154
+epoch: 20
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.1311519534796434, raw_cont = 0.706683520989938, raw_disc = 0.39862992791459917
+epoch: 21
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.1312862793391594, raw_cont = 0.7070061309167901, raw_disc = 0.3977945066866922
+epoch: 22
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.13137045316387883, raw_cont = 0.7059895078719107, raw_disc = 0.39680400410251077
+epoch: 23
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.1311801302726492, raw_cont = 0.7065036461094434, raw_disc = 0.3983598372673485
+epoch: 24
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.1313812567125312, raw_cont = 0.7061194495397335, raw_disc = 0.39677674823742387
+epoch: 25
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.1312751404874875, raw_cont = 0.7052227985626509, raw_disc = 0.39719020692012114
+epoch: 26
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.13143685871389615, raw_cont = 0.7058930397391527, raw_disc = 0.3962930447405101
+epoch: 27
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.13131169342659504, raw_cont = 0.7042277318135903, raw_disc = 0.3965468533851626
+epoch: 28
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.13145012661505445, raw_cont = 0.7065264882464684, raw_disc = 0.3964414228834837
+epoch: 29
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.13147595586531294, raw_cont = 0.7055392999500322, raw_disc = 0.39587820260981654
+epoch: 30
+MACCS相似比例: 4.77%
+Embeddings等效阈值: 0.4761
+SARI = 0.13154095319830122, raw_cont = 0.7051974289624791, raw_disc = 0.39528301591326065
+HalfLife
+epoch: 0
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.1360009545674436, raw_cont = 0.6937297253617805, raw_disc = 0.3591121281643313
+epoch: 1
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.13671498124623443, raw_cont = 0.6985150848696665, raw_disc = 0.35597636455356624
+epoch: 2
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.13702406592679348, raw_cont = 0.7019563763807197, raw_disc = 0.3551654470395496
+epoch: 3
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.13734509201792874, raw_cont = 0.7009778942761432, raw_disc = 0.35251811416587164
+epoch: 4
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.13778659239356084, raw_cont = 0.7011516178912088, raw_disc = 0.3494832304141032
+epoch: 5
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.13802748558132433, raw_cont = 0.6984450419081325, raw_disc = 0.3467097533439076
+epoch: 6
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.13780050020699122, raw_cont = 0.6932978393354483, raw_disc = 0.3462400373602993
+epoch: 7
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.137129246442006, raw_cont = 0.6849568431206748, raw_disc = 0.34760324253358893
+epoch: 8
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.136971674334449, raw_cont = 0.6837490807263678, raw_disc = 0.34822696189358593
+epoch: 9
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.13855057173866175, raw_cont = 0.6899830189427397, raw_disc = 0.33962046098694393
+epoch: 10
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.13905732479000424, raw_cont = 0.6939667903433984, raw_disc = 0.33767440596911447
+epoch: 11
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.13919282760049143, raw_cont = 0.6961533488260878, raw_disc = 0.33760772997125904
+epoch: 12
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.13951121990681709, raw_cont = 0.6983811617108328, raw_disc = 0.33627542693199114
+epoch: 13
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.1391825451423991, raw_cont = 0.6954950169896479, raw_disc = 0.3374138971025321
+epoch: 14
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.13975169392255624, raw_cont = 0.6964716430080204, raw_disc = 0.3338201318935726
+epoch: 15
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.14020724234398568, raw_cont = 0.7008424866057287, raw_disc = 0.3323992060414961
+epoch: 16
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.14023287805808685, raw_cont = 0.7015681048094446, raw_disc = 0.33251251492052836
+epoch: 17
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.14002779254074044, raw_cont = 0.6989095035167527, raw_disc = 0.33287359643795555
+epoch: 18
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.13996912233631725, raw_cont = 0.7002311009447819, raw_disc = 0.33381704355602443
+epoch: 19
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.1402461468756973, raw_cont = 0.6999750562070617, raw_disc = 0.33177743426075645
+epoch: 20
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.14004076519629094, raw_cont = 0.6998651018288455, raw_disc = 0.33316858352774303
+epoch: 21
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.14020718512117308, raw_cont = 0.7000620969132265, raw_disc = 0.33208483097057323
+epoch: 22
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.14032544248303025, raw_cont = 0.7014762614137435, raw_disc = 0.3318290221963915
+epoch: 23
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.1404236278527219, raw_cont = 0.7019622700922026, raw_disc = 0.33133931112273
+epoch: 24
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.14036868719405898, raw_cont = 0.7015841627848327, raw_disc = 0.33157052701609163
+epoch: 25
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.14053355917661634, raw_cont = 0.7027503911766825, raw_disc = 0.33088952676998684
+epoch: 26
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.1406226360916623, raw_cont = 0.7030601129162912, raw_disc = 0.33039278849865816
+epoch: 27
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.14050810392497637, raw_cont = 0.7036412595744519, raw_disc = 0.33142563901250577
+epoch: 28
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.1406600050353364, raw_cont = 0.7045438058311001, raw_disc = 0.33072909936013706
+epoch: 29
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.1405604557458697, raw_cont = 0.7033623697565534, raw_disc = 0.3309482270853961
+epoch: 30
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.14068137388898935, raw_cont = 0.7036639861785929, raw_disc = 0.3302262257827651
+epoch: 31
+MACCS相似比例: 4.03%
+Embeddings等效阈值: 0.4900
+SARI = 0.1407182209808338, raw_cont = 0.7040295960014649, raw_disc = 0.33011641819649984
+VDss
+epoch: 0
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13545438252306743, raw_cont = 0.6363798196873323, raw_disc = 0.33923425963620585
+epoch: 1
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13610626610889423, raw_cont = 0.6398608947473747, raw_disc = 0.33604593370466573
+epoch: 2
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13606214112985018, raw_cont = 0.6381389473416335, raw_disc = 0.3356217107563444
+epoch: 3
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13618923904747618, raw_cont = 0.6321899334879661, raw_disc = 0.3321335761655532
+epoch: 4
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13649203831282197, raw_cont = 0.6281550477310098, raw_disc = 0.3281946592882237
+epoch: 5
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.1359592115289596, raw_cont = 0.6214528756619921, raw_disc = 0.3290926535723861
+epoch: 6
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13688987785340706, raw_cont = 0.6188814320808114, raw_disc = 0.32123897982713673
+epoch: 7
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.1370692281660405, raw_cont = 0.6169635443107937, raw_disc = 0.3190920087769409
+epoch: 8
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13718107689584302, raw_cont = 0.6156893169924275, raw_disc = 0.31771651298138504
+epoch: 9
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.1372348973243839, raw_cont = 0.6150922629290823, raw_disc = 0.31706132803612835
+epoch: 10
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.1378967673895712, raw_cont = 0.6168751178159393, raw_disc = 0.31308934757714474
+epoch: 11
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13804306865004265, raw_cont = 0.6175975906275961, raw_disc = 0.31235979990061835
+epoch: 12
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.1384157686587102, raw_cont = 0.6168218372545078, raw_disc = 0.30933120001950837
+epoch: 13
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13841523408800913, raw_cont = 0.6203368915500531, raw_disc = 0.31090915056049195
+epoch: 14
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13894970405446372, raw_cont = 0.6179263645227582, raw_disc = 0.30599072662318766
+epoch: 15
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13919120378209202, raw_cont = 0.6205433453095166, raw_disc = 0.30543263341882165
+epoch: 16
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13984553797141352, raw_cont = 0.6239902461650846, raw_disc = 0.30229092199035396
+epoch: 17
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13950095247492855, raw_cont = 0.6215033852917666, raw_disc = 0.30364318332548884
+epoch: 18
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13948851114141872, raw_cont = 0.6217793369737246, raw_disc = 0.3038560221081082
+epoch: 19
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13989797932454193, raw_cont = 0.622459654126468, raw_disc = 0.3012297579717093
+epoch: 20
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.1398538887890474, raw_cont = 0.6221024033508933, raw_disc = 0.3013849283603095
+epoch: 21
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13973968862472116, raw_cont = 0.620982854546218, raw_disc = 0.3016996868901864
+epoch: 22
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.13989871117974056, raw_cont = 0.6221736084848573, raw_disc = 0.30109613727534856
+epoch: 23
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.14003875844950944, raw_cont = 0.6217095554794995, raw_disc = 0.29988562184052575
+epoch: 24
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.14028004128741775, raw_cont = 0.6237012767711583, raw_disc = 0.2990549472894887
+epoch: 25
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.14038614418944909, raw_cont = 0.6253497926243249, raw_disc = 0.2990362099201014
+epoch: 26
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.1405359386746625, raw_cont = 0.6237920768725433, raw_disc = 0.29726750064311036
+epoch: 27
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.14038057282739458, raw_cont = 0.6241915970407927, raw_disc = 0.29855668519942435
+epoch: 28
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.14064678913436426, raw_cont = 0.6241055381563004, raw_disc = 0.29661676175235596
+epoch: 29
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.14053384172113692, raw_cont = 0.6250919265475827, raw_disc = 0.29786601472025004
+epoch: 30
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.1408744247815093, raw_cont = 0.6259281859053012, raw_disc = 0.29581082412035975
+epoch: 31
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.1407978146612461, raw_cont = 0.6263161123327614, raw_disc = 0.2965312576425115
+epoch: 32
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.14080198428942278, raw_cont = 0.6253593435500141, raw_disc = 0.2960722543382968
+epoch: 33
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.14089337916028705, raw_cont = 0.6271671076407135, raw_disc = 0.2962311959365756
+epoch: 34
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.1409903701232899, raw_cont = 0.6271008564777076, raw_disc = 0.29551008486441843
+epoch: 35
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.14097829708255666, raw_cont = 0.6258879463571148, raw_disc = 0.29505197719429616
+epoch: 36
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.14113446689158138, raw_cont = 0.6270182708303735, raw_disc = 0.29444606067320306
+epoch: 37
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.14131535977941964, raw_cont = 0.628018196418315, raw_disc = 0.29360597771144936
+epoch: 38
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.14118509851117358, raw_cont = 0.6268763285399239, raw_disc = 0.2940215679054869
+epoch: 39
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.14130386792136543, raw_cont = 0.6273092190892167, raw_disc = 0.29336973421017365
+epoch: 40
+MACCS相似比例: 3.84%
+Embeddings等效阈值: 0.4972
+SARI = 0.14126264902473645, raw_cont = 0.6273783593228103, raw_disc = 0.2936943715245414
+MODI
+Caco2
+epoch: 0
+RMODI = 0.7339667458432304
+epoch: 1
+RMODI = 0.7327790973871734
+epoch: 2
+RMODI = 0.7351543942992874
+epoch: 3
+RMODI = 0.7339667458432304
+epoch: 4
+RMODI = 0.7351543942992874
+epoch: 5
+RMODI = 0.7387173396674585
+epoch: 6
+RMODI = 0.7446555819477435
+epoch: 7
+RMODI = 0.7434679334916865
+epoch: 8
+RMODI = 0.7517814726840855
+epoch: 9
+RMODI = 0.7529691211401425
+epoch: 10
+RMODI = 0.7553444180522565
+epoch: 11
+RMODI = 0.7529691211401425
+epoch: 12
+RMODI = 0.7577197149643705
+epoch: 13
+RMODI = 0.7553444180522565
+epoch: 14
+RMODI = 0.7553444180522565
+epoch: 15
+RMODI = 0.7589073634204275
+epoch: 16
+RMODI = 0.7553444180522565
+epoch: 17
+RMODI = 0.7565320665083135
+epoch: 18
+RMODI = 0.7553444180522565
+epoch: 19
+RMODI = 0.7553444180522565
+epoch: 20
+RMODI = 0.7577197149643705
+epoch: 21
+RMODI = 0.7577197149643705
+epoch: 22
+RMODI = 0.7600950118764845
+epoch: 23
+RMODI = 0.7600950118764845
+epoch: 24
+RMODI = 0.7589073634204275
+epoch: 25
+RMODI = 0.7589073634204275
+epoch: 26
+RMODI = 0.7612826603325415
+epoch: 27
+RMODI = 0.7612826603325415
+epoch: 28
+RMODI = 0.7612826603325415
+epoch: 29
+RMODI = 0.7612826603325415
+epoch: 30
+RMODI = 0.7612826603325415
+HalfLife
+epoch: 0
+RMODI = 0.532724505327245
+epoch: 1
+RMODI = 0.532724505327245
+epoch: 2
+RMODI = 0.5289193302891934
+epoch: 3
+RMODI = 0.5312024353120244
+epoch: 4
+RMODI = 0.5342465753424658
+epoch: 5
+RMODI = 0.5388127853881278
+epoch: 6
+RMODI = 0.5426179604261796
+epoch: 7
+RMODI = 0.5517503805175038
+epoch: 8
+RMODI = 0.5555555555555556
+epoch: 9
+RMODI = 0.5555555555555556
+epoch: 10
+RMODI = 0.5646879756468798
+epoch: 11
+RMODI = 0.5692541856925418
+epoch: 12
+RMODI = 0.5684931506849316
+epoch: 13
+RMODI = 0.5692541856925418
+epoch: 14
+RMODI = 0.5684931506849316
+epoch: 15
+RMODI = 0.5730593607305936
+epoch: 16
+RMODI = 0.5700152207001522
+epoch: 17
+RMODI = 0.573820395738204
+epoch: 18
+RMODI = 0.5722983257229832
+epoch: 19
+RMODI = 0.5730593607305936
+epoch: 20
+RMODI = 0.5745814307458144
+epoch: 21
+RMODI = 0.571537290715373
+epoch: 22
+RMODI = 0.576103500761035
+epoch: 23
+RMODI = 0.573820395738204
+epoch: 24
+RMODI = 0.5730593607305936
+epoch: 25
+RMODI = 0.5753424657534246
+epoch: 26
+RMODI = 0.5730593607305936
+epoch: 27
+RMODI = 0.573820395738204
+epoch: 28
+RMODI = 0.571537290715373
+epoch: 29
+RMODI = 0.5745814307458144
+epoch: 30
+RMODI = 0.5745814307458144
+epoch: 31
+RMODI = 0.5753424657534246
+VDss
+epoch: 0
+RMODI = 0.6144688644688645
+epoch: 1
+RMODI = 0.6126373626373627
+epoch: 2
+RMODI = 0.6108058608058609
+epoch: 3
+RMODI = 0.6089743589743589
+epoch: 4
+RMODI = 0.6163003663003663
+epoch: 5
+RMODI = 0.6208791208791209
+epoch: 6
+RMODI = 0.6227106227106227
+epoch: 7
+RMODI = 0.6272893772893773
+epoch: 8
+RMODI = 0.6291208791208791
+epoch: 9
+RMODI = 0.6327838827838828
+epoch: 10
+RMODI = 0.6309523809523809
+epoch: 11
+RMODI = 0.6282051282051282
+epoch: 12
+RMODI = 0.6291208791208791
+epoch: 13
+RMODI = 0.6291208791208791
+epoch: 14
+RMODI = 0.6318681318681318
+epoch: 15
+RMODI = 0.63003663003663
+epoch: 16
+RMODI = 0.6318681318681318
+epoch: 17
+RMODI = 0.6327838827838828
+epoch: 18
+RMODI = 0.63003663003663
+epoch: 19
+RMODI = 0.6327838827838828
+epoch: 20
+RMODI = 0.6318681318681318
+epoch: 21
+RMODI = 0.6327838827838828
+epoch: 22
+RMODI = 0.6346153846153846
+epoch: 23
+RMODI = 0.6327838827838828
+epoch: 24
+RMODI = 0.6355311355311355
+epoch: 25
+RMODI = 0.6327838827838828
+epoch: 26
+RMODI = 0.6336996336996337
+epoch: 27
+RMODI = 0.6355311355311355
+epoch: 28
+RMODI = 0.6355311355311355
+epoch: 29
+RMODI = 0.6355311355311355
+epoch: 30
+RMODI = 0.6327838827838828
+epoch: 31
+RMODI = 0.6327838827838828
+epoch: 32
+RMODI = 0.6355311355311355
+epoch: 33
+RMODI = 0.6355311355311355
+epoch: 34
+RMODI = 0.6336996336996337
+epoch: 35
+RMODI = 0.6336996336996337
+epoch: 36
+RMODI = 0.6346153846153846
+epoch: 37
+RMODI = 0.6336996336996337
+epoch: 38
+RMODI = 0.6355311355311355
+epoch: 39
+RMODI = 0.6355311355311355
+epoch: 40
+RMODI = 0.6336996336996337

@@ -1,0 +1,3435 @@
+nohup: ignoring input
+Current seed: 2024, current split method: random, current task: BBBP
+Namespace(seed=2024, times=1, n_epochs=100, config='base', model_path='../models/pretrained/base/base.pth', dataset='BBBP', data_path='../datasets/', dataset_type='classification', use_scaler=True, metric=['rocauc', 'prauc', 'acc'], split='random_2024', weight_decay=0.0, dropout=0.0, lr=3e-05, n_threads=8)
+args.seed: 2024
+no use label scaler
+model have 90.143705M paramerters in total
+1/101
+train rocauc: 0.7936292101479029, valid rocauc: 0.8116524067283627, test rocauc: 0.7996255760368665
+Training Results:
+rocauc: 0.7936
+prauc: 0.8271
+acc: 0.7428
+Validation Results:
+rocauc: 0.8117
+prauc: 0.8654
+acc: 0.7752
+Test Results:
+rocauc: 0.7996
+prauc: 0.8637
+acc: 0.7474
+2/101
+train rocauc: 0.8954319131161237, valid rocauc: 0.8758512310110005, test rocauc: 0.8982142857142859
+Training Results:
+rocauc: 0.8954
+prauc: 0.9296
+acc: 0.8125
+Validation Results:
+rocauc: 0.8759
+prauc: 0.9261
+acc: 0.8036
+Test Results:
+rocauc: 0.8982
+prauc: 0.9433
+acc: 0.8093
+3/101
+train rocauc: 0.9328071965683327, valid rocauc: 0.8967755078284151, test rocauc: 0.9186923963133641
+Training Results:
+rocauc: 0.9328
+prauc: 0.9558
+acc: 0.8574
+Validation Results:
+rocauc: 0.8968
+prauc: 0.9381
+acc: 0.8191
+Test Results:
+rocauc: 0.9187
+prauc: 0.9540
+acc: 0.8247
+4/101
+train rocauc: 0.9569123940710514, valid rocauc: 0.9030033176182994, test rocauc: 0.9291186635944702
+Training Results:
+rocauc: 0.9569
+prauc: 0.9726
+acc: 0.8887
+Validation Results:
+rocauc: 0.9030
+prauc: 0.9402
+acc: 0.8243
+Test Results:
+rocauc: 0.9291
+prauc: 0.9620
+acc: 0.8351
+5/101
+train rocauc: 0.9803931428957964, valid rocauc: 0.9068447703858913, test rocauc: 0.9367511520737327
+Training Results:
+rocauc: 0.9804
+prauc: 0.9879
+acc: 0.9303
+Validation Results:
+rocauc: 0.9068
+prauc: 0.9445
+acc: 0.8140
+Test Results:
+rocauc: 0.9368
+prauc: 0.9662
+acc: 0.8479
+6/101
+train rocauc: 0.9891932545674519, valid rocauc: 0.9041673942145393, test rocauc: 0.9366359447004607
+Training Results:
+rocauc: 0.9892
+prauc: 0.9932
+acc: 0.9434
+Validation Results:
+rocauc: 0.9042
+prauc: 0.9389
+acc: 0.8165
+Test Results:
+rocauc: 0.9366
+prauc: 0.9639
+acc: 0.8660
+7/101
+train rocauc: 0.993763173414246, valid rocauc: 0.9041091903847274, test rocauc: 0.9314228110599078
+Training Results:
+rocauc: 0.9938
+prauc: 0.9962
+acc: 0.9535
+Validation Results:
+rocauc: 0.9041
+prauc: 0.9424
+acc: 0.7984
+Test Results:
+rocauc: 0.9314
+prauc: 0.9633
+acc: 0.8428
+8/101
+train rocauc: 0.9971872303556274, valid rocauc: 0.8873173854839648, test rocauc: 0.9237903225806451
+Training Results:
+rocauc: 0.9972
+prauc: 0.9983
+acc: 0.9678
+Validation Results:
+rocauc: 0.8873
+prauc: 0.9316
+acc: 0.8165
+Test Results:
+rocauc: 0.9238
+prauc: 0.9607
+acc: 0.8557
+9/101
+train rocauc: 0.997610359270892, valid rocauc: 0.8995692916593911, test rocauc: 0.9185771889400921
+Training Results:
+rocauc: 0.9976
+prauc: 0.9986
+acc: 0.9811
+Validation Results:
+rocauc: 0.8996
+prauc: 0.9402
+acc: 0.8527
+Test Results:
+rocauc: 0.9186
+prauc: 0.9570
+acc: 0.8454
+10/101
+train rocauc: 0.9974964497086158, valid rocauc: 0.9057971014492754, test rocauc: 0.9256048387096775
+Training Results:
+rocauc: 0.9975
+prauc: 0.9987
+acc: 0.9818
+Validation Results:
+rocauc: 0.9058
+prauc: 0.9436
+acc: 0.8217
+Test Results:
+rocauc: 0.9256
+prauc: 0.9604
+acc: 0.8505
+11/101
+train rocauc: 0.9991506967184793, valid rocauc: 0.9027122984692392, test rocauc: 0.9264112903225806
+Training Results:
+rocauc: 0.9992
+prauc: 0.9995
+acc: 0.9883
+Validation Results:
+rocauc: 0.9027
+prauc: 0.9375
+acc: 0.8527
+Test Results:
+rocauc: 0.9264
+prauc: 0.9611
+acc: 0.8428
+12/101
+train rocauc: 0.9995786920729464, valid rocauc: 0.9016646295326233, test rocauc: 0.9183467741935484
+Training Results:
+rocauc: 0.9996
+prauc: 0.9997
+acc: 0.9909
+Validation Results:
+rocauc: 0.9017
+prauc: 0.9374
+acc: 0.8372
+Test Results:
+rocauc: 0.9183
+prauc: 0.9555
+acc: 0.8557
+13/101
+train rocauc: 0.9994993490648587, valid rocauc: 0.8972120365520052, test rocauc: 0.9271601382488479
+Training Results:
+rocauc: 0.9995
+prauc: 0.9997
+acc: 0.9941
+Validation Results:
+rocauc: 0.8972
+prauc: 0.9383
+acc: 0.8424
+Test Results:
+rocauc: 0.9272
+prauc: 0.9611
+acc: 0.8557
+14/101
+train rocauc: 0.9994980131913944, valid rocauc: 0.9027122984692393, test rocauc: 0.9262096774193548
+Training Results:
+rocauc: 0.9995
+prauc: 0.9998
+acc: 0.9958
+Validation Results:
+rocauc: 0.9027
+prauc: 0.9391
+acc: 0.8527
+Test Results:
+rocauc: 0.9262
+prauc: 0.9603
+acc: 0.8531
+15/101
+train rocauc: 0.9999830533569516, valid rocauc: 0.8986089284674933, test rocauc: 0.930097926267281
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9961
+Validation Results:
+rocauc: 0.8986
+prauc: 0.9327
+acc: 0.8346
+Test Results:
+rocauc: 0.9301
+prauc: 0.9617
+acc: 0.8531
+16/101
+train rocauc: 0.9998782888210733, valid rocauc: 0.8967755078284152, test rocauc: 0.9304147465437788
+Training Results:
+rocauc: 0.9999
+prauc: 0.9999
+acc: 0.9967
+Validation Results:
+rocauc: 0.8968
+prauc: 0.9333
+acc: 0.8450
+Test Results:
+rocauc: 0.9304
+prauc: 0.9630
+acc: 0.8634
+17/101
+train rocauc: 0.9999852965747703, valid rocauc: 0.9055933880449334, test rocauc: 0.9258640552995391
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9993
+Validation Results:
+rocauc: 0.9056
+prauc: 0.9408
+acc: 0.8475
+Test Results:
+rocauc: 0.9259
+prauc: 0.9620
+acc: 0.8505
+18/101
+train rocauc: 0.9999197508710375, valid rocauc: 0.9057097957045573, test rocauc: 0.9263536866359448
+Training Results:
+rocauc: 0.9999
+prauc: 1.0000
+acc: 0.9990
+Validation Results:
+rocauc: 0.9057
+prauc: 0.9401
+acc: 0.8320
+Test Results:
+rocauc: 0.9264
+prauc: 0.9622
+acc: 0.8582
+19/101
+train rocauc: 1.0, valid rocauc: 0.9028869099586752, test rocauc: 0.9269873271889401
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9993
+Validation Results:
+rocauc: 0.9029
+prauc: 0.9384
+acc: 0.8346
+Test Results:
+rocauc: 0.9270
+prauc: 0.9629
+acc: 0.8608
+20/101
+train rocauc: 1.0, valid rocauc: 0.9031779291077353, test rocauc: 0.9277361751152075
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9032
+prauc: 0.9389
+acc: 0.8424
+Test Results:
+rocauc: 0.9277
+prauc: 0.9633
+acc: 0.8557
+21/101
+train rocauc: 1.0, valid rocauc: 0.9023339735754613, test rocauc: 0.9286290322580646
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9993
+Validation Results:
+rocauc: 0.9023
+prauc: 0.9376
+acc: 0.8450
+Test Results:
+rocauc: 0.9286
+prauc: 0.9638
+acc: 0.8557
+22/101
+train rocauc: 1.0, valid rocauc: 0.9012863046388452, test rocauc: 0.9291186635944702
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9993
+Validation Results:
+rocauc: 0.9013
+prauc: 0.9366
+acc: 0.8475
+Test Results:
+rocauc: 0.9291
+prauc: 0.9641
+acc: 0.8531
+23/101
+train rocauc: 1.0, valid rocauc: 0.9030033176182992, test rocauc: 0.9299539170506913
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9030
+prauc: 0.9373
+acc: 0.8372
+Test Results:
+rocauc: 0.9300
+prauc: 0.9645
+acc: 0.8557
+24/101
+train rocauc: 0.9994972580955709, valid rocauc: 0.9017228333624351, test rocauc: 0.9285714285714286
+Training Results:
+rocauc: 0.9995
+prauc: 0.9997
+acc: 0.9961
+Validation Results:
+rocauc: 0.9017
+prauc: 0.9384
+acc: 0.8553
+Test Results:
+rocauc: 0.9286
+prauc: 0.9619
+acc: 0.8582
+25/101
+train rocauc: 0.999988425925926, valid rocauc: 0.894854781444619, test rocauc: 0.9182603686635944
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9977
+Validation Results:
+rocauc: 0.8949
+prauc: 0.9345
+acc: 0.8398
+Test Results:
+rocauc: 0.9183
+prauc: 0.9580
+acc: 0.8531
+break!
+train: 0.9804, val: 0.9068, test: 0.9368
+end_test_result: (0.9367511520737327, 0.9662416165142466, 0.8479381443298969)
+Traceback (most recent call last):
+  File "/root/data1/admet_models_validation/KPGT_latest/scripts/extract_features_dynamic.py", line 160, in <module>
+    result_pd['train_mean'] = result_pd[['train_1', 'train_2', 'train_3', 'train_4', 'train_5']].mean(axis=1).round(4)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/frame.py", line 4096, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['train_2', 'train_3', 'train_4', 'train_5'] not in index"
+Current seed: 2024, current split method: random, current task: hERG
+Namespace(seed=2024, times=1, n_epochs=100, config='base', model_path='../models/pretrained/base/base.pth', dataset='hERG', data_path='../datasets/', dataset_type='classification', use_scaler=True, metric=['rocauc', 'prauc', 'acc'], split='random_2024', weight_decay=0.0, dropout=0.0, lr=3e-05, n_threads=8)
+args.seed: 2024
+no use label scaler
+model have 90.143705M paramerters in total
+1/101
+train rocauc: 0.7293344374950157, valid rocauc: 0.73634605676344, test rocauc: 0.7126179948277414
+Training Results:
+rocauc: 0.7293
+prauc: 0.7455
+acc: 0.6640
+Validation Results:
+rocauc: 0.7363
+prauc: 0.7281
+acc: 0.6691
+Test Results:
+rocauc: 0.7126
+prauc: 0.7413
+acc: 0.6467
+2/101
+train rocauc: 0.8381524988163687, valid rocauc: 0.8220388291363983, test rocauc: 0.7920760656525152
+Training Results:
+rocauc: 0.8382
+prauc: 0.8489
+acc: 0.7446
+Validation Results:
+rocauc: 0.8220
+prauc: 0.8186
+acc: 0.7466
+Test Results:
+rocauc: 0.7921
+prauc: 0.8157
+acc: 0.7262
+3/101
+train rocauc: 0.8974095119795382, valid rocauc: 0.8554089551727974, test rocauc: 0.8346163908271753
+Training Results:
+rocauc: 0.8974
+prauc: 0.9058
+acc: 0.8051
+Validation Results:
+rocauc: 0.8554
+prauc: 0.8522
+acc: 0.7715
+Test Results:
+rocauc: 0.8346
+prauc: 0.8550
+acc: 0.7572
+4/101
+train rocauc: 0.9331272037182077, valid rocauc: 0.8794568370254383, test rocauc: 0.8559658956884979
+Training Results:
+rocauc: 0.9331
+prauc: 0.9402
+acc: 0.8572
+Validation Results:
+rocauc: 0.8795
+prauc: 0.8768
+acc: 0.7994
+Test Results:
+rocauc: 0.8560
+prauc: 0.8752
+acc: 0.7810
+5/101
+train rocauc: 0.9621898843081816, valid rocauc: 0.8841842715472614, test rocauc: 0.8651653107000562
+Training Results:
+rocauc: 0.9622
+prauc: 0.9658
+acc: 0.8921
+Validation Results:
+rocauc: 0.8842
+prauc: 0.8809
+acc: 0.7983
+Test Results:
+rocauc: 0.8652
+prauc: 0.8879
+acc: 0.7727
+6/101
+train rocauc: 0.9747992910644344, valid rocauc: 0.8751615028535736, test rocauc: 0.8564762595049901
+Training Results:
+rocauc: 0.9748
+prauc: 0.9773
+acc: 0.9156
+Validation Results:
+rocauc: 0.8752
+prauc: 0.8748
+acc: 0.7952
+Test Results:
+rocauc: 0.8565
+prauc: 0.8812
+acc: 0.7676
+7/101
+train rocauc: 0.981677361773218, valid rocauc: 0.8825927732286026, test rocauc: 0.8688708093340825
+Training Results:
+rocauc: 0.9817
+prauc: 0.9823
+acc: 0.9313
+Validation Results:
+rocauc: 0.8826
+prauc: 0.8863
+acc: 0.7973
+Test Results:
+rocauc: 0.8689
+prauc: 0.8852
+acc: 0.7820
+8/101
+train rocauc: 0.9915379410469369, valid rocauc: 0.8709046726732893, test rocauc: 0.8791381284658634
+Training Results:
+rocauc: 0.9915
+prauc: 0.9923
+acc: 0.9493
+Validation Results:
+rocauc: 0.8709
+prauc: 0.8686
+acc: 0.7828
+Test Results:
+rocauc: 0.8791
+prauc: 0.8963
+acc: 0.7955
+9/101
+train rocauc: 0.9918423432509361, valid rocauc: 0.8740619999828871, test rocauc: 0.8681545844823668
+Training Results:
+rocauc: 0.9918
+prauc: 0.9927
+acc: 0.9551
+Validation Results:
+rocauc: 0.8741
+prauc: 0.8792
+acc: 0.7963
+Test Results:
+rocauc: 0.8682
+prauc: 0.8886
+acc: 0.7882
+10/101
+train rocauc: 0.9952449238582096, valid rocauc: 0.8746053340863003, test rocauc: 0.8691066917702762
+Training Results:
+rocauc: 0.9952
+prauc: 0.9958
+acc: 0.9595
+Validation Results:
+rocauc: 0.8746
+prauc: 0.8786
+acc: 0.8025
+Test Results:
+rocauc: 0.8691
+prauc: 0.8854
+acc: 0.7748
+11/101
+train rocauc: 0.9947752835872246, valid rocauc: 0.8645686269476602, test rocauc: 0.8674640922600539
+Training Results:
+rocauc: 0.9948
+prauc: 0.9949
+acc: 0.9634
+Validation Results:
+rocauc: 0.8646
+prauc: 0.8629
+acc: 0.7870
+Test Results:
+rocauc: 0.8675
+prauc: 0.8762
+acc: 0.7944
+12/101
+train rocauc: 0.9983800219873629, valid rocauc: 0.8742716328259363, test rocauc: 0.8685319963802767
+Training Results:
+rocauc: 0.9984
+prauc: 0.9985
+acc: 0.9812
+Validation Results:
+rocauc: 0.8743
+prauc: 0.8753
+acc: 0.7932
+Test Results:
+rocauc: 0.8685
+prauc: 0.8760
+acc: 0.7872
+13/101
+train rocauc: 0.9962658498970457, valid rocauc: 0.8693559565674974, test rocauc: 0.8768522132205673
+Training Results:
+rocauc: 0.9963
+prauc: 0.9954
+acc: 0.9781
+Validation Results:
+rocauc: 0.8694
+prauc: 0.8714
+acc: 0.7880
+Test Results:
+rocauc: 0.8769
+prauc: 0.8898
+acc: 0.7975
+14/101
+train rocauc: 0.9992692415503951, valid rocauc: 0.8714608414405626, test rocauc: 0.8638443690573707
+Training Results:
+rocauc: 0.9993
+prauc: 0.9993
+acc: 0.9885
+Validation Results:
+rocauc: 0.8715
+prauc: 0.8729
+acc: 0.7859
+Test Results:
+rocauc: 0.8638
+prauc: 0.8721
+acc: 0.7810
+15/101
+train rocauc: 0.9995859955237847, valid rocauc: 0.8693474001249241, test rocauc: 0.8641617381533406
+Training Results:
+rocauc: 0.9996
+prauc: 0.9997
+acc: 0.9927
+Validation Results:
+rocauc: 0.8693
+prauc: 0.8692
+acc: 0.7994
+Test Results:
+rocauc: 0.8642
+prauc: 0.8742
+acc: 0.7965
+16/101
+train rocauc: 0.999508794123055, valid rocauc: 0.8711613659504924, test rocauc: 0.8669580172151292
+Training Results:
+rocauc: 0.9995
+prauc: 0.9995
+acc: 0.9907
+Validation Results:
+rocauc: 0.8712
+prauc: 0.8713
+acc: 0.7859
+Test Results:
+rocauc: 0.8670
+prauc: 0.8765
+acc: 0.7955
+17/101
+train rocauc: 0.999386379612795, valid rocauc: 0.8755508209906648, test rocauc: 0.8696170555867683
+Training Results:
+rocauc: 0.9994
+prauc: 0.9995
+acc: 0.9900
+Validation Results:
+rocauc: 0.8756
+prauc: 0.8778
+acc: 0.8004
+Test Results:
+rocauc: 0.8696
+prauc: 0.8808
+acc: 0.7820
+18/101
+train rocauc: 0.998807420343089, valid rocauc: 0.866104508389592, test rocauc: 0.8629222831704314
+Training Results:
+rocauc: 0.9988
+prauc: 0.9990
+acc: 0.9920
+Validation Results:
+rocauc: 0.8661
+prauc: 0.8591
+acc: 0.7932
+Test Results:
+rocauc: 0.8629
+prauc: 0.8597
+acc: 0.7924
+19/101
+train rocauc: 0.9999029229251095, valid rocauc: 0.8729967228824943, test rocauc: 0.8659501558968464
+Training Results:
+rocauc: 0.9999
+prauc: 0.9999
+acc: 0.9961
+Validation Results:
+rocauc: 0.8730
+prauc: 0.8713
+acc: 0.7973
+Test Results:
+rocauc: 0.8660
+prauc: 0.8762
+acc: 0.7882
+20/101
+train rocauc: 0.9992684675844556, valid rocauc: 0.8706137536257925, test rocauc: 0.8671724557934871
+Training Results:
+rocauc: 0.9993
+prauc: 0.9991
+acc: 0.9959
+Validation Results:
+rocauc: 0.8706
+prauc: 0.8681
+acc: 0.7870
+Test Results:
+rocauc: 0.8672
+prauc: 0.8737
+acc: 0.7862
+21/101
+train rocauc: 0.9996188539142125, valid rocauc: 0.8698607866793302, test rocauc: 0.8710066175745281
+Training Results:
+rocauc: 0.9996
+prauc: 0.9996
+acc: 0.9960
+Validation Results:
+rocauc: 0.8699
+prauc: 0.8643
+acc: 0.7973
+Test Results:
+rocauc: 0.8710
+prauc: 0.8804
+acc: 0.7862
+22/101
+train rocauc: 0.9999796426802481, valid rocauc: 0.8759315826851827, test rocauc: 0.8723833132475866
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9973
+Validation Results:
+rocauc: 0.8759
+prauc: 0.8749
+acc: 0.7932
+Test Results:
+rocauc: 0.8724
+prauc: 0.8831
+acc: 0.7965
+23/101
+train rocauc: 0.9985616398483472, valid rocauc: 0.8708832815668558, test rocauc: 0.8673568729708752
+Training Results:
+rocauc: 0.9986
+prauc: 0.9987
+acc: 0.9944
+Validation Results:
+rocauc: 0.8709
+prauc: 0.8679
+acc: 0.7808
+Test Results:
+rocauc: 0.8674
+prauc: 0.8807
+acc: 0.7851
+24/101
+train rocauc: 0.9998875683810385, valid rocauc: 0.8720127319865492, test rocauc: 0.8692782426329626
+Training Results:
+rocauc: 0.9999
+prauc: 0.9999
+acc: 0.9979
+Validation Results:
+rocauc: 0.8720
+prauc: 0.8680
+acc: 0.7942
+Test Results:
+rocauc: 0.8693
+prauc: 0.8795
+acc: 0.7986
+25/101
+train rocauc: 0.9999753333646966, valid rocauc: 0.8748064104867761, test rocauc: 0.8691410019428136
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9981
+Validation Results:
+rocauc: 0.8748
+prauc: 0.8747
+acc: 0.7890
+Test Results:
+rocauc: 0.8691
+prauc: 0.8820
+acc: 0.7975
+break!
+train: 0.9622, val: 0.8842, test: 0.8652
+end_test_result: (0.8651653107000562, 0.887920988721746, 0.7727272727272727)
+Traceback (most recent call last):
+  File "/root/data1/admet_models_validation/KPGT_latest/scripts/extract_features_dynamic.py", line 160, in <module>
+    result_pd['train_mean'] = result_pd[['train_1', 'train_2', 'train_3', 'train_4', 'train_5']].mean(axis=1).round(4)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/frame.py", line 4096, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['train_2', 'train_3', 'train_4', 'train_5'] not in index"
+Current seed: 2024, current split method: random, current task: Mutagenicity
+Namespace(seed=2024, times=1, n_epochs=100, config='base', model_path='../models/pretrained/base/base.pth', dataset='Mutagenicity', data_path='../datasets/', dataset_type='classification', use_scaler=True, metric=['rocauc', 'prauc', 'acc'], split='random_2024', weight_decay=0.0, dropout=0.0, lr=3e-05, n_threads=8)
+args.seed: 2024
+no use label scaler
+model have 90.143705M paramerters in total
+1/101
+train rocauc: 0.8030417234242335, valid rocauc: 0.8070236129674765, test rocauc: 0.8006813682126459
+Training Results:
+rocauc: 0.8030
+prauc: 0.8315
+acc: 0.7183
+Validation Results:
+rocauc: 0.8070
+prauc: 0.8365
+acc: 0.7335
+Test Results:
+rocauc: 0.8007
+prauc: 0.8338
+acc: 0.7107
+2/101
+train rocauc: 0.8907184792510356, valid rocauc: 0.866708598684383, test rocauc: 0.873072791608745
+Training Results:
+rocauc: 0.8907
+prauc: 0.9103
+acc: 0.8037
+Validation Results:
+rocauc: 0.8667
+prauc: 0.8831
+acc: 0.7688
+Test Results:
+rocauc: 0.8731
+prauc: 0.8969
+acc: 0.7779
+3/101
+train rocauc: 0.929040675600491, valid rocauc: 0.8810598317477789, test rocauc: 0.8952198913180842
+Training Results:
+rocauc: 0.9290
+prauc: 0.9437
+acc: 0.8475
+Validation Results:
+rocauc: 0.8811
+prauc: 0.8981
+acc: 0.8018
+Test Results:
+rocauc: 0.8952
+prauc: 0.9142
+acc: 0.8041
+4/101
+train rocauc: 0.9619136551377803, valid rocauc: 0.8980737479361585, test rocauc: 0.911516913096592
+Training Results:
+rocauc: 0.9619
+prauc: 0.9708
+acc: 0.8955
+Validation Results:
+rocauc: 0.8981
+prauc: 0.9138
+acc: 0.8223
+Test Results:
+rocauc: 0.9115
+prauc: 0.9255
+acc: 0.8280
+5/101
+train rocauc: 0.9788448397891821, valid rocauc: 0.912194354902115, test rocauc: 0.919278402628586
+Training Results:
+rocauc: 0.9788
+prauc: 0.9835
+acc: 0.9295
+Validation Results:
+rocauc: 0.9122
+prauc: 0.9248
+acc: 0.8440
+Test Results:
+rocauc: 0.9193
+prauc: 0.9325
+acc: 0.8383
+6/101
+train rocauc: 0.9893566349262551, valid rocauc: 0.9052703304767147, test rocauc: 0.9216163275622393
+Training Results:
+rocauc: 0.9894
+prauc: 0.9919
+acc: 0.9506
+Validation Results:
+rocauc: 0.9053
+prauc: 0.9146
+acc: 0.8428
+Test Results:
+rocauc: 0.9216
+prauc: 0.9363
+acc: 0.8531
+7/101
+train rocauc: 0.9947780834237046, valid rocauc: 0.9086091673873733, test rocauc: 0.9197312439445637
+Training Results:
+rocauc: 0.9948
+prauc: 0.9960
+acc: 0.9692
+Validation Results:
+rocauc: 0.9086
+prauc: 0.9197
+acc: 0.8440
+Test Results:
+rocauc: 0.9197
+prauc: 0.9310
+acc: 0.8394
+8/101
+train rocauc: 0.9978167723993803, valid rocauc: 0.9230128154729146, test rocauc: 0.9250073718353763
+Training Results:
+rocauc: 0.9978
+prauc: 0.9984
+acc: 0.9803
+Validation Results:
+rocauc: 0.9230
+prauc: 0.9326
+acc: 0.8588
+Test Results:
+rocauc: 0.9250
+prauc: 0.9354
+acc: 0.8519
+9/101
+train rocauc: 0.9974277680561783, valid rocauc: 0.9209633881070314, test rocauc: 0.9300623446648973
+Training Results:
+rocauc: 0.9974
+prauc: 0.9978
+acc: 0.9833
+Validation Results:
+rocauc: 0.9210
+prauc: 0.9280
+acc: 0.8576
+Test Results:
+rocauc: 0.9301
+prauc: 0.9382
+acc: 0.8656
+10/101
+train rocauc: 0.9978750462741527, valid rocauc: 0.9119951778179627, test rocauc: 0.9225799317578667
+Training Results:
+rocauc: 0.9979
+prauc: 0.9985
+acc: 0.9834
+Validation Results:
+rocauc: 0.9120
+prauc: 0.9220
+acc: 0.8394
+Test Results:
+rocauc: 0.9226
+prauc: 0.9348
+acc: 0.8462
+11/101
+train rocauc: 0.9992140179067368, valid rocauc: 0.9232119925570668, test rocauc: 0.9242385947175534
+Training Results:
+rocauc: 0.9992
+prauc: 0.9994
+acc: 0.9916
+Validation Results:
+rocauc: 0.9232
+prauc: 0.9335
+acc: 0.8610
+Test Results:
+rocauc: 0.9242
+prauc: 0.9340
+acc: 0.8554
+12/101
+train rocauc: 0.9994183438386265, valid rocauc: 0.9176402757030167, test rocauc: 0.9276559669741775
+Training Results:
+rocauc: 0.9994
+prauc: 0.9996
+acc: 0.9923
+Validation Results:
+rocauc: 0.9176
+prauc: 0.9270
+acc: 0.8542
+Test Results:
+rocauc: 0.9277
+prauc: 0.9393
+acc: 0.8645
+13/101
+train rocauc: 0.9981467302714083, valid rocauc: 0.9180491128757503, test rocauc: 0.9321475209570748
+Training Results:
+rocauc: 0.9981
+prauc: 0.9986
+acc: 0.9914
+Validation Results:
+rocauc: 0.9180
+prauc: 0.9272
+acc: 0.8508
+Test Results:
+rocauc: 0.9321
+prauc: 0.9386
+acc: 0.8622
+14/101
+train rocauc: 0.9997459134551804, valid rocauc: 0.9195691485179655, test rocauc: 0.9290618812923881
+Training Results:
+rocauc: 0.9997
+prauc: 0.9998
+acc: 0.9939
+Validation Results:
+rocauc: 0.9196
+prauc: 0.9275
+acc: 0.8599
+Test Results:
+rocauc: 0.9291
+prauc: 0.9393
+acc: 0.8667
+15/101
+train rocauc: 0.9994623184859946, valid rocauc: 0.9215714023639175, test rocauc: 0.9327267365937908
+Training Results:
+rocauc: 0.9995
+prauc: 0.9995
+acc: 0.9960
+Validation Results:
+rocauc: 0.9216
+prauc: 0.9285
+acc: 0.8554
+Test Results:
+rocauc: 0.9327
+prauc: 0.9399
+acc: 0.8838
+16/101
+train rocauc: 0.999803635260099, valid rocauc: 0.9200985402416333, test rocauc: 0.922543072580985
+Training Results:
+rocauc: 0.9998
+prauc: 0.9998
+acc: 0.9960
+Validation Results:
+rocauc: 0.9201
+prauc: 0.9262
+acc: 0.8474
+Test Results:
+rocauc: 0.9225
+prauc: 0.9305
+acc: 0.8576
+17/101
+train rocauc: 0.9999748811294897, valid rocauc: 0.9127237466257829, test rocauc: 0.9281140738868529
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9974
+Validation Results:
+rocauc: 0.9127
+prauc: 0.9159
+acc: 0.8610
+Test Results:
+rocauc: 0.9281
+prauc: 0.9306
+acc: 0.8713
+18/101
+train rocauc: 0.9999662808022391, valid rocauc: 0.9167230128154729, test rocauc: 0.9299254391507645
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9979
+Validation Results:
+rocauc: 0.9167
+prauc: 0.9158
+acc: 0.8554
+Test Results:
+rocauc: 0.9299
+prauc: 0.9315
+acc: 0.8588
+19/101
+train rocauc: 0.999808002041807, valid rocauc: 0.9156485048614933, test rocauc: 0.9264606765238638
+Training Results:
+rocauc: 0.9998
+prauc: 0.9999
+acc: 0.9977
+Validation Results:
+rocauc: 0.9156
+prauc: 0.9185
+acc: 0.8474
+Test Results:
+rocauc: 0.9265
+prauc: 0.9337
+acc: 0.8702
+20/101
+train rocauc: 0.9991589330502773, valid rocauc: 0.9136829415310428, test rocauc: 0.9272505160284764
+Training Results:
+rocauc: 0.9992
+prauc: 0.9992
+acc: 0.9949
+Validation Results:
+rocauc: 0.9137
+prauc: 0.9190
+acc: 0.8485
+Test Results:
+rocauc: 0.9273
+prauc: 0.9295
+acc: 0.8667
+21/101
+train rocauc: 0.9993135845704721, valid rocauc: 0.9163246586471684, test rocauc: 0.9249125910948228
+Training Results:
+rocauc: 0.9993
+prauc: 0.9993
+acc: 0.9951
+Validation Results:
+rocauc: 0.9163
+prauc: 0.9195
+acc: 0.8542
+Test Results:
+rocauc: 0.9249
+prauc: 0.9352
+acc: 0.8622
+22/101
+train rocauc: 0.9994662407171714, valid rocauc: 0.9078177005529784, test rocauc: 0.9221955431989554
+Training Results:
+rocauc: 0.9995
+prauc: 0.9995
+acc: 0.9961
+Validation Results:
+rocauc: 0.9078
+prauc: 0.9135
+acc: 0.8485
+Test Results:
+rocauc: 0.9222
+prauc: 0.9323
+acc: 0.8622
+23/101
+train rocauc: 0.9999628975171581, valid rocauc: 0.9153444977330504, test rocauc: 0.927271578415266
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9983
+Validation Results:
+rocauc: 0.9153
+prauc: 0.9197
+acc: 0.8633
+Test Results:
+rocauc: 0.9273
+prauc: 0.9395
+acc: 0.8667
+24/101
+train rocauc: 0.9997498333048485, valid rocauc: 0.9194328694603875, test rocauc: 0.9352436918151565
+Training Results:
+rocauc: 0.9997
+prauc: 0.9998
+acc: 0.9986
+Validation Results:
+rocauc: 0.9194
+prauc: 0.9238
+acc: 0.8576
+Test Results:
+rocauc: 0.9352
+prauc: 0.9472
+acc: 0.8713
+25/101
+train rocauc: 0.9999872726557472, valid rocauc: 0.9193227979138822, test rocauc: 0.9366969965036438
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9984
+Validation Results:
+rocauc: 0.9193
+prauc: 0.9259
+acc: 0.8576
+Test Results:
+rocauc: 0.9367
+prauc: 0.9489
+acc: 0.8736
+26/101
+train rocauc: 0.9997459193196752, valid rocauc: 0.9180543543779648, test rocauc: 0.9348277096760604
+Training Results:
+rocauc: 0.9997
+prauc: 0.9998
+acc: 0.9986
+Validation Results:
+rocauc: 0.9181
+prauc: 0.9211
+acc: 0.8554
+Test Results:
+rocauc: 0.9348
+prauc: 0.9444
+acc: 0.8736
+27/101
+train rocauc: 0.999844875161282, valid rocauc: 0.9199255706685536, test rocauc: 0.9347434601289017
+Training Results:
+rocauc: 0.9998
+prauc: 0.9999
+acc: 0.9984
+Validation Results:
+rocauc: 0.9199
+prauc: 0.9231
+acc: 0.8622
+Test Results:
+rocauc: 0.9347
+prauc: 0.9445
+acc: 0.8645
+28/101
+train rocauc: 0.9999951239395395, valid rocauc: 0.9162250701050921, test rocauc: 0.9339641518176839
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9991
+Validation Results:
+rocauc: 0.9162
+prauc: 0.9171
+acc: 0.8645
+Test Results:
+rocauc: 0.9340
+prauc: 0.9451
+acc: 0.8645
+29/101
+train rocauc: 0.9999993388392596, valid rocauc: 0.9176926907251619, test rocauc: 0.9343064156030162
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9996
+Validation Results:
+rocauc: 0.9177
+prauc: 0.9156
+acc: 0.8633
+Test Results:
+rocauc: 0.9343
+prauc: 0.9430
+acc: 0.8690
+30/101
+train rocauc: 0.9999994213221302, valid rocauc: 0.9184684330529129, test rocauc: 0.9363020767513375
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9994
+Validation Results:
+rocauc: 0.9185
+prauc: 0.9174
+acc: 0.8656
+Test Results:
+rocauc: 0.9363
+prauc: 0.9458
+acc: 0.8770
+31/101
+train rocauc: 0.9999526410546515, valid rocauc: 0.9093115286841208, test rocauc: 0.9351910358481823
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9964
+Validation Results:
+rocauc: 0.9093
+prauc: 0.9131
+acc: 0.8497
+Test Results:
+rocauc: 0.9352
+prauc: 0.9431
+acc: 0.8759
+break!
+train: 0.9992, val: 0.9232, test: 0.9242
+end_test_result: (0.9242385947175534, 0.933962298106175, 0.8553530751708428)
+Traceback (most recent call last):
+  File "/root/data1/admet_models_validation/KPGT_latest/scripts/extract_features_dynamic.py", line 160, in <module>
+    result_pd['train_mean'] = result_pd[['train_1', 'train_2', 'train_3', 'train_4', 'train_5']].mean(axis=1).round(4)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/frame.py", line 4096, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['train_2', 'train_3', 'train_4', 'train_5'] not in index"
+Current seed: 2024, current split method: random, current task: oral_bioavailability
+Namespace(seed=2024, times=1, n_epochs=100, config='base', model_path='../models/pretrained/base/base.pth', dataset='oral_bioavailability', data_path='../datasets/', dataset_type='classification', use_scaler=True, metric=['rocauc', 'prauc', 'acc'], split='random_2024', weight_decay=0.0, dropout=0.0, lr=3e-05, n_threads=8)
+args.seed: 2024
+no use label scaler
+model have 90.143705M paramerters in total
+1/101
+train rocauc: 0.5663460717465817, valid rocauc: 0.5192307692307692, test rocauc: 0.5563380281690141
+Training Results:
+rocauc: 0.5663
+prauc: 0.6205
+acc: 0.5512
+Validation Results:
+rocauc: 0.5192
+prauc: 0.5727
+acc: 0.4931
+Test Results:
+rocauc: 0.5563
+prauc: 0.5333
+acc: 0.5241
+2/101
+train rocauc: 0.757099032726297, valid rocauc: 0.6429681429681429, test rocauc: 0.7025123715264561
+Training Results:
+rocauc: 0.7571
+prauc: 0.7829
+acc: 0.6753
+Validation Results:
+rocauc: 0.6430
+prauc: 0.6539
+acc: 0.5625
+Test Results:
+rocauc: 0.7025
+prauc: 0.6869
+acc: 0.6069
+3/101
+train rocauc: 0.8274405206444041, valid rocauc: 0.6903651903651904, test rocauc: 0.7455272173582032
+Training Results:
+rocauc: 0.8274
+prauc: 0.8559
+acc: 0.7491
+Validation Results:
+rocauc: 0.6904
+prauc: 0.6860
+acc: 0.6250
+Test Results:
+rocauc: 0.7455
+prauc: 0.7750
+acc: 0.6759
+4/101
+train rocauc: 0.8779808008977472, valid rocauc: 0.7136752136752137, test rocauc: 0.7596117244004568
+Training Results:
+rocauc: 0.8780
+prauc: 0.9011
+acc: 0.7977
+Validation Results:
+rocauc: 0.7137
+prauc: 0.7082
+acc: 0.6597
+Test Results:
+rocauc: 0.7596
+prauc: 0.7682
+acc: 0.6897
+5/101
+train rocauc: 0.9225418684361392, valid rocauc: 0.7113442113442112, test rocauc: 0.7666539779215835
+Training Results:
+rocauc: 0.9225
+prauc: 0.9358
+acc: 0.8359
+Validation Results:
+rocauc: 0.7113
+prauc: 0.7088
+acc: 0.6528
+Test Results:
+rocauc: 0.7667
+prauc: 0.7666
+acc: 0.7034
+6/101
+train rocauc: 0.9592168562599334, valid rocauc: 0.7057109557109558, test rocauc: 0.7599923867529501
+Training Results:
+rocauc: 0.9592
+prauc: 0.9666
+acc: 0.8759
+Validation Results:
+rocauc: 0.7057
+prauc: 0.7064
+acc: 0.6319
+Test Results:
+rocauc: 0.7600
+prauc: 0.7588
+acc: 0.7034
+7/101
+train rocauc: 0.9836216044789774, valid rocauc: 0.6822066822066822, test rocauc: 0.75314046440807
+Training Results:
+rocauc: 0.9836
+prauc: 0.9872
+acc: 0.9219
+Validation Results:
+rocauc: 0.6822
+prauc: 0.6919
+acc: 0.6667
+Test Results:
+rocauc: 0.7531
+prauc: 0.7560
+acc: 0.6828
+8/101
+train rocauc: 0.9958452088826568, valid rocauc: 0.6629759129759131, test rocauc: 0.7282070803197565
+Training Results:
+rocauc: 0.9958
+prauc: 0.9964
+acc: 0.9688
+Validation Results:
+rocauc: 0.6630
+prauc: 0.6621
+acc: 0.6111
+Test Results:
+rocauc: 0.7282
+prauc: 0.7105
+acc: 0.6690
+9/101
+train rocauc: 0.9957781469570651, valid rocauc: 0.677933177933178, test rocauc: 0.7169775409212028
+Training Results:
+rocauc: 0.9958
+prauc: 0.9969
+acc: 0.9714
+Validation Results:
+rocauc: 0.6779
+prauc: 0.6503
+acc: 0.6389
+Test Results:
+rocauc: 0.7170
+prauc: 0.7024
+acc: 0.6483
+10/101
+train rocauc: 0.9991644609248259, valid rocauc: 0.6583139083139083, test rocauc: 0.7318233726684431
+Training Results:
+rocauc: 0.9992
+prauc: 0.9993
+acc: 0.9896
+Validation Results:
+rocauc: 0.6583
+prauc: 0.6465
+acc: 0.6042
+Test Results:
+rocauc: 0.7318
+prauc: 0.7193
+acc: 0.6552
+11/101
+train rocauc: 0.9985667760389348, valid rocauc: 0.677933177933178, test rocauc: 0.7280167491435097
+Training Results:
+rocauc: 0.9986
+prauc: 0.9989
+acc: 0.9792
+Validation Results:
+rocauc: 0.6779
+prauc: 0.6642
+acc: 0.6389
+Test Results:
+rocauc: 0.7280
+prauc: 0.7099
+acc: 0.6552
+12/101
+train rocauc: 0.9983502677384335, valid rocauc: 0.6517094017094016, test rocauc: 0.7244004567948229
+Training Results:
+rocauc: 0.9984
+prauc: 0.9990
+acc: 0.9887
+Validation Results:
+rocauc: 0.6517
+prauc: 0.6475
+acc: 0.6181
+Test Results:
+rocauc: 0.7244
+prauc: 0.7169
+acc: 0.6483
+13/101
+train rocauc: 0.9997806055287406, valid rocauc: 0.6503496503496503, test rocauc: 0.7063189950513894
+Training Results:
+rocauc: 0.9998
+prauc: 0.9998
+acc: 0.9965
+Validation Results:
+rocauc: 0.6503
+prauc: 0.6290
+acc: 0.6181
+Test Results:
+rocauc: 0.7063
+prauc: 0.7354
+acc: 0.6483
+14/101
+train rocauc: 0.9999268140956052, valid rocauc: 0.6662781662781663, test rocauc: 0.7247811191473164
+Training Results:
+rocauc: 0.9999
+prauc: 0.9999
+acc: 0.9948
+Validation Results:
+rocauc: 0.6663
+prauc: 0.6436
+acc: 0.6389
+Test Results:
+rocauc: 0.7248
+prauc: 0.7440
+acc: 0.6621
+15/101
+train rocauc: 0.9989883477158598, valid rocauc: 0.6416083916083917, test rocauc: 0.722116482679863
+Training Results:
+rocauc: 0.9990
+prauc: 0.9994
+acc: 0.9957
+Validation Results:
+rocauc: 0.6416
+prauc: 0.6463
+acc: 0.6528
+Test Results:
+rocauc: 0.7221
+prauc: 0.7470
+acc: 0.6759
+16/101
+train rocauc: 1.0, valid rocauc: 0.6600621600621601, test rocauc: 0.7274457556147697
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9983
+Validation Results:
+rocauc: 0.6601
+prauc: 0.6521
+acc: 0.6319
+Test Results:
+rocauc: 0.7274
+prauc: 0.7416
+acc: 0.6621
+17/101
+train rocauc: 1.0, valid rocauc: 0.6579254079254079, test rocauc: 0.7365816520746098
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.6579
+prauc: 0.6492
+acc: 0.6319
+Test Results:
+rocauc: 0.7366
+prauc: 0.7462
+acc: 0.6621
+18/101
+train rocauc: 1.0, valid rocauc: 0.6581196581196581, test rocauc: 0.7356299961933765
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.6581
+prauc: 0.6507
+acc: 0.6250
+Test Results:
+rocauc: 0.7356
+prauc: 0.7442
+acc: 0.6828
+19/101
+train rocauc: 1.0, valid rocauc: 0.6573426573426573, test rocauc: 0.7348686714883897
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.6573
+prauc: 0.6511
+acc: 0.6181
+Test Results:
+rocauc: 0.7349
+prauc: 0.7439
+acc: 0.6759
+20/101
+train rocauc: 1.0, valid rocauc: 0.6575369075369076, test rocauc: 0.7348686714883899
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.6575
+prauc: 0.6510
+acc: 0.6181
+Test Results:
+rocauc: 0.7349
+prauc: 0.7435
+acc: 0.6759
+21/101
+train rocauc: 1.0, valid rocauc: 0.6567599067599067, test rocauc: 0.7350590026646364
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.6568
+prauc: 0.6502
+acc: 0.6250
+Test Results:
+rocauc: 0.7351
+prauc: 0.7436
+acc: 0.6759
+22/101
+train rocauc: 1.0, valid rocauc: 0.6569541569541569, test rocauc: 0.7354396650171298
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.6570
+prauc: 0.6503
+acc: 0.6250
+Test Results:
+rocauc: 0.7354
+prauc: 0.7438
+acc: 0.6759
+23/101
+train rocauc: 1.0, valid rocauc: 0.6571484071484072, test rocauc: 0.7358203273696231
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.6571
+prauc: 0.6502
+acc: 0.6250
+Test Results:
+rocauc: 0.7358
+prauc: 0.7439
+acc: 0.6759
+24/101
+train rocauc: 1.0, valid rocauc: 0.6567599067599068, test rocauc: 0.7356299961933764
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.6568
+prauc: 0.6501
+acc: 0.6250
+Test Results:
+rocauc: 0.7356
+prauc: 0.7438
+acc: 0.6759
+break!
+train: 0.8780, val: 0.7137, test: 0.7596
+end_test_result: (0.7596117244004568, 0.7682445875798827, 0.6896551724137931)
+Traceback (most recent call last):
+  File "/root/data1/admet_models_validation/KPGT_latest/scripts/extract_features_dynamic.py", line 160, in <module>
+    result_pd['train_mean'] = result_pd[['train_1', 'train_2', 'train_3', 'train_4', 'train_5']].mean(axis=1).round(4)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/frame.py", line 4096, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['train_2', 'train_3', 'train_4', 'train_5'] not in index"
+Current seed: 2024, current split method: random, current task: HLM_metabolic_stability
+Namespace(seed=2024, times=1, n_epochs=100, config='base', model_path='../models/pretrained/base/base.pth', dataset='HLM_metabolic_stability', data_path='../datasets/', dataset_type='classification', use_scaler=True, metric=['rocauc', 'prauc', 'acc'], split='random_2024', weight_decay=0.0, dropout=0.0, lr=3e-05, n_threads=8)
+args.seed: 2024
+no use label scaler
+model have 90.143705M paramerters in total
+1/101
+train rocauc: 0.6873515039496662, valid rocauc: 0.6667104986324427, test rocauc: 0.6284293035875792
+Training Results:
+rocauc: 0.6874
+prauc: 0.7814
+acc: 0.6400
+Validation Results:
+rocauc: 0.6667
+prauc: 0.8004
+acc: 0.6195
+Test Results:
+rocauc: 0.6284
+prauc: 0.7226
+acc: 0.5887
+2/101
+train rocauc: 0.8237152970097426, valid rocauc: 0.7984299389859036, test rocauc: 0.7519219173952367
+Training Results:
+rocauc: 0.8237
+prauc: 0.8881
+acc: 0.7444
+Validation Results:
+rocauc: 0.7984
+prauc: 0.8873
+acc: 0.7133
+Test Results:
+rocauc: 0.7519
+prauc: 0.8274
+acc: 0.6928
+3/101
+train rocauc: 0.8826424434384633, valid rocauc: 0.8308173784977909, test rocauc: 0.7950206009446286
+Training Results:
+rocauc: 0.8826
+prauc: 0.9262
+acc: 0.7956
+Validation Results:
+rocauc: 0.8308
+prauc: 0.8997
+acc: 0.7491
+Test Results:
+rocauc: 0.7950
+prauc: 0.8589
+acc: 0.7509
+4/101
+train rocauc: 0.9289984099722463, valid rocauc: 0.8584183673469389, test rocauc: 0.822442468093659
+Training Results:
+rocauc: 0.9290
+prauc: 0.9589
+acc: 0.8467
+Validation Results:
+rocauc: 0.8584
+prauc: 0.9176
+acc: 0.7730
+Test Results:
+rocauc: 0.8224
+prauc: 0.8804
+acc: 0.7611
+5/101
+train rocauc: 0.9585189449220252, valid rocauc: 0.8600226172943406, test rocauc: 0.842917797206311
+Training Results:
+rocauc: 0.9585
+prauc: 0.9768
+acc: 0.8900
+Validation Results:
+rocauc: 0.8600
+prauc: 0.9200
+acc: 0.7867
+Test Results:
+rocauc: 0.8429
+prauc: 0.8903
+acc: 0.7867
+6/101
+train rocauc: 0.9759470463402278, valid rocauc: 0.8645723753418894, test rocauc: 0.8451160687368102
+Training Results:
+rocauc: 0.9759
+prauc: 0.9867
+acc: 0.9227
+Validation Results:
+rocauc: 0.8646
+prauc: 0.9230
+acc: 0.8003
+Test Results:
+rocauc: 0.8451
+prauc: 0.8940
+acc: 0.7799
+7/101
+train rocauc: 0.9847501232575859, valid rocauc: 0.8741978750262992, test rocauc: 0.8526906843533313
+Training Results:
+rocauc: 0.9848
+prauc: 0.9920
+acc: 0.9229
+Validation Results:
+rocauc: 0.8742
+prauc: 0.9261
+acc: 0.7952
+Test Results:
+rocauc: 0.8527
+prauc: 0.9009
+acc: 0.7867
+8/101
+train rocauc: 0.988093062301899, valid rocauc: 0.8825215653271617, test rocauc: 0.8442241985730078
+Training Results:
+rocauc: 0.9881
+prauc: 0.9936
+acc: 0.9120
+Validation Results:
+rocauc: 0.8825
+prauc: 0.9360
+acc: 0.7918
+Test Results:
+rocauc: 0.8442
+prauc: 0.8970
+acc: 0.7474
+9/101
+train rocauc: 0.9928538579682352, valid rocauc: 0.8678466231853565, test rocauc: 0.8316249623153452
+Training Results:
+rocauc: 0.9929
+prauc: 0.9962
+acc: 0.9578
+Validation Results:
+rocauc: 0.8678
+prauc: 0.9256
+acc: 0.7986
+Test Results:
+rocauc: 0.8316
+prauc: 0.8815
+acc: 0.7833
+10/101
+train rocauc: 0.9942203603676845, valid rocauc: 0.8708578792341679, test rocauc: 0.8310848155964224
+Training Results:
+rocauc: 0.9942
+prauc: 0.9969
+acc: 0.9521
+Validation Results:
+rocauc: 0.8709
+prauc: 0.9220
+acc: 0.8003
+Test Results:
+rocauc: 0.8311
+prauc: 0.8803
+acc: 0.7611
+11/101
+train rocauc: 0.9933637119706771, valid rocauc: 0.8573926993477803, test rocauc: 0.8357953974474928
+Training Results:
+rocauc: 0.9934
+prauc: 0.9965
+acc: 0.9623
+Validation Results:
+rocauc: 0.8574
+prauc: 0.9086
+acc: 0.7986
+Test Results:
+rocauc: 0.8358
+prauc: 0.8776
+acc: 0.7799
+12/101
+train rocauc: 0.9973314476014817, valid rocauc: 0.8673469387755102, test rocauc: 0.8273791578735806
+Training Results:
+rocauc: 0.9973
+prauc: 0.9986
+acc: 0.9797
+Validation Results:
+rocauc: 0.8673
+prauc: 0.9164
+acc: 0.8123
+Test Results:
+rocauc: 0.8274
+prauc: 0.8786
+acc: 0.7577
+13/101
+train rocauc: 0.9983775105072475, valid rocauc: 0.8638885966757837, test rocauc: 0.835506481760627
+Training Results:
+rocauc: 0.9984
+prauc: 0.9991
+acc: 0.9824
+Validation Results:
+rocauc: 0.8639
+prauc: 0.9120
+acc: 0.8003
+Test Results:
+rocauc: 0.8355
+prauc: 0.8904
+acc: 0.7713
+14/101
+train rocauc: 0.999125692857036, valid rocauc: 0.8703713444140542, test rocauc: 0.8411466184303085
+Training Results:
+rocauc: 0.9991
+prauc: 0.9995
+acc: 0.9908
+Validation Results:
+rocauc: 0.8704
+prauc: 0.9238
+acc: 0.7969
+Test Results:
+rocauc: 0.8411
+prauc: 0.8978
+acc: 0.7713
+15/101
+train rocauc: 0.9979673205543852, valid rocauc: 0.8653745003155902, test rocauc: 0.839375439654306
+Training Results:
+rocauc: 0.9980
+prauc: 0.9990
+acc: 0.9863
+Validation Results:
+rocauc: 0.8654
+prauc: 0.9184
+acc: 0.7986
+Test Results:
+rocauc: 0.8394
+prauc: 0.8963
+acc: 0.7901
+16/101
+train rocauc: 0.999767543859649, valid rocauc: 0.8757495266147697, test rocauc: 0.8359586976183297
+Training Results:
+rocauc: 0.9998
+prauc: 0.9999
+acc: 0.9925
+Validation Results:
+rocauc: 0.8757
+prauc: 0.9227
+acc: 0.7986
+Test Results:
+rocauc: 0.8360
+prauc: 0.8874
+acc: 0.7765
+17/101
+train rocauc: 0.9997655223040438, valid rocauc: 0.87204134231012, test rocauc: 0.8427544970354739
+Training Results:
+rocauc: 0.9998
+prauc: 0.9999
+acc: 0.9944
+Validation Results:
+rocauc: 0.8720
+prauc: 0.9206
+acc: 0.8055
+Test Results:
+rocauc: 0.8428
+prauc: 0.8877
+acc: 0.7867
+18/101
+train rocauc: 0.9983918246604814, valid rocauc: 0.8709762255417631, test rocauc: 0.8460707466586274
+Training Results:
+rocauc: 0.9984
+prauc: 0.9993
+acc: 0.9936
+Validation Results:
+rocauc: 0.8710
+prauc: 0.9252
+acc: 0.7952
+Test Results:
+rocauc: 0.8461
+prauc: 0.8994
+acc: 0.7662
+19/101
+train rocauc: 0.9999479802691752, valid rocauc: 0.8707395329265726, test rocauc: 0.8388352929353834
+Training Results:
+rocauc: 0.9999
+prauc: 1.0000
+acc: 0.9951
+Validation Results:
+rocauc: 0.8707
+prauc: 0.9193
+acc: 0.7969
+Test Results:
+rocauc: 0.8388
+prauc: 0.8897
+acc: 0.7679
+20/101
+train rocauc: 0.9999896413826762, valid rocauc: 0.877366926151904, test rocauc: 0.8528037383177569
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9991
+Validation Results:
+rocauc: 0.8774
+prauc: 0.9235
+acc: 0.8123
+Test Results:
+rocauc: 0.8528
+prauc: 0.9021
+acc: 0.7901
+21/101
+train rocauc: 0.9994484574742382, valid rocauc: 0.8743951188722912, test rocauc: 0.8452668073560448
+Training Results:
+rocauc: 0.9994
+prauc: 0.9998
+acc: 0.9964
+Validation Results:
+rocauc: 0.8744
+prauc: 0.9213
+acc: 0.8106
+Test Results:
+rocauc: 0.8453
+prauc: 0.8992
+acc: 0.7850
+22/101
+train rocauc: 0.999722654433995, valid rocauc: 0.868214811697875, test rocauc: 0.8473520249221185
+Training Results:
+rocauc: 0.9997
+prauc: 0.9998
+acc: 0.9972
+Validation Results:
+rocauc: 0.8682
+prauc: 0.9120
+acc: 0.7935
+Test Results:
+rocauc: 0.8474
+prauc: 0.9034
+acc: 0.7850
+23/101
+train rocauc: 0.999930097727758, valid rocauc: 0.8686881969282558, test rocauc: 0.8439729675409506
+Training Results:
+rocauc: 0.9999
+prauc: 1.0000
+acc: 0.9983
+Validation Results:
+rocauc: 0.8687
+prauc: 0.9154
+acc: 0.7986
+Test Results:
+rocauc: 0.8440
+prauc: 0.8991
+acc: 0.7747
+24/101
+train rocauc: 0.9999784859486351, valid rocauc: 0.8655585945718494, test rocauc: 0.8454426690784846
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9968
+Validation Results:
+rocauc: 0.8656
+prauc: 0.9103
+acc: 0.8020
+Test Results:
+rocauc: 0.8454
+prauc: 0.8983
+acc: 0.7782
+25/101
+train rocauc: 0.9999992031832827, valid rocauc: 0.8651772564695982, test rocauc: 0.8472515325092956
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9998
+Validation Results:
+rocauc: 0.8652
+prauc: 0.9099
+acc: 0.8003
+Test Results:
+rocauc: 0.8473
+prauc: 0.8992
+acc: 0.7867
+26/101
+train rocauc: 0.999973107435794, valid rocauc: 0.8665579633915422, test rocauc: 0.8465732087227414
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9996
+Validation Results:
+rocauc: 0.8666
+prauc: 0.9096
+acc: 0.8157
+Test Results:
+rocauc: 0.8466
+prauc: 0.8999
+acc: 0.7884
+27/101
+train rocauc: 0.999844503311522, valid rocauc: 0.8672417420576477, test rocauc: 0.8402170636116975
+Training Results:
+rocauc: 0.9998
+prauc: 0.9999
+acc: 0.9996
+Validation Results:
+rocauc: 0.8672
+prauc: 0.9126
+acc: 0.8123
+Test Results:
+rocauc: 0.8402
+prauc: 0.8923
+acc: 0.7952
+28/101
+train rocauc: 0.9998528654893915, valid rocauc: 0.8661371765200925, test rocauc: 0.8453798613204704
+Training Results:
+rocauc: 0.9999
+prauc: 0.9999
+acc: 0.9989
+Validation Results:
+rocauc: 0.8661
+prauc: 0.9114
+acc: 0.8055
+Test Results:
+rocauc: 0.8454
+prauc: 0.8929
+acc: 0.7952
+break!
+train: 0.9881, val: 0.8825, test: 0.8442
+end_test_result: (0.8442241985730078, 0.8969655186819625, 0.7474402730375427)
+Traceback (most recent call last):
+  File "/root/data1/admet_models_validation/KPGT_latest/scripts/extract_features_dynamic.py", line 160, in <module>
+    result_pd['train_mean'] = result_pd[['train_1', 'train_2', 'train_3', 'train_4', 'train_5']].mean(axis=1).round(4)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/frame.py", line 4096, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['train_2', 'train_3', 'train_4', 'train_5'] not in index"
+Current seed: 2024, current split method: random, current task: Caco2
+Namespace(seed=2024, times=1, n_epochs=100, config='base', model_path='../models/pretrained/base/base.pth', dataset='Caco2', data_path='../datasets/', dataset_type='regression', use_scaler=True, metric=['r2', 'rmse', 'mae'], split='random_2024', weight_decay=0.0, dropout=0.0, lr=3e-05, n_threads=8)
+args.seed: 2024
+use label scaler
+use label scaler
+use label scaler
+no use label scaler
+model have 90.143705M paramerters in total
+train_dataset.mean: tensor([-5.2088]) train_dataset.std: tensor([0.7745])
+1/101
+train r2: 0.02734075556196991, valid r2: 0.025633867821719947, test r2: -0.0349320617578035
+Training Results:
+r2: 0.0273
+rmse: 0.7627
+mae: 0.5913
+Validation Results:
+r2: 0.0256
+rmse: 0.7602
+mae: 0.6120
+Test Results:
+r2: -0.0349
+rmse: 0.7975
+mae: 0.6173
+2/101
+train r2: 0.43768342393511883, valid r2: 0.45606021102183536, test r2: 0.3249954757347667
+Training Results:
+r2: 0.4377
+rmse: 0.5811
+mae: 0.4661
+Validation Results:
+r2: 0.4561
+rmse: 0.5680
+mae: 0.4631
+Test Results:
+r2: 0.3250
+rmse: 0.6440
+mae: 0.5173
+3/101
+train r2: 0.7065901834757232, valid r2: 0.6688459363002328, test r2: 0.5578330807992216
+Training Results:
+r2: 0.7066
+rmse: 0.4195
+mae: 0.3275
+Validation Results:
+r2: 0.6688
+rmse: 0.4432
+mae: 0.3539
+Test Results:
+r2: 0.5578
+rmse: 0.5213
+mae: 0.4273
+4/101
+train r2: 0.8425405887932728, valid r2: 0.6967146421627799, test r2: 0.705888919446181
+Training Results:
+r2: 0.8425
+rmse: 0.3074
+mae: 0.2393
+Validation Results:
+r2: 0.6967
+rmse: 0.4241
+mae: 0.3348
+Test Results:
+r2: 0.7059
+rmse: 0.4251
+mae: 0.3377
+5/101
+train r2: 0.907782417707824, valid r2: 0.7427056652537377, test r2: 0.7599534886968077
+Training Results:
+r2: 0.9078
+rmse: 0.2353
+mae: 0.1829
+Validation Results:
+r2: 0.7427
+rmse: 0.3906
+mae: 0.3061
+Test Results:
+r2: 0.7600
+rmse: 0.3841
+mae: 0.2894
+6/101
+train r2: 0.9352804670084244, valid r2: 0.6995784864640491, test r2: 0.7591336077069993
+Training Results:
+r2: 0.9353
+rmse: 0.1971
+mae: 0.1506
+Validation Results:
+r2: 0.6996
+rmse: 0.4221
+mae: 0.3372
+Test Results:
+r2: 0.7591
+rmse: 0.3847
+mae: 0.2912
+7/101
+train r2: 0.9244365056241741, valid r2: 0.7008937445727603, test r2: 0.748529081252763
+Training Results:
+r2: 0.9244
+rmse: 0.2127
+mae: 0.1742
+Validation Results:
+r2: 0.7009
+rmse: 0.4212
+mae: 0.3402
+Test Results:
+r2: 0.7485
+rmse: 0.3931
+mae: 0.3012
+8/101
+train r2: 0.9439044471782371, valid r2: 0.7244898085599356, test r2: 0.7556739017059906
+Training Results:
+r2: 0.9439
+rmse: 0.1828
+mae: 0.1461
+Validation Results:
+r2: 0.7245
+rmse: 0.4042
+mae: 0.3144
+Test Results:
+r2: 0.7557
+rmse: 0.3875
+mae: 0.3010
+9/101
+train r2: 0.9654480907108937, valid r2: 0.725913271954031, test r2: 0.7670376241160194
+Training Results:
+r2: 0.9654
+rmse: 0.1440
+mae: 0.1077
+Validation Results:
+r2: 0.7259
+rmse: 0.4032
+mae: 0.3069
+Test Results:
+r2: 0.7670
+rmse: 0.3784
+mae: 0.2838
+10/101
+train r2: 0.9565060711112581, valid r2: 0.7638729544458542, test r2: 0.7466314706132648
+Training Results:
+r2: 0.9565
+rmse: 0.1615
+mae: 0.1202
+Validation Results:
+r2: 0.7639
+rmse: 0.3742
+mae: 0.2875
+Test Results:
+r2: 0.7466
+rmse: 0.3946
+mae: 0.2970
+11/101
+train r2: 0.9668230151865785, valid r2: 0.7558244758090622, test r2: 0.775327423216674
+Training Results:
+r2: 0.9668
+rmse: 0.1412
+mae: 0.1074
+Validation Results:
+r2: 0.7558
+rmse: 0.3806
+mae: 0.2921
+Test Results:
+r2: 0.7753
+rmse: 0.3716
+mae: 0.2739
+12/101
+train r2: 0.9737267822743289, valid r2: 0.7556213672074512, test r2: 0.7785705198271924
+Training Results:
+r2: 0.9737
+rmse: 0.1255
+mae: 0.0964
+Validation Results:
+r2: 0.7556
+rmse: 0.3807
+mae: 0.2883
+Test Results:
+r2: 0.7786
+rmse: 0.3689
+mae: 0.2777
+13/101
+train r2: 0.9760774886189699, valid r2: 0.7383156982965693, test r2: 0.7837279028441623
+Training Results:
+r2: 0.9761
+rmse: 0.1199
+mae: 0.0897
+Validation Results:
+r2: 0.7383
+rmse: 0.3940
+mae: 0.3044
+Test Results:
+r2: 0.7837
+rmse: 0.3646
+mae: 0.2638
+14/101
+train r2: 0.9792416167328761, valid r2: 0.748780947842433, test r2: 0.7696618184815229
+Training Results:
+r2: 0.9792
+rmse: 0.1116
+mae: 0.0810
+Validation Results:
+r2: 0.7488
+rmse: 0.3860
+mae: 0.3031
+Test Results:
+r2: 0.7697
+rmse: 0.3762
+mae: 0.2776
+15/101
+train r2: 0.9825982937985296, valid r2: 0.7534224298572055, test r2: 0.785128750469691
+Training Results:
+r2: 0.9826
+rmse: 0.1022
+mae: 0.0756
+Validation Results:
+r2: 0.7534
+rmse: 0.3824
+mae: 0.2838
+Test Results:
+r2: 0.7851
+rmse: 0.3634
+mae: 0.2762
+16/101
+train r2: 0.9844640944378987, valid r2: 0.7481565082572733, test r2: 0.7799566411984011
+Training Results:
+r2: 0.9845
+rmse: 0.0965
+mae: 0.0721
+Validation Results:
+r2: 0.7482
+rmse: 0.3865
+mae: 0.3010
+Test Results:
+r2: 0.7800
+rmse: 0.3677
+mae: 0.2711
+17/101
+train r2: 0.9815943573433442, valid r2: 0.7469884816136623, test r2: 0.7755130871511464
+Training Results:
+r2: 0.9816
+rmse: 0.1051
+mae: 0.0848
+Validation Results:
+r2: 0.7470
+rmse: 0.3874
+mae: 0.2999
+Test Results:
+r2: 0.7755
+rmse: 0.3714
+mae: 0.2752
+18/101
+train r2: 0.985128596745338, valid r2: 0.7356802729464027, test r2: 0.7722574759631349
+Training Results:
+r2: 0.9851
+rmse: 0.0945
+mae: 0.0751
+Validation Results:
+r2: 0.7357
+rmse: 0.3959
+mae: 0.3088
+Test Results:
+r2: 0.7723
+rmse: 0.3741
+mae: 0.2820
+19/101
+train r2: 0.983014150664377, valid r2: 0.7519518455743786, test r2: 0.7660562402308411
+Training Results:
+r2: 0.9830
+rmse: 0.1009
+mae: 0.0803
+Validation Results:
+r2: 0.7520
+rmse: 0.3836
+mae: 0.3037
+Test Results:
+r2: 0.7661
+rmse: 0.3792
+mae: 0.2778
+20/101
+train r2: 0.991462337081519, valid r2: 0.7523874806906924, test r2: 0.7845619061504137
+Training Results:
+r2: 0.9915
+rmse: 0.0716
+mae: 0.0548
+Validation Results:
+r2: 0.7524
+rmse: 0.3832
+mae: 0.2978
+Test Results:
+r2: 0.7846
+rmse: 0.3639
+mae: 0.2617
+21/101
+train r2: 0.9941363388725439, valid r2: 0.7458124961002872, test r2: 0.7915167268799581
+Training Results:
+r2: 0.9941
+rmse: 0.0592
+mae: 0.0435
+Validation Results:
+r2: 0.7458
+rmse: 0.3883
+mae: 0.2972
+Test Results:
+r2: 0.7915
+rmse: 0.3579
+mae: 0.2596
+22/101
+train r2: 0.9927971217714604, valid r2: 0.7514540652502578, test r2: 0.7874712456396531
+Training Results:
+r2: 0.9928
+rmse: 0.0658
+mae: 0.0434
+Validation Results:
+r2: 0.7515
+rmse: 0.3839
+mae: 0.2995
+Test Results:
+r2: 0.7875
+rmse: 0.3614
+mae: 0.2637
+23/101
+train r2: 0.9944780393212492, valid r2: 0.7618415748948452, test r2: 0.7914984685313067
+Training Results:
+r2: 0.9945
+rmse: 0.0576
+mae: 0.0397
+Validation Results:
+r2: 0.7618
+rmse: 0.3758
+mae: 0.2871
+Test Results:
+r2: 0.7915
+rmse: 0.3579
+mae: 0.2613
+24/101
+train r2: 0.9947674031098637, valid r2: 0.7574400542221045, test r2: 0.7852602914477523
+Training Results:
+r2: 0.9948
+rmse: 0.0560
+mae: 0.0358
+Validation Results:
+r2: 0.7574
+rmse: 0.3793
+mae: 0.2934
+Test Results:
+r2: 0.7853
+rmse: 0.3633
+mae: 0.2641
+25/101
+train r2: 0.994932400143068, valid r2: 0.7564229974803304, test r2: 0.7905466805283397
+Training Results:
+r2: 0.9949
+rmse: 0.0552
+mae: 0.0350
+Validation Results:
+r2: 0.7564
+rmse: 0.3801
+mae: 0.2876
+Test Results:
+r2: 0.7905
+rmse: 0.3588
+mae: 0.2657
+26/101
+train r2: 0.9957229971607734, valid r2: 0.7563945537633251, test r2: 0.784452908247834
+Training Results:
+r2: 0.9957
+rmse: 0.0506
+mae: 0.0334
+Validation Results:
+r2: 0.7564
+rmse: 0.3801
+mae: 0.2943
+Test Results:
+r2: 0.7845
+rmse: 0.3639
+mae: 0.2648
+27/101
+train r2: 0.9955739984833312, valid r2: 0.7484521885294213, test r2: 0.783267234901559
+Training Results:
+r2: 0.9956
+rmse: 0.0515
+mae: 0.0376
+Validation Results:
+r2: 0.7485
+rmse: 0.3863
+mae: 0.2980
+Test Results:
+r2: 0.7833
+rmse: 0.3649
+mae: 0.2678
+28/101
+train r2: 0.9959224126894612, valid r2: 0.7575978212542132, test r2: 0.7845106838829117
+Training Results:
+r2: 0.9959
+rmse: 0.0495
+mae: 0.0358
+Validation Results:
+r2: 0.7576
+rmse: 0.3792
+mae: 0.2959
+Test Results:
+r2: 0.7845
+rmse: 0.3639
+mae: 0.2657
+29/101
+train r2: 0.9965919935278718, valid r2: 0.7507525502074194, test r2: 0.7821296124436332
+Training Results:
+r2: 0.9966
+rmse: 0.0452
+mae: 0.0314
+Validation Results:
+r2: 0.7508
+rmse: 0.3845
+mae: 0.2963
+Test Results:
+r2: 0.7821
+rmse: 0.3659
+mae: 0.2667
+30/101
+train r2: 0.9969138267505582, valid r2: 0.7567306316854909, test r2: 0.7914757931026895
+Training Results:
+r2: 0.9969
+rmse: 0.0429
+mae: 0.0289
+Validation Results:
+r2: 0.7567
+rmse: 0.3798
+mae: 0.2957
+Test Results:
+r2: 0.7915
+rmse: 0.3580
+mae: 0.2602
+break!
+train: 0.9565, val: 0.7639, test: 0.7466
+end_test_result: (0.7466314706132648, 0.39458316564559937, 0.297038733959198)
+Traceback (most recent call last):
+  File "/root/data1/admet_models_validation/KPGT_latest/scripts/extract_features_dynamic.py", line 160, in <module>
+    result_pd['train_mean'] = result_pd[['train_1', 'train_2', 'train_3', 'train_4', 'train_5']].mean(axis=1).round(4)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/frame.py", line 4096, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['train_2', 'train_3', 'train_4', 'train_5'] not in index"
+Current seed: 2024, current split method: random, current task: HalfLife
+Namespace(seed=2024, times=1, n_epochs=100, config='base', model_path='../models/pretrained/base/base.pth', dataset='HalfLife', data_path='../datasets/', dataset_type='regression', use_scaler=True, metric=['r2', 'rmse', 'mae'], split='random_2024', weight_decay=0.0, dropout=0.0, lr=3e-05, n_threads=8)
+args.seed: 2024
+use label scaler
+use label scaler
+use label scaler
+no use label scaler
+model have 90.143705M paramerters in total
+train_dataset.mean: tensor([0.6675]) train_dataset.std: tensor([0.6384])
+1/101
+train r2: -0.0017802412108520738, valid r2: 0.09161268988670457, test r2: -0.006819908023737886
+Training Results:
+r2: -0.0018
+rmse: 0.6417
+mae: 0.5049
+Validation Results:
+r2: 0.0916
+rmse: 0.6051
+mae: 0.4785
+Test Results:
+r2: -0.0068
+rmse: 0.6327
+mae: 0.5096
+2/101
+train r2: 0.2567527930232206, valid r2: 0.2384313587674829, test r2: 0.201256761345752
+Training Results:
+r2: 0.2568
+rmse: 0.5526
+mae: 0.4258
+Validation Results:
+r2: 0.2384
+rmse: 0.5540
+mae: 0.4173
+Test Results:
+r2: 0.2013
+rmse: 0.5636
+mae: 0.4300
+3/101
+train r2: 0.43630671705349966, valid r2: 0.3069486274783291, test r2: 0.3084505216525567
+Training Results:
+r2: 0.4363
+rmse: 0.4807
+mae: 0.3655
+Validation Results:
+r2: 0.3069
+rmse: 0.5285
+mae: 0.3902
+Test Results:
+r2: 0.3085
+rmse: 0.5244
+mae: 0.3891
+4/101
+train r2: 0.5817585404601271, valid r2: 0.3015210692862682, test r2: 0.32075465434893424
+Training Results:
+r2: 0.5818
+rmse: 0.4150
+mae: 0.3140
+Validation Results:
+r2: 0.3015
+rmse: 0.5306
+mae: 0.3979
+Test Results:
+r2: 0.3208
+rmse: 0.5197
+mae: 0.3768
+5/101
+train r2: 0.7216810558395464, valid r2: 0.3654033889408679, test r2: 0.3773114071735788
+Training Results:
+r2: 0.7217
+rmse: 0.3365
+mae: 0.2534
+Validation Results:
+r2: 0.3654
+rmse: 0.5057
+mae: 0.3731
+Test Results:
+r2: 0.3773
+rmse: 0.4976
+mae: 0.3493
+6/101
+train r2: 0.8306025306741776, valid r2: 0.37647682026381823, test r2: 0.3988621650851104
+Training Results:
+r2: 0.8306
+rmse: 0.2636
+mae: 0.1945
+Validation Results:
+r2: 0.3765
+rmse: 0.5013
+mae: 0.3684
+Test Results:
+r2: 0.3989
+rmse: 0.4889
+mae: 0.3480
+7/101
+train r2: 0.8833397847981672, valid r2: 0.3462678375721657, test r2: 0.37386910944991625
+Training Results:
+r2: 0.8833
+rmse: 0.2192
+mae: 0.1606
+Validation Results:
+r2: 0.3463
+rmse: 0.5133
+mae: 0.3858
+Test Results:
+r2: 0.3739
+rmse: 0.4990
+mae: 0.3635
+8/101
+train r2: 0.9046284905485722, valid r2: 0.36829484418985625, test r2: 0.3700158774193387
+Training Results:
+r2: 0.9046
+rmse: 0.1972
+mae: 0.1505
+Validation Results:
+r2: 0.3683
+rmse: 0.5046
+mae: 0.3640
+Test Results:
+r2: 0.3700
+rmse: 0.5005
+mae: 0.3764
+9/101
+train r2: 0.9448658155956232, valid r2: 0.4335452517719578, test r2: 0.4047655716706181
+Training Results:
+r2: 0.9449
+rmse: 0.1505
+mae: 0.1040
+Validation Results:
+r2: 0.4335
+rmse: 0.4778
+mae: 0.3525
+Test Results:
+r2: 0.4048
+rmse: 0.4865
+mae: 0.3446
+10/101
+train r2: 0.9528072680629397, valid r2: 0.37634796652059177, test r2: 0.4018221730842907
+Training Results:
+r2: 0.9528
+rmse: 0.1377
+mae: 0.0996
+Validation Results:
+r2: 0.3763
+rmse: 0.5013
+mae: 0.3770
+Test Results:
+r2: 0.4018
+rmse: 0.4877
+mae: 0.3406
+11/101
+train r2: 0.9367967378733912, valid r2: 0.45416024273325073, test r2: 0.3735032230823002
+Training Results:
+r2: 0.9368
+rmse: 0.1615
+mae: 0.1165
+Validation Results:
+r2: 0.4542
+rmse: 0.4690
+mae: 0.3441
+Test Results:
+r2: 0.3735
+rmse: 0.4991
+mae: 0.3539
+12/101
+train r2: 0.9564087650932565, valid r2: 0.4054844183282593, test r2: 0.4079461281322069
+Training Results:
+r2: 0.9564
+rmse: 0.1339
+mae: 0.0978
+Validation Results:
+r2: 0.4055
+rmse: 0.4895
+mae: 0.3646
+Test Results:
+r2: 0.4079
+rmse: 0.4852
+mae: 0.3328
+13/101
+train r2: 0.9680728580206277, valid r2: 0.42797339964008774, test r2: 0.41577251930605064
+Training Results:
+r2: 0.9681
+rmse: 0.1138
+mae: 0.0808
+Validation Results:
+r2: 0.4280
+rmse: 0.4801
+mae: 0.3554
+Test Results:
+r2: 0.4158
+rmse: 0.4820
+mae: 0.3386
+14/101
+train r2: 0.9743993674038536, valid r2: 0.40046051313709174, test r2: 0.42171547713998603
+Training Results:
+r2: 0.9744
+rmse: 0.1025
+mae: 0.0702
+Validation Results:
+r2: 0.4005
+rmse: 0.4916
+mae: 0.3682
+Test Results:
+r2: 0.4217
+rmse: 0.4795
+mae: 0.3288
+15/101
+train r2: 0.9791917668504472, valid r2: 0.4185593851378878, test r2: 0.4198924914062476
+Training Results:
+r2: 0.9792
+rmse: 0.0920
+mae: 0.0639
+Validation Results:
+r2: 0.4186
+rmse: 0.4841
+mae: 0.3560
+Test Results:
+r2: 0.4199
+rmse: 0.4803
+mae: 0.3258
+16/101
+train r2: 0.9844321521232265, valid r2: 0.4199640468111874, test r2: 0.40724160096864925
+Training Results:
+r2: 0.9844
+rmse: 0.0790
+mae: 0.0576
+Validation Results:
+r2: 0.4200
+rmse: 0.4835
+mae: 0.3547
+Test Results:
+r2: 0.4072
+rmse: 0.4855
+mae: 0.3361
+17/101
+train r2: 0.9894192947845708, valid r2: 0.44431732116826916, test r2: 0.434824209844071
+Training Results:
+r2: 0.9894
+rmse: 0.0656
+mae: 0.0467
+Validation Results:
+r2: 0.4443
+rmse: 0.4732
+mae: 0.3500
+Test Results:
+r2: 0.4348
+rmse: 0.4741
+mae: 0.3284
+18/101
+train r2: 0.9910761755563734, valid r2: 0.41528012450799623, test r2: 0.42404542368765386
+Training Results:
+r2: 0.9911
+rmse: 0.0604
+mae: 0.0427
+Validation Results:
+r2: 0.4153
+rmse: 0.4854
+mae: 0.3618
+Test Results:
+r2: 0.4240
+rmse: 0.4786
+mae: 0.3284
+19/101
+train r2: 0.9886781932829349, valid r2: 0.4231470259450725, test r2: 0.43369077390899213
+Training Results:
+r2: 0.9887
+rmse: 0.0677
+mae: 0.0521
+Validation Results:
+r2: 0.4231
+rmse: 0.4822
+mae: 0.3562
+Test Results:
+r2: 0.4337
+rmse: 0.4745
+mae: 0.3287
+20/101
+train r2: 0.9903656839156998, valid r2: 0.4285580698307211, test r2: 0.42557230497224174
+Training Results:
+r2: 0.9904
+rmse: 0.0620
+mae: 0.0463
+Validation Results:
+r2: 0.4286
+rmse: 0.4799
+mae: 0.3559
+Test Results:
+r2: 0.4256
+rmse: 0.4779
+mae: 0.3334
+21/101
+train r2: 0.9947786062710932, valid r2: 0.427415210745965, test r2: 0.42417791068467814
+Training Results:
+r2: 0.9948
+rmse: 0.0460
+mae: 0.0341
+Validation Results:
+r2: 0.4274
+rmse: 0.4804
+mae: 0.3553
+Test Results:
+r2: 0.4242
+rmse: 0.4785
+mae: 0.3287
+22/101
+train r2: 0.99513034053136, valid r2: 0.43221631746975664, test r2: 0.4308710677447022
+Training Results:
+r2: 0.9951
+rmse: 0.0446
+mae: 0.0332
+Validation Results:
+r2: 0.4322
+rmse: 0.4784
+mae: 0.3537
+Test Results:
+r2: 0.4309
+rmse: 0.4757
+mae: 0.3309
+23/101
+train r2: 0.996393384427474, valid r2: 0.42950568526086663, test r2: 0.4306926643265494
+Training Results:
+r2: 0.9964
+rmse: 0.0383
+mae: 0.0276
+Validation Results:
+r2: 0.4295
+rmse: 0.4795
+mae: 0.3560
+Test Results:
+r2: 0.4307
+rmse: 0.4758
+mae: 0.3255
+24/101
+train r2: 0.9967548409595725, valid r2: 0.4319987899502462, test r2: 0.43051254176506604
+Training Results:
+r2: 0.9968
+rmse: 0.0363
+mae: 0.0262
+Validation Results:
+r2: 0.4320
+rmse: 0.4785
+mae: 0.3522
+Test Results:
+r2: 0.4305
+rmse: 0.4759
+mae: 0.3297
+25/101
+train r2: 0.9968655434570459, valid r2: 0.43052705163377536, test r2: 0.43161473172406695
+Training Results:
+r2: 0.9969
+rmse: 0.0360
+mae: 0.0272
+Validation Results:
+r2: 0.4305
+rmse: 0.4791
+mae: 0.3541
+Test Results:
+r2: 0.4316
+rmse: 0.4754
+mae: 0.3301
+26/101
+train r2: 0.9969705103584267, valid r2: 0.4298874184191058, test r2: 0.43005712358875037
+Training Results:
+r2: 0.9970
+rmse: 0.0352
+mae: 0.0260
+Validation Results:
+r2: 0.4299
+rmse: 0.4793
+mae: 0.3544
+Test Results:
+r2: 0.4301
+rmse: 0.4761
+mae: 0.3267
+27/101
+train r2: 0.9976623539372429, valid r2: 0.4335985998000945, test r2: 0.43412447802946363
+Training Results:
+r2: 0.9977
+rmse: 0.0309
+mae: 0.0218
+Validation Results:
+r2: 0.4336
+rmse: 0.4778
+mae: 0.3525
+Test Results:
+r2: 0.4341
+rmse: 0.4744
+mae: 0.3290
+28/101
+train r2: 0.9980965104895, valid r2: 0.43578353375139256, test r2: 0.43158863087919064
+Training Results:
+r2: 0.9981
+rmse: 0.0279
+mae: 0.0212
+Validation Results:
+r2: 0.4358
+rmse: 0.4769
+mae: 0.3533
+Test Results:
+r2: 0.4316
+rmse: 0.4754
+mae: 0.3291
+29/101
+train r2: 0.9957859746167299, valid r2: 0.43426817646160043, test r2: 0.43944772329174375
+Training Results:
+r2: 0.9958
+rmse: 0.0415
+mae: 0.0332
+Validation Results:
+r2: 0.4343
+rmse: 0.4775
+mae: 0.3550
+Test Results:
+r2: 0.4394
+rmse: 0.4721
+mae: 0.3285
+30/101
+train r2: 0.9972645510107676, valid r2: 0.4396771879653386, test r2: 0.42700572354167243
+Training Results:
+r2: 0.9973
+rmse: 0.0334
+mae: 0.0251
+Validation Results:
+r2: 0.4397
+rmse: 0.4752
+mae: 0.3514
+Test Results:
+r2: 0.4270
+rmse: 0.4773
+mae: 0.3301
+31/101
+train r2: 0.996850586890689, valid r2: 0.44360392264164317, test r2: 0.4363198209635145
+Training Results:
+r2: 0.9969
+rmse: 0.0357
+mae: 0.0276
+Validation Results:
+r2: 0.4436
+rmse: 0.4735
+mae: 0.3503
+Test Results:
+r2: 0.4363
+rmse: 0.4734
+mae: 0.3262
+break!
+train: 0.9368, val: 0.4542, test: 0.3735
+end_test_result: (0.3735032230823002, 0.4991297423839569, 0.35387229919433594)
+Traceback (most recent call last):
+  File "/root/data1/admet_models_validation/KPGT_latest/scripts/extract_features_dynamic.py", line 160, in <module>
+    result_pd['train_mean'] = result_pd[['train_1', 'train_2', 'train_3', 'train_4', 'train_5']].mean(axis=1).round(4)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/frame.py", line 4096, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['train_2', 'train_3', 'train_4', 'train_5'] not in index"
+Current seed: 2024, current split method: random, current task: VDss
+Namespace(seed=2024, times=1, n_epochs=100, config='base', model_path='../models/pretrained/base/base.pth', dataset='VDss', data_path='../datasets/', dataset_type='regression', use_scaler=True, metric=['r2', 'rmse', 'mae'], split='random_2024', weight_decay=0.0, dropout=0.0, lr=3e-05, n_threads=8)
+args.seed: 2024
+use label scaler
+use label scaler
+use label scaler
+no use label scaler
+model have 90.143705M paramerters in total
+train_dataset.mean: tensor([0.0106]) train_dataset.std: tensor([0.6502])
+1/101
+train r2: 0.03252953726770158, valid r2: 0.034391720685771676, test r2: -0.006564886899049549
+Training Results:
+r2: 0.0325
+rmse: 0.6409
+mae: 0.5215
+Validation Results:
+r2: 0.0344
+rmse: 0.6242
+mae: 0.5011
+Test Results:
+r2: -0.0066
+rmse: 0.6640
+mae: 0.5566
+2/101
+train r2: 0.36742675851009743, valid r2: 0.32828741999221056, test r2: 0.27089612268263985
+Training Results:
+r2: 0.3674
+rmse: 0.5147
+mae: 0.3957
+Validation Results:
+r2: 0.3283
+rmse: 0.5206
+mae: 0.4015
+Test Results:
+r2: 0.2709
+rmse: 0.5651
+mae: 0.4435
+3/101
+train r2: 0.5855196258220122, valid r2: 0.47796960834493807, test r2: 0.41749511334680645
+Training Results:
+r2: 0.5855
+rmse: 0.4200
+mae: 0.3177
+Validation Results:
+r2: 0.4780
+rmse: 0.4589
+mae: 0.3568
+Test Results:
+r2: 0.4175
+rmse: 0.5051
+mae: 0.3747
+4/101
+train r2: 0.7393517291366394, valid r2: 0.5552855316365273, test r2: 0.4836674442921689
+Training Results:
+r2: 0.7394
+rmse: 0.3322
+mae: 0.2480
+Validation Results:
+r2: 0.5553
+rmse: 0.4236
+mae: 0.3353
+Test Results:
+r2: 0.4837
+rmse: 0.4756
+mae: 0.3491
+5/101
+train r2: 0.8415654530318666, valid r2: 0.5784284947300311, test r2: 0.4896994120218956
+Training Results:
+r2: 0.8416
+rmse: 0.2575
+mae: 0.1910
+Validation Results:
+r2: 0.5784
+rmse: 0.4124
+mae: 0.3356
+Test Results:
+r2: 0.4897
+rmse: 0.4728
+mae: 0.3458
+6/101
+train r2: 0.8534304027006423, valid r2: 0.5182210437330416, test r2: 0.4277567664774694
+Training Results:
+r2: 0.8534
+rmse: 0.2497
+mae: 0.2027
+Validation Results:
+r2: 0.5182
+rmse: 0.4409
+mae: 0.3344
+Test Results:
+r2: 0.4278
+rmse: 0.5007
+mae: 0.3734
+7/101
+train r2: 0.951990041051824, valid r2: 0.5720767232046431, test r2: 0.504862341903398
+Training Results:
+r2: 0.9520
+rmse: 0.1422
+mae: 0.1055
+Validation Results:
+r2: 0.5721
+rmse: 0.4155
+mae: 0.3304
+Test Results:
+r2: 0.5049
+rmse: 0.4657
+mae: 0.3407
+8/101
+train r2: 0.957725612188473, valid r2: 0.591095382678608, test r2: 0.48412088908920703
+Training Results:
+r2: 0.9577
+rmse: 0.1337
+mae: 0.1015
+Validation Results:
+r2: 0.5911
+rmse: 0.4062
+mae: 0.3241
+Test Results:
+r2: 0.4841
+rmse: 0.4754
+mae: 0.3422
+9/101
+train r2: 0.9690722031324882, valid r2: 0.5925576784334715, test r2: 0.5052599704303655
+Training Results:
+r2: 0.9691
+rmse: 0.1144
+mae: 0.0801
+Validation Results:
+r2: 0.5926
+rmse: 0.4055
+mae: 0.3231
+Test Results:
+r2: 0.5053
+rmse: 0.4655
+mae: 0.3335
+10/101
+train r2: 0.9786835494224257, valid r2: 0.5831053312784666, test r2: 0.4947519814552763
+Training Results:
+r2: 0.9787
+rmse: 0.0952
+mae: 0.0693
+Validation Results:
+r2: 0.5831
+rmse: 0.4101
+mae: 0.3262
+Test Results:
+r2: 0.4948
+rmse: 0.4705
+mae: 0.3450
+11/101
+train r2: 0.9817578539219997, valid r2: 0.5795139732887433, test r2: 0.508034253138004
+Training Results:
+r2: 0.9818
+rmse: 0.0880
+mae: 0.0658
+Validation Results:
+r2: 0.5795
+rmse: 0.4119
+mae: 0.3270
+Test Results:
+r2: 0.5080
+rmse: 0.4642
+mae: 0.3332
+12/101
+train r2: 0.9769265395560156, valid r2: 0.5816949386467192, test r2: 0.49745836582604663
+Training Results:
+r2: 0.9769
+rmse: 0.0991
+mae: 0.0727
+Validation Results:
+r2: 0.5817
+rmse: 0.4108
+mae: 0.3250
+Test Results:
+r2: 0.4975
+rmse: 0.4692
+mae: 0.3412
+13/101
+train r2: 0.9783299546553854, valid r2: 0.582301228722321, test r2: 0.4927850000126277
+Training Results:
+r2: 0.9783
+rmse: 0.0959
+mae: 0.0716
+Validation Results:
+r2: 0.5823
+rmse: 0.4105
+mae: 0.3304
+Test Results:
+r2: 0.4928
+rmse: 0.4714
+mae: 0.3360
+14/101
+train r2: 0.9803092996753314, valid r2: 0.5834717945637438, test r2: 0.5085836981973081
+Training Results:
+r2: 0.9803
+rmse: 0.0912
+mae: 0.0620
+Validation Results:
+r2: 0.5835
+rmse: 0.4100
+mae: 0.3280
+Test Results:
+r2: 0.5086
+rmse: 0.4640
+mae: 0.3349
+15/101
+train r2: 0.9865995809071584, valid r2: 0.5779228591081857, test r2: 0.5105125978426996
+Training Results:
+r2: 0.9866
+rmse: 0.0753
+mae: 0.0569
+Validation Results:
+r2: 0.5779
+rmse: 0.4127
+mae: 0.3285
+Test Results:
+r2: 0.5105
+rmse: 0.4631
+mae: 0.3349
+16/101
+train r2: 0.9898619522951335, valid r2: 0.5780200924607339, test r2: 0.511151878536222
+Training Results:
+r2: 0.9899
+rmse: 0.0655
+mae: 0.0444
+Validation Results:
+r2: 0.5780
+rmse: 0.4126
+mae: 0.3309
+Test Results:
+r2: 0.5112
+rmse: 0.4628
+mae: 0.3331
+17/101
+train r2: 0.9928678970306875, valid r2: 0.580730608834157, test r2: 0.49591838499885776
+Training Results:
+r2: 0.9929
+rmse: 0.0550
+mae: 0.0395
+Validation Results:
+r2: 0.5807
+rmse: 0.4113
+mae: 0.3277
+Test Results:
+r2: 0.4959
+rmse: 0.4699
+mae: 0.3380
+18/101
+train r2: 0.9913457174791243, valid r2: 0.5842806280283557, test r2: 0.5062934206089802
+Training Results:
+r2: 0.9913
+rmse: 0.0602
+mae: 0.0453
+Validation Results:
+r2: 0.5843
+rmse: 0.4096
+mae: 0.3226
+Test Results:
+r2: 0.5063
+rmse: 0.4650
+mae: 0.3356
+19/101
+train r2: 0.9942204990077881, valid r2: 0.5883758984644862, test r2: 0.5036030453297977
+Training Results:
+r2: 0.9942
+rmse: 0.0495
+mae: 0.0350
+Validation Results:
+r2: 0.5884
+rmse: 0.4075
+mae: 0.3233
+Test Results:
+r2: 0.5036
+rmse: 0.4663
+mae: 0.3319
+20/101
+train r2: 0.9959702748417241, valid r2: 0.6000514462936718, test r2: 0.5096690337656538
+Training Results:
+r2: 0.9960
+rmse: 0.0414
+mae: 0.0310
+Validation Results:
+r2: 0.6001
+rmse: 0.4017
+mae: 0.3180
+Test Results:
+r2: 0.5097
+rmse: 0.4635
+mae: 0.3337
+21/101
+train r2: 0.9960450344294275, valid r2: 0.5903939747090269, test r2: 0.5045729969705286
+Training Results:
+r2: 0.9960
+rmse: 0.0410
+mae: 0.0299
+Validation Results:
+r2: 0.5904
+rmse: 0.4065
+mae: 0.3213
+Test Results:
+r2: 0.5046
+rmse: 0.4659
+mae: 0.3316
+22/101
+train r2: 0.9967324993321733, valid r2: 0.5870329392652819, test r2: 0.5017525260140662
+Training Results:
+r2: 0.9967
+rmse: 0.0372
+mae: 0.0254
+Validation Results:
+r2: 0.5870
+rmse: 0.4082
+mae: 0.3238
+Test Results:
+r2: 0.5018
+rmse: 0.4672
+mae: 0.3355
+23/101
+train r2: 0.9975948868632629, valid r2: 0.5939723398172378, test r2: 0.5165836250667961
+Training Results:
+r2: 0.9976
+rmse: 0.0319
+mae: 0.0232
+Validation Results:
+r2: 0.5940
+rmse: 0.4048
+mae: 0.3221
+Test Results:
+r2: 0.5166
+rmse: 0.4602
+mae: 0.3301
+24/101
+train r2: 0.9976716472094518, valid r2: 0.5906477086273559, test r2: 0.5053750195724922
+Training Results:
+r2: 0.9977
+rmse: 0.0314
+mae: 0.0225
+Validation Results:
+r2: 0.5906
+rmse: 0.4064
+mae: 0.3240
+Test Results:
+r2: 0.5054
+rmse: 0.4655
+mae: 0.3335
+25/101
+train r2: 0.9956806403652675, valid r2: 0.5848216412315907, test r2: 0.5053306053116642
+Training Results:
+r2: 0.9957
+rmse: 0.0428
+mae: 0.0331
+Validation Results:
+r2: 0.5848
+rmse: 0.4093
+mae: 0.3263
+Test Results:
+r2: 0.5053
+rmse: 0.4655
+mae: 0.3354
+26/101
+train r2: 0.9951892674754218, valid r2: 0.5900812288202125, test r2: 0.5076153723077299
+Training Results:
+r2: 0.9952
+rmse: 0.0451
+mae: 0.0358
+Validation Results:
+r2: 0.5901
+rmse: 0.4067
+mae: 0.3248
+Test Results:
+r2: 0.5076
+rmse: 0.4644
+mae: 0.3325
+27/101
+train r2: 0.996244809622779, valid r2: 0.5893332368475064, test r2: 0.5052479278340875
+Training Results:
+r2: 0.9962
+rmse: 0.0399
+mae: 0.0309
+Validation Results:
+r2: 0.5893
+rmse: 0.4071
+mae: 0.3219
+Test Results:
+r2: 0.5052
+rmse: 0.4655
+mae: 0.3357
+28/101
+train r2: 0.9970751533057761, valid r2: 0.5980888616915729, test r2: 0.5126402502889189
+Training Results:
+r2: 0.9971
+rmse: 0.0351
+mae: 0.0256
+Validation Results:
+r2: 0.5981
+rmse: 0.4027
+mae: 0.3214
+Test Results:
+r2: 0.5126
+rmse: 0.4621
+mae: 0.3299
+29/101
+train r2: 0.9970750039683658, valid r2: 0.5850523964275964, test r2: 0.5000891065060791
+Training Results:
+r2: 0.9971
+rmse: 0.0351
+mae: 0.0268
+Validation Results:
+r2: 0.5851
+rmse: 0.4092
+mae: 0.3250
+Test Results:
+r2: 0.5001
+rmse: 0.4680
+mae: 0.3408
+30/101
+train r2: 0.997294564319412, valid r2: 0.5854064006829065, test r2: 0.5117951605381352
+Training Results:
+r2: 0.9973
+rmse: 0.0339
+mae: 0.0258
+Validation Results:
+r2: 0.5854
+rmse: 0.4090
+mae: 0.3234
+Test Results:
+r2: 0.5118
+rmse: 0.4625
+mae: 0.3334
+31/101
+train r2: 0.9972315511282877, valid r2: 0.5914422184928467, test r2: 0.5090225601787182
+Training Results:
+r2: 0.9972
+rmse: 0.0342
+mae: 0.0270
+Validation Results:
+r2: 0.5914
+rmse: 0.4060
+mae: 0.3244
+Test Results:
+r2: 0.5090
+rmse: 0.4638
+mae: 0.3368
+32/101
+train r2: 0.997246889610027, valid r2: 0.5888818118547403, test r2: 0.5040611692071258
+Training Results:
+r2: 0.9972
+rmse: 0.0341
+mae: 0.0261
+Validation Results:
+r2: 0.5889
+rmse: 0.4073
+mae: 0.3226
+Test Results:
+r2: 0.5041
+rmse: 0.4661
+mae: 0.3369
+33/101
+train r2: 0.9963692562725998, valid r2: 0.5900926762575913, test r2: 0.5146698973182655
+Training Results:
+r2: 0.9964
+rmse: 0.0391
+mae: 0.0283
+Validation Results:
+r2: 0.5901
+rmse: 0.4067
+mae: 0.3248
+Test Results:
+r2: 0.5147
+rmse: 0.4611
+mae: 0.3356
+34/101
+train r2: 0.9978245752301081, valid r2: 0.5907948930278231, test r2: 0.5140726541479712
+Training Results:
+r2: 0.9978
+rmse: 0.0304
+mae: 0.0229
+Validation Results:
+r2: 0.5908
+rmse: 0.4063
+mae: 0.3236
+Test Results:
+r2: 0.5141
+rmse: 0.4614
+mae: 0.3309
+35/101
+train r2: 0.9974137732197199, valid r2: 0.5885293170375996, test r2: 0.5125533946303522
+Training Results:
+r2: 0.9974
+rmse: 0.0329
+mae: 0.0259
+Validation Results:
+r2: 0.5885
+rmse: 0.4075
+mae: 0.3249
+Test Results:
+r2: 0.5126
+rmse: 0.4621
+mae: 0.3368
+36/101
+train r2: 0.9979097034648656, valid r2: 0.5924335734671178, test r2: 0.5124600325150037
+Training Results:
+r2: 0.9979
+rmse: 0.0297
+mae: 0.0228
+Validation Results:
+r2: 0.5924
+rmse: 0.4055
+mae: 0.3215
+Test Results:
+r2: 0.5125
+rmse: 0.4621
+mae: 0.3324
+37/101
+train r2: 0.9983043936484812, valid r2: 0.5895621319499392, test r2: 0.5144999002398358
+Training Results:
+r2: 0.9983
+rmse: 0.0267
+mae: 0.0198
+Validation Results:
+r2: 0.5896
+rmse: 0.4069
+mae: 0.3238
+Test Results:
+r2: 0.5145
+rmse: 0.4612
+mae: 0.3340
+38/101
+train r2: 0.9982465057312512, valid r2: 0.5955132131554655, test r2: 0.5169709125989899
+Training Results:
+r2: 0.9982
+rmse: 0.0272
+mae: 0.0216
+Validation Results:
+r2: 0.5955
+rmse: 0.4040
+mae: 0.3212
+Test Results:
+r2: 0.5170
+rmse: 0.4600
+mae: 0.3292
+39/101
+train r2: 0.9974663005612074, valid r2: 0.5906284841823826, test r2: 0.5109966126042909
+Training Results:
+r2: 0.9975
+rmse: 0.0327
+mae: 0.0265
+Validation Results:
+r2: 0.5906
+rmse: 0.4064
+mae: 0.3208
+Test Results:
+r2: 0.5110
+rmse: 0.4628
+mae: 0.3339
+40/101
+train r2: 0.9988969305944324, valid r2: 0.592835542357493, test r2: 0.5084813917483304
+Training Results:
+r2: 0.9989
+rmse: 0.0216
+mae: 0.0165
+Validation Results:
+r2: 0.5928
+rmse: 0.4053
+mae: 0.3227
+Test Results:
+r2: 0.5085
+rmse: 0.4640
+mae: 0.3352
+break!
+train: 0.9960, val: 0.6001, test: 0.5097
+end_test_result: (0.5096690337656538, 0.4634573757648468, 0.3337126076221466)
+Traceback (most recent call last):
+  File "/root/data1/admet_models_validation/KPGT_latest/scripts/extract_features_dynamic.py", line 160, in <module>
+    result_pd['train_mean'] = result_pd[['train_1', 'train_2', 'train_3', 'train_4', 'train_5']].mean(axis=1).round(4)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/frame.py", line 4096, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/root/data1/miniconda3/envs/KPGT1/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['train_2', 'train_3', 'train_4', 'train_5'] not in index"
+Current seed: 2024, current split method: random, current task: PAMPA1
+Task PAMPA1 is not defined as classification or regression task.
