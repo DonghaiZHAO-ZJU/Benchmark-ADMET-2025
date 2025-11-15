@@ -1,0 +1,86 @@
+{'batch_size': 32, 'epochs': 100, 'device': 'cuda', 'seed': 42, 'num_run': 5, 'verbose': True, 'save_dir': './class_results_1.6', 'model': {'backbone': 'gps', 'num_layer': 5, 'emb_dim': 300, 'heads': 6, 'layernorm': True, 'dropout_ratio': 0, 'attn_dropout_ratio': 0.3, 'temperature': 0.7, 'use_prompt': True, 'use_descriptor': False, 'use_fingerprint': False, 'update_aggr': False, 'normalize': False, 'checkpoint': './checkpoint/zinc-gps_best.pt'}, 'optim': {'prompt_lr': 0.0005, 'pretrain_lr': 0.0005, 'finetune_lr': 0.0005, 'decay': '1e-6', 'gradient_clip': 5, 'scheduler': 'cos_anneal', 'warmup': 0.1, 'patience': 20}, 'prompt_optim': {'skip_bo': True, 'inits': None}, 'dataset': {'data_dir': './data/finetune/ADMET/data_with_group_random', 'data_name': 'BBBP', 'num_workers': 16, 'feat_type': 'super_rich', 'task': 'classification', 'split': 'random_2054'}}
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 851, in next
+    item = self._items.popleft()
+IndexError: pop from an empty deque
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./scripts/finetune-time.py", line 566, in <module>
+    main(config)
+  File "./scripts/finetune-time.py", line 289, in main
+    dataset, train_loader, val_loader, test_loader, pos_weight = get_dataloader(config)
+  File "./scripts/finetune-time.py", line 77, in get_dataloader
+    dataset = MoleculeDataset(config['dataset']['data_dir'],
+  File "/root/data1/admet_models_validation/MolMCL/molmcl/finetune/loader.py", line 143, in __init__
+    for smi, md, fp in pool.imap_unordered(get_fingerprint_descriptor, self.smiles):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 856, in next
+    self._cond.wait(timeout)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/threading.py", line 302, in wait
+    waiter.acquire()
+KeyboardInterrupt
+ERROR:root:Could not compute SlogP_VSA5 for molecule
+Traceback (most recent call last):
+  File "/root/data1/admet_models_validation/MolMCL/molmcl/utils/descriptors/rdNormalizedDescriptors.py", line 62, in applyNormalizedFunc
+    return cdfs[name](rdDescriptors.applyFunc(name,m))
+  File "/root/data1/admet_models_validation/MolMCL/molmcl/utils/descriptors/rdNormalizedDescriptors.py", line 49, in cdf
+    v = dist.cdf(np.clip(v, minV, maxV), loc=loc, scale=scale, *arg)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/scipy/stats/_distn_infrastructure.py", line 2185, in cdf
+    goodargs = argsreduce(cond, *((x,)+args))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/scipy/stats/_distn_infrastructure.py", line 581, in argsreduce
+    return [arg.ravel() for arg in newargs]
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/scipy/stats/_distn_infrastructure.py", line 581, in <listcomp>
+    return [arg.ravel() for arg in newargs]
+KeyboardInterrupt
+ERROR:root:Could not compute PEOE_VSA8 for molecule
+Traceback (most recent call last):
+  File "/root/data1/admet_models_validation/MolMCL/molmcl/utils/descriptors/rdNormalizedDescriptors.py", line 62, in applyNormalizedFunc
+    return cdfs[name](rdDescriptors.applyFunc(name,m))
+  File "/root/data1/admet_models_validation/MolMCL/molmcl/utils/descriptors/rdNormalizedDescriptors.py", line 49, in cdf
+    v = dist.cdf(np.clip(v, minV, maxV), loc=loc, scale=scale, *arg)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/scipy/stats/_distn_infrastructure.py", line 2182, in cdf
+    place(output, (1-cond0)+np.isnan(x), self.badvalue)
+  File "<__array_function__ internals>", line 179, in place
+KeyboardInterrupt
+ERROR:root:Could not compute PEOE_VSA14 for molecule
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 3185, in ndim
+    return a.ndim
+AttributeError: 'float' object has no attribute 'ndim'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/admet_models_validation/MolMCL/molmcl/utils/descriptors/rdNormalizedDescriptors.py", line 62, in applyNormalizedFunc
+    return cdfs[name](rdDescriptors.applyFunc(name,m))
+  File "/root/data1/admet_models_validation/MolMCL/molmcl/utils/descriptors/rdNormalizedDescriptors.py", line 50, in cdf
+    return np.clip(v, 0., 1.)
+  File "<__array_function__ internals>", line 200, in clip
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 2180, in clip
+    return _wrapfunc(a, 'clip', a_min, a_max, out=out, **kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 57, in _wrapfunc
+    return bound(*args, **kwds)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/numpy/core/_methods.py", line 139, in _clip
+    if _clip_dep_is_scalar_nan(max):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/numpy/core/_methods.py", line 96, in _clip_dep_is_scalar_nan
+    if ndim(a) != 0:
+  File "<__array_function__ internals>", line 200, in ndim
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 3185, in ndim
+    return a.ndim
+KeyboardInterrupt
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 729, in _terminate_pool
+    p.join()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/popen_fork.py", line 47, in wait
+    return self.poll(os.WNOHANG if timeout == 0.0 else 0)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/popen_fork.py", line 27, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt

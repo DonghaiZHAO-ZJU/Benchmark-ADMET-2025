@@ -1,0 +1,84 @@
+{'batch_size': 32, 'epochs': 100, 'device': 'cuda', 'seed': 42, 'num_run': 5, 'verbose': True, 'save_dir': './class_results_1.6', 'model': {'backbone': 'gps', 'num_layer': 5, 'emb_dim': 300, 'heads': 6, 'layernorm': True, 'dropout_ratio': 0, 'attn_dropout_ratio': 0.3, 'temperature': 0.7, 'use_prompt': True, 'use_descriptor': True, 'use_fingerprint': True, 'update_aggr': False, 'normalize': False, 'checkpoint': './checkpoint/zinc-gps_best.pt'}, 'optim': {'prompt_lr': 0.0005, 'pretrain_lr': 0.0005, 'finetune_lr': 0.0005, 'decay': '1e-6', 'gradient_clip': 5, 'scheduler': 'cos_anneal', 'warmup': 0.1, 'patience': 20}, 'prompt_optim': {'skip_bo': True, 'inits': None}, 'dataset': {'data_dir': './data/finetune/ADMET/data_with_group_random', 'data_name': 'BBBP', 'num_workers': 16, 'feat_type': 'super_rich', 'task': 'classification', 'split': 'random_2064'}}
+Loading dataset BBBP of size 3873 with num_task=1
+Loading checkpoint from ./checkpoint/zinc-gps_best.pt
+tensor([[0.2202, 0.3899, 0.3899]]) rogi=-0.6759118437767029
+tensor([[0.6010, 0.2550, 0.1440]]) rogi=-0.6673809289932251
+tensor([[0.1538, 0.2046, 0.6416]]) rogi=-0.6621734499931335
+tensor([[0.3322, 0.0796, 0.5882]]) rogi=-0.6548010110855103
+tensor([[0.1743, 0.0984, 0.7273]]) rogi=-0.6425338983535767
+tensor([[0.1328, 0.3130, 0.5542]]) rogi=-0.6297138929367065
+tensor([[0.1620, 0.1620, 0.6760]]) rogi=-0.6240577101707458
+tensor([[0.6010, 0.1440, 0.2550]]) rogi=-0.6193193793296814
+tensor([[0.1440, 0.2550, 0.6010]]) rogi=-0.6100936532020569
+tensor([[0.1848, 0.0443, 0.7710]]) rogi=-0.603613555431366
+Best init point: 0.603613555431366
+Best init prompt probs: tensor([[0.1848, 0.0443, 0.7710]], dtype=torch.float64)
+Best prompt weights: tensor([ 0., -1.,  1.], dtype=torch.float64)
+Best prompt probs: tensor([[0.1848, 0.0443, 0.7710]], dtype=torch.float64)
+Time elapsed: 202.22 sec
+Initial prompt weight: tensor([ 0., -1.,  1.])
+Initial prompt prob:   tensor([0.1848, 0.0443, 0.7710])
+Seed: 2024
+  0%|          | 0/100 [00:00<?, ?it/s]                                         0%|          | 0/100 [00:03<?, ?it/s]  1%|          | 1/100 [00:03<06:06,  3.70s/it]                                                 1%|          | 1/100 [00:07<06:06,  3.70s/it]  2%|▏         | 2/100 [00:07<05:52,  3.60s/it]                                                 2%|▏         | 2/100 [00:10<05:52,  3.60s/it]  3%|▎         | 3/100 [00:10<05:25,  3.36s/it]                                                 3%|▎         | 3/100 [00:13<05:25,  3.36s/it]  4%|▍         | 4/100 [00:13<05:19,  3.33s/it]                                                 4%|▍         | 4/100 [00:16<05:19,  3.33s/it]  5%|▌         | 5/100 [00:16<05:07,  3.23s/it]                                                 5%|▌         | 5/100 [00:20<05:07,  3.23s/it]  6%|▌         | 6/100 [00:20<05:08,  3.28s/it]                                                 6%|▌         | 6/100 [00:23<05:08,  3.28s/it]  7%|▋         | 7/100 [00:23<05:05,  3.28s/it]                                                 7%|▋         | 7/100 [00:26<05:05,  3.28s/it]  8%|▊         | 8/100 [00:26<05:02,  3.29s/it]                                                 8%|▊         | 8/100 [00:30<05:02,  3.29s/it]  9%|▉         | 9/100 [00:30<05:05,  3.35s/it]                                                 9%|▉         | 9/100 [00:33<05:05,  3.35s/it] 10%|█         | 10/100 [00:33<05:00,  3.33s/it]                                                 10%|█         | 10/100 [00:36<05:00,  3.33s/it] 11%|█         | 11/100 [00:36<04:49,  3.25s/it]                                                 11%|█         | 11/100 [00:39<04:49,  3.25s/it] 12%|█▏        | 12/100 [00:39<04:40,  3.18s/it]                                                 12%|█▏        | 12/100 [00:42<04:40,  3.18s/it] 13%|█▎        | 13/100 [00:42<04:43,  3.26s/it]                                                 13%|█▎        | 13/100 [00:46<04:43,  3.26s/it] 14%|█▍        | 14/100 [00:46<04:46,  3.34s/it]                                                 14%|█▍        | 14/100 [00:49<04:46,  3.34s/it] 15%|█▌        | 15/100 [00:49<04:47,  3.38s/it]                                                 15%|█▌        | 15/100 [00:53<04:47,  3.38s/it] 16%|█▌        | 16/100 [00:53<04:46,  3.41s/it]                                                 16%|█▌        | 16/100 [00:56<04:46,  3.41s/it] 17%|█▋        | 17/100 [00:56<04:44,  3.43s/it]                                                 17%|█▋        | 17/100 [01:00<04:44,  3.43s/it] 18%|█▊        | 18/100 [01:00<04:41,  3.43s/it]                                                 18%|█▊        | 18/100 [01:03<04:41,  3.43s/it] 19%|█▉        | 19/100 [01:03<04:37,  3.43s/it]                                                 19%|█▉        | 19/100 [01:07<04:37,  3.43s/it] 20%|██        | 20/100 [01:07<04:35,  3.44s/it]                                                 20%|██        | 20/100 [01:10<04:35,  3.44s/it] 21%|██        | 21/100 [01:10<04:32,  3.45s/it]                                                 21%|██        | 21/100 [01:14<04:32,  3.45s/it] 22%|██▏       | 22/100 [01:14<04:28,  3.45s/it]                                                 22%|██▏       | 22/100 [01:17<04:28,  3.45s/it] 23%|██▎       | 23/100 [01:17<04:26,  3.46s/it]                                                 23%|██▎       | 23/100 [01:21<04:26,  3.46s/it] 24%|██▍       | 24/100 [01:21<04:22,  3.45s/it]                                                 24%|██▍       | 24/100 [01:24<04:22,  3.45s/it] 24%|██▍       | 24/100 [01:24<04:27,  3.52s/it]
+[ep1] 0.8092 0.7714 5e-05 [0.185 0.044 0.770]
+[ep2] 0.8950 0.8562 0.0001 [0.185 0.044 0.770]
+[ep3] 0.9138 0.8767 0.00015 [0.185 0.044 0.771]
+[ep4] 0.9132 0.8712 0.0002 [0.184 0.044 0.772]
+[ep5] 0.9252 0.8737 0.00025 [0.181 0.044 0.775]
+[ep6] 0.9207 0.8708 0.0003 [0.180 0.043 0.777]
+[ep7] 0.9145 0.8687 0.00035 [0.178 0.043 0.779]
+[ep8] 0.9201 0.8724 0.0004 [0.176 0.042 0.782]
+[ep9] 0.9003 0.8612 0.00045000000000000004 [0.175 0.042 0.783]
+[ep10] 0.8972 0.8610 0.0005 [0.175 0.042 0.783]
+[ep11] 0.8905 0.8643 0.0004998507526196785 [0.175 0.042 0.783]
+[ep12] 0.9093 0.8790 0.0004994031923136569 [0.175 0.042 0.783]
+[ep13] 0.9192 0.8699 0.000498657864365227 [0.174 0.042 0.784]
+[ep14] 0.8940 0.8561 0.0004976156768416848 [0.173 0.041 0.785]
+[ep15] 0.8975 0.8603 0.000496277899487991 [0.173 0.041 0.785]
+[ep16] 0.9059 0.8587 0.0004946461621797825 [0.172 0.041 0.787]
+[ep17] 0.8977 0.8389 0.0004927224529376192 [0.171 0.041 0.788]
+[ep18] 0.8937 0.8442 0.0004905091155048882 [0.171 0.041 0.788]
+[ep19] 0.9145 0.8543 0.00048800884649231267 [0.170 0.040 0.789]
+[ep20] 0.9185 0.8453 0.0004852246920925475 [0.170 0.040 0.790]
+[ep21] 0.8983 0.8606 0.0004821600443688629 [0.170 0.040 0.789]
+[ep22] 0.9132 0.8713 0.00047881863712243716 [0.169 0.040 0.791]
+[ep23] 0.9027 0.8525 0.00047520454134329594 [0.168 0.040 0.792]
+[ep24] 0.8960 0.8601 0.0004713221602504371 [0.168 0.040 0.792]
+[ep25] 0.9144 0.8660 0.00046717622392718753 [0.167 0.040 0.793]
+Prompt weight of last checkpoint: tensor([0.1669, 0.0396, 0.7934])
+Prompt weight of best checkpoint: tensor([0.1815, 0.0435, 0.7750])
+[Best AUC]: 0.9252 0.8660 0.8737
+Loading checkpoint from ./checkpoint/zinc-gps_best.pt
+Initial prompt weight: tensor([ 0., -1.,  1.])
+Initial prompt prob:   tensor([0.1848, 0.0443, 0.7710])
+Seed: 2034
+  0%|          | 0/100 [00:00<?, ?it/s]                                         0%|          | 0/100 [00:03<?, ?it/s]  1%|          | 1/100 [00:03<05:42,  3.46s/it]                                                 1%|          | 1/100 [00:06<05:42,  3.46s/it]  2%|▏         | 2/100 [00:06<05:40,  3.47s/it]                                                 2%|▏         | 2/100 [00:10<05:40,  3.47s/it]  3%|▎         | 3/100 [00:10<05:36,  3.47s/it]                                                 3%|▎         | 3/100 [00:13<05:36,  3.47s/it]  4%|▍         | 4/100 [00:13<05:32,  3.47s/it]                                                 4%|▍         | 4/100 [00:17<05:32,  3.47s/it]  5%|▌         | 5/100 [00:17<05:29,  3.47s/it]  5%|▌         | 5/100 [00:18<05:51,  3.70s/it]
+[ep1] 0.8359 0.7798 5e-05 [0.185 0.044 0.771]
+[ep2] 0.9107 0.8544 0.0001 [0.185 0.044 0.771]
+[ep3] 0.9154 0.8742 0.00015 [0.183 0.044 0.773]
+[ep4] 0.9246 0.8777 0.0002 [0.181 0.044 0.775]
+[ep5] 0.9012 0.8595 0.00025 [0.179 0.043 0.778]
+Traceback (most recent call last):
+  File "./scripts/finetune.py", line 511, in <module>
+    main(config)
+  File "./scripts/finetune.py", line 401, in main
+    train(model, train_loader, criterion, optimizer, scheduler, config)
+  File "./scripts/finetune.py", line 197, in train
+    optimizer.step()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/torch/optim/lr_scheduler.py", line 68, in wrapper
+    return wrapped(*args, **kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/torch/optim/optimizer.py", line 373, in wrapper
+    out = func(*args, **kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/torch/optim/adamw.py", line 184, in step
+    adamw(
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/torch/optim/adamw.py", line 335, in adamw
+    func(
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/torch/optim/adamw.py", line 588, in _multi_tensor_adamw
+    step_size = _stack_if_compiling([(lr / bc) * -1 for bc in bias_correction1])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/torch/optim/optimizer.py", line 92, in _stack_if_compiling
+    if not torch.jit.is_scripting() and is_compiling():
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/site-packages/torch/_utils.py", line 841, in is_compiling
+    def is_compiling():
+KeyboardInterrupt

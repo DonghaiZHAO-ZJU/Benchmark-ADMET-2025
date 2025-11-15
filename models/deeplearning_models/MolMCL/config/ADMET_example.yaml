@@ -1,0 +1,45 @@
+batch_size: 32                                    # *batch size
+epochs: 100                                       # total number of epochs
+device: cuda                                      # training device
+seed: 42                                          # random seed
+num_run: 5                                        # number of runs
+verbose: False                                    # verbose
+save_dir: ./ac_results_rerun_1.1                  # save directory
+
+model:
+  backbone: gps                                   # which backbone to use [gin, gps]
+  num_layer: 5                                    # number of graph conv layers
+  emb_dim: 300                                    # embedding dimension in graph conv layers
+  heads: 6                                        # number of attention head of graph transformer
+  layernorm: True                                 # *whether apply layernorm
+  dropout_ratio: 0                                # *dropout ratio
+  attn_dropout_ratio: 0                           # *dropout ratio for graph transformer's global attention
+  temperature: 0.7                                # temperature for computing prompt weight
+  use_prompt: True                                # whether use prompt, otherwise just use mean pooling
+  use_descriptor: False                           # whether use descriptor as additional feature
+  use_fingerprint: False                          # whether use fingerprint as additional feature
+  update_aggr: False                              # whether to update the aggr module
+  normalize: False                                # whether perform l2norm on aggregated output
+  checkpoint: ./checkpoint/zinc-gps_best.pt       # model checkpoint to use
+
+optim:
+  prompt_lr: 0.0005                               # *learning rate of prompt selection module
+  pretrain_lr: 0.0005                             # *learning rate of pretrain module (encoder + aggrs)
+  finetune_lr: 0.0005                             # *learning rate of finetune prediction head
+  decay: 1e-6                                     # learning decay
+  gradient_clip: 5                                # gradient clip
+  scheduler: cos_anneal                           # scheduler type [<empty>, cos_anneal, poly_decay]
+  warmup: 0.1                                     # warmup ratio
+  patience: 20                                    # patience for early stopping
+
+prompt_optim:
+  skip_bo: True                                   # whether apply bayesian optimization
+  inits:                                          # *predefined the initial prompt weight (e.g. [0,0,0] for uniform initialization)
+
+dataset:
+  data_dir: ./data/finetune/ADMET                 # data directory
+  data_name:                                      # dataset name
+  num_workers: 16                                 # number of workers in dataloader
+  feat_type: super_rich                           # whether use basic/rich/super_rich feature
+  task:                                           # classification/regression task
+  split:                                          # split type [random, scaffold, Perimeter]

@@ -1,0 +1,513 @@
+{'batch_size': 32, 'epochs': 100, 'device': 'cuda', 'seed': 42, 'num_run': 5, 'verbose': True, 'save_dir': './reg_results_1', 'model': {'backbone': 'gps', 'num_layer': 5, 'emb_dim': 300, 'heads': 6, 'layernorm': True, 'dropout_ratio': 0.3, 'attn_dropout_ratio': 0.3, 'temperature': 0.7, 'use_prompt': True, 'use_descriptor': True, 'use_fingerprint': True, 'update_aggr': False, 'normalize': False, 'checkpoint': './checkpoint/zinc-gps_best.pt'}, 'optim': {'prompt_lr': 0.0005, 'pretrain_lr': 0.0005, 'finetune_lr': 0.0005, 'decay': '1e-6', 'gradient_clip': 0, 'scheduler': 'cos_anneal', 'warmup': 0.1, 'patience': 20}, 'prompt_optim': {'skip_bo': True, 'inits': None}, 'dataset': {'data_dir': './data/finetune/ADMET/data_with_group_scaffold', 'data_name': 'PAMPA1', 'num_workers': 4, 'feat_type': 'super_rich', 'task': 'regression', 'split': 'scaffold_2024'}}
+Process ForkPoolWorker-16:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-4:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-12:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-7:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-15:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-1:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-5:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-14:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-13:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-11:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-9:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-6:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-10:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-2:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-8:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+Process ForkPoolWorker-3:
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 131, in worker
+    put((job, i, result))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/pool.py", line 136, in worker
+    put((job, i, (False, wrapped)))
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/root/data1/miniconda3/envs/CMMSGCL/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+BrokenPipeError: [Errno 32] Broken pipe
