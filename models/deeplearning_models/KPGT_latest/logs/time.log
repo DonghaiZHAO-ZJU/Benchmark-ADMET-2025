@@ -1,0 +1,2435 @@
+nohup: ignoring input
+Namespace(seed=2024, times=5, n_epochs=50, config='base', model_path='../models/pretrained/base/base.pth', dataset='BBBP', data_path='../datasets/', dataset_type='classification', use_scaler=True, metric=['rocauc', 'prauc', 'acc'], split='random_2024', weight_decay=0.0, dropout=0.0, lr=3e-05, n_threads=8)
+args.seed: 2024
+model have 90.143705M paramerters in total
+1/51
+train rocauc: 0.8506027383624926, valid rocauc: 0.8513765205750539, test rocauc: 0.8578629032258064
+Training Results:
+rocauc: 0.8506
+prauc: 0.8896
+acc: 0.7799
+Validation Results:
+rocauc: 0.8514
+prauc: 0.9056
+acc: 0.7933
+Test Results:
+rocauc: 0.8579
+prauc: 0.9150
+acc: 0.7577
+2/51
+train rocauc: 0.9285306599832917, valid rocauc: 0.894621966125371, test rocauc: 0.9185483870967742
+Training Results:
+rocauc: 0.9285
+prauc: 0.9528
+acc: 0.8451
+Validation Results:
+rocauc: 0.8946
+prauc: 0.9369
+acc: 0.8165
+Test Results:
+rocauc: 0.9185
+prauc: 0.9550
+acc: 0.8376
+3/51
+train rocauc: 0.960145451567841, valid rocauc: 0.9023921774052732, test rocauc: 0.9297811059907833
+Training Results:
+rocauc: 0.9601
+prauc: 0.9747
+acc: 0.8919
+Validation Results:
+rocauc: 0.9024
+prauc: 0.9404
+acc: 0.8424
+Test Results:
+rocauc: 0.9298
+prauc: 0.9609
+acc: 0.8557
+4/51
+train rocauc: 0.9816273304813986, valid rocauc: 0.9032361329375472, test rocauc: 0.9287442396313363
+Training Results:
+rocauc: 0.9816
+prauc: 0.9884
+acc: 0.9303
+Validation Results:
+rocauc: 0.9032
+prauc: 0.9390
+acc: 0.8527
+Test Results:
+rocauc: 0.9287
+prauc: 0.9616
+acc: 0.8454
+5/51
+train rocauc: 0.9927923950778591, valid rocauc: 0.9059135091088995, test rocauc: 0.9356278801843319
+Training Results:
+rocauc: 0.9928
+prauc: 0.9955
+acc: 0.9486
+Validation Results:
+rocauc: 0.9059
+prauc: 0.9431
+acc: 0.7984
+Test Results:
+rocauc: 0.9356
+prauc: 0.9654
+acc: 0.8428
+6/51
+train rocauc: 0.9957915632665948, valid rocauc: 0.8965426925091672, test rocauc: 0.9301843317972349
+Training Results:
+rocauc: 0.9958
+prauc: 0.9975
+acc: 0.9707
+Validation Results:
+rocauc: 0.8965
+prauc: 0.9320
+acc: 0.8140
+Test Results:
+rocauc: 0.9302
+prauc: 0.9604
+acc: 0.8402
+7/51
+train rocauc: 0.9976557335865717, valid rocauc: 0.8972120365520051, test rocauc: 0.926123271889401
+Training Results:
+rocauc: 0.9977
+prauc: 0.9987
+acc: 0.9824
+Validation Results:
+rocauc: 0.8972
+prauc: 0.9375
+acc: 0.8320
+Test Results:
+rocauc: 0.9261
+prauc: 0.9610
+acc: 0.8479
+8/51
+train rocauc: 0.9989713401459022, valid rocauc: 0.8955241254874571, test rocauc: 0.9261520737327189
+Training Results:
+rocauc: 0.9990
+prauc: 0.9994
+acc: 0.9867
+Validation Results:
+rocauc: 0.8955
+prauc: 0.9366
+acc: 0.8501
+Test Results:
+rocauc: 0.9262
+prauc: 0.9616
+acc: 0.8686
+9/51
+train rocauc: 0.9996103458960373, valid rocauc: 0.9000058203829812, test rocauc: 0.9235311059907835
+Training Results:
+rocauc: 0.9996
+prauc: 0.9997
+acc: 0.9925
+Validation Results:
+rocauc: 0.9000
+prauc: 0.9387
+acc: 0.8501
+Test Results:
+rocauc: 0.9235
+prauc: 0.9600
+acc: 0.8660
+10/51
+train rocauc: 0.9998327704903961, valid rocauc: 0.9047785344275654, test rocauc: 0.9321140552995392
+Training Results:
+rocauc: 0.9998
+prauc: 0.9999
+acc: 0.9932
+Validation Results:
+rocauc: 0.9048
+prauc: 0.9428
+acc: 0.8217
+Test Results:
+rocauc: 0.9321
+prauc: 0.9641
+acc: 0.8582
+11/51
+train rocauc: 0.9999420422957492, valid rocauc: 0.9000058203829812, test rocauc: 0.9314516129032258
+Training Results:
+rocauc: 0.9999
+prauc: 1.0000
+acc: 0.9948
+Validation Results:
+rocauc: 0.9000
+prauc: 0.9355
+acc: 0.8269
+Test Results:
+rocauc: 0.9315
+prauc: 0.9645
+acc: 0.8711
+12/51
+train rocauc: 0.9993415113140126, valid rocauc: 0.897008323147663, test rocauc: 0.9258352534562211
+Training Results:
+rocauc: 0.9993
+prauc: 0.9997
+acc: 0.9967
+Validation Results:
+rocauc: 0.8970
+prauc: 0.9336
+acc: 0.8372
+Test Results:
+rocauc: 0.9258
+prauc: 0.9620
+acc: 0.8737
+13/51
+train rocauc: 0.9999604281232437, valid rocauc: 0.8968046097433211, test rocauc: 0.9248559907834102
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9967
+Validation Results:
+rocauc: 0.8968
+prauc: 0.9354
+acc: 0.8501
+Test Results:
+rocauc: 0.9249
+prauc: 0.9603
+acc: 0.8608
+14/51
+train rocauc: 0.9999915445484366, valid rocauc: 0.9031488271928292, test rocauc: 0.9299251152073732
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9990
+Validation Results:
+rocauc: 0.9031
+prauc: 0.9376
+acc: 0.8501
+Test Results:
+rocauc: 0.9299
+prauc: 0.9616
+acc: 0.8608
+15/51
+train rocauc: 0.9999959863213832, valid rocauc: 0.9053605727256853, test rocauc: 0.9294066820276498
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9990
+Validation Results:
+rocauc: 0.9054
+prauc: 0.9398
+acc: 0.8475
+Test Results:
+rocauc: 0.9294
+prauc: 0.9625
+acc: 0.8686
+16/51
+train rocauc: 0.9999991083430115, valid rocauc: 0.9047494325126594, test rocauc: 0.9307315668202765
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9990
+Validation Results:
+rocauc: 0.9047
+prauc: 0.9403
+acc: 0.8475
+Test Results:
+rocauc: 0.9307
+prauc: 0.9629
+acc: 0.8634
+17/51
+train rocauc: 1.0, valid rocauc: 0.9071939933647634, test rocauc: 0.9304147465437789
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9993
+Validation Results:
+rocauc: 0.9072
+prauc: 0.9414
+acc: 0.8501
+Test Results:
+rocauc: 0.9304
+prauc: 0.9625
+acc: 0.8634
+18/51
+train rocauc: 1.0, valid rocauc: 0.9074850125138234, test rocauc: 0.9299539170506912
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9993
+Validation Results:
+rocauc: 0.9075
+prauc: 0.9393
+acc: 0.8450
+Test Results:
+rocauc: 0.9300
+prauc: 0.9624
+acc: 0.8660
+19/51
+train rocauc: 1.0, valid rocauc: 0.9084744776206274, test rocauc: 0.9304723502304147
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9993
+Validation Results:
+rocauc: 0.9085
+prauc: 0.9398
+acc: 0.8475
+Test Results:
+rocauc: 0.9305
+prauc: 0.9628
+acc: 0.8660
+20/51
+train rocauc: 1.0, valid rocauc: 0.9066410569815494, test rocauc: 0.9311059907834102
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9993
+Validation Results:
+rocauc: 0.9066
+prauc: 0.9387
+acc: 0.8501
+Test Results:
+rocauc: 0.9311
+prauc: 0.9633
+acc: 0.8634
+21/51
+train rocauc: 1.0, valid rocauc: 0.9073395029392934, test rocauc: 0.9318260368663595
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.9073
+prauc: 0.9392
+acc: 0.8475
+Test Results:
+rocauc: 0.9318
+prauc: 0.9635
+acc: 0.8634
+22/51
+train rocauc: 1.0, valid rocauc: 0.9076887259181653, test rocauc: 0.9319412442396313
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.9077
+prauc: 0.9393
+acc: 0.8475
+Test Results:
+rocauc: 0.9319
+prauc: 0.9635
+acc: 0.8634
+23/51
+train rocauc: 1.0, valid rocauc: 0.9081252546417554, test rocauc: 0.9326324884792626
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.9081
+prauc: 0.9397
+acc: 0.8475
+Test Results:
+rocauc: 0.9326
+prauc: 0.9638
+acc: 0.8686
+24/51
+train rocauc: 1.0, valid rocauc: 0.9093184331529014, test rocauc: 0.9322004608294931
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.9093
+prauc: 0.9404
+acc: 0.8450
+Test Results:
+rocauc: 0.9322
+prauc: 0.9637
+acc: 0.8660
+25/51
+train rocauc: 1.0, valid rocauc: 0.9082998661311914, test rocauc: 0.9319988479262672
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9083
+prauc: 0.9394
+acc: 0.8475
+Test Results:
+rocauc: 0.9320
+prauc: 0.9637
+acc: 0.8634
+26/51
+train rocauc: 1.0, valid rocauc: 0.9078633374076015, test rocauc: 0.9323732718894008
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9079
+prauc: 0.9390
+acc: 0.8450
+Test Results:
+rocauc: 0.9324
+prauc: 0.9639
+acc: 0.8582
+27/51
+train rocauc: 1.0, valid rocauc: 0.9080961527268493, test rocauc: 0.9325748847926268
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9081
+prauc: 0.9393
+acc: 0.8475
+Test Results:
+rocauc: 0.9326
+prauc: 0.9639
+acc: 0.8608
+28/51
+train rocauc: 1.0, valid rocauc: 0.9081543565566614, test rocauc: 0.9327476958525346
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9082
+prauc: 0.9392
+acc: 0.8475
+Test Results:
+rocauc: 0.9327
+prauc: 0.9640
+acc: 0.8608
+29/51
+train rocauc: 1.0, valid rocauc: 0.9078633374076014, test rocauc: 0.9327476958525346
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9079
+prauc: 0.9390
+acc: 0.8475
+Test Results:
+rocauc: 0.9327
+prauc: 0.9641
+acc: 0.8608
+30/51
+train rocauc: 1.0, valid rocauc: 0.9077178278330714, test rocauc: 0.9326612903225806
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9077
+prauc: 0.9389
+acc: 0.8475
+Test Results:
+rocauc: 0.9327
+prauc: 0.9641
+acc: 0.8608
+31/51
+train rocauc: 1.0, valid rocauc: 0.9078051335777894, test rocauc: 0.9327188940092167
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9078
+prauc: 0.9389
+acc: 0.8475
+Test Results:
+rocauc: 0.9327
+prauc: 0.9641
+acc: 0.8608
+32/51
+train rocauc: 1.0, valid rocauc: 0.9076887259181653, test rocauc: 0.9326900921658986
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9077
+prauc: 0.9389
+acc: 0.8475
+Test Results:
+rocauc: 0.9327
+prauc: 0.9641
+acc: 0.8608
+33/51
+train rocauc: 1.0, valid rocauc: 0.9076887259181655, test rocauc: 0.9327188940092166
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9077
+prauc: 0.9389
+acc: 0.8475
+Test Results:
+rocauc: 0.9327
+prauc: 0.9641
+acc: 0.8608
+34/51
+train rocauc: 1.0, valid rocauc: 0.9077469297479773, test rocauc: 0.9327188940092167
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9077
+prauc: 0.9389
+acc: 0.8475
+Test Results:
+rocauc: 0.9327
+prauc: 0.9641
+acc: 0.8608
+35/51
+train rocauc: 1.0, valid rocauc: 0.9076596240032594, test rocauc: 0.9328341013824886
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9077
+prauc: 0.9388
+acc: 0.8475
+Test Results:
+rocauc: 0.9328
+prauc: 0.9641
+acc: 0.8608
+36/51
+train rocauc: 1.0, valid rocauc: 0.9077178278330714, test rocauc: 0.9327764976958525
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9077
+prauc: 0.9388
+acc: 0.8475
+Test Results:
+rocauc: 0.9328
+prauc: 0.9641
+acc: 0.8608
+37/51
+train rocauc: 1.0, valid rocauc: 0.9077760316628835, test rocauc: 0.9328052995391705
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9078
+prauc: 0.9388
+acc: 0.8475
+Test Results:
+rocauc: 0.9328
+prauc: 0.9641
+acc: 0.8608
+38/51
+train rocauc: 1.0, valid rocauc: 0.9077760316628836, test rocauc: 0.9327764976958525
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9078
+prauc: 0.9385
+acc: 0.8475
+Test Results:
+rocauc: 0.9328
+prauc: 0.9641
+acc: 0.8608
+39/51
+train rocauc: 1.0, valid rocauc: 0.9078051335777895, test rocauc: 0.9327188940092166
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9078
+prauc: 0.9385
+acc: 0.8475
+Test Results:
+rocauc: 0.9327
+prauc: 0.9641
+acc: 0.8608
+40/51
+train rocauc: 1.0, valid rocauc: 0.9078342354926954, test rocauc: 0.9326612903225807
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9078
+prauc: 0.9386
+acc: 0.8475
+Test Results:
+rocauc: 0.9327
+prauc: 0.9641
+acc: 0.8608
+41/51
+train rocauc: 1.0, valid rocauc: 0.9078051335777895, test rocauc: 0.9326324884792626
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9078
+prauc: 0.9385
+acc: 0.8475
+Test Results:
+rocauc: 0.9326
+prauc: 0.9641
+acc: 0.8608
+42/51
+train rocauc: 1.0, valid rocauc: 0.9078051335777895, test rocauc: 0.9327188940092166
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9078
+prauc: 0.9385
+acc: 0.8475
+Test Results:
+rocauc: 0.9327
+prauc: 0.9641
+acc: 0.8634
+43/51
+train rocauc: 1.0, valid rocauc: 0.9078633374076015, test rocauc: 0.9326900921658986
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9079
+prauc: 0.9386
+acc: 0.8475
+Test Results:
+rocauc: 0.9327
+prauc: 0.9641
+acc: 0.8634
+44/51
+train rocauc: 1.0, valid rocauc: 0.9078342354926954, test rocauc: 0.9327764976958526
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9078
+prauc: 0.9385
+acc: 0.8475
+Test Results:
+rocauc: 0.9328
+prauc: 0.9641
+acc: 0.8634
+break!
+train_time:  629.0854060649872
+train: 1.0000, val: 0.9093, test: 0.9322
+eval_time:  1.216712474822998
+end_test_result: (0.9322004608294931, 0.9637048249300839, 0.865979381443299)
+args.seed: 2034
+model have 90.143705M paramerters in total
+1/51
+train rocauc: 0.8703553030184819, valid rocauc: 0.8635120190908562, test rocauc: 0.8772177419354839
+Training Results:
+rocauc: 0.8704
+prauc: 0.9070
+acc: 0.7982
+Validation Results:
+rocauc: 0.8635
+prauc: 0.9174
+acc: 0.7907
+Test Results:
+rocauc: 0.8772
+prauc: 0.9276
+acc: 0.7758
+2/51
+train rocauc: 0.9320597578011692, valid rocauc: 0.8970374250625692, test rocauc: 0.9193836405529954
+Training Results:
+rocauc: 0.9321
+prauc: 0.9548
+acc: 0.8467
+Validation Results:
+rocauc: 0.8970
+prauc: 0.9380
+acc: 0.8036
+Test Results:
+rocauc: 0.9194
+prauc: 0.9551
+acc: 0.8247
+3/51
+train rocauc: 0.9601737509866141, valid rocauc: 0.8995983935742972, test rocauc: 0.9325172811059907
+Training Results:
+rocauc: 0.9602
+prauc: 0.9746
+acc: 0.8971
+Validation Results:
+rocauc: 0.8996
+prauc: 0.9391
+acc: 0.8243
+Test Results:
+rocauc: 0.9325
+prauc: 0.9631
+acc: 0.8454
+4/51
+train rocauc: 0.9827458992121482, valid rocauc: 0.9080088469821315, test rocauc: 0.9318260368663595
+Training Results:
+rocauc: 0.9827
+prauc: 0.9893
+acc: 0.9398
+Validation Results:
+rocauc: 0.9080
+prauc: 0.9431
+acc: 0.8398
+Test Results:
+rocauc: 0.9318
+prauc: 0.9633
+acc: 0.8531
+5/51
+train rocauc: 0.9920702572361572, valid rocauc: 0.9028869099586752, test rocauc: 0.9283986175115208
+Training Results:
+rocauc: 0.9921
+prauc: 0.9952
+acc: 0.9587
+Validation Results:
+rocauc: 0.9029
+prauc: 0.9383
+acc: 0.8475
+Test Results:
+rocauc: 0.9284
+prauc: 0.9631
+acc: 0.8402
+6/51
+train rocauc: 0.9926803213391476, valid rocauc: 0.891304347826087, test rocauc: 0.9123271889400922
+Training Results:
+rocauc: 0.9927
+prauc: 0.9957
+acc: 0.9668
+Validation Results:
+rocauc: 0.8913
+prauc: 0.9320
+acc: 0.8424
+Test Results:
+rocauc: 0.9123
+prauc: 0.9526
+acc: 0.8325
+7/51
+train rocauc: 0.9975851917886724, valid rocauc: 0.893050462720447, test rocauc: 0.9215437788018432
+Training Results:
+rocauc: 0.9976
+prauc: 0.9986
+acc: 0.9785
+Validation Results:
+rocauc: 0.8931
+prauc: 0.9310
+acc: 0.8346
+Test Results:
+rocauc: 0.9215
+prauc: 0.9598
+acc: 0.8660
+8/51
+train rocauc: 0.99914822451093, valid rocauc: 0.8992782725103312, test rocauc: 0.925979262672811
+Training Results:
+rocauc: 0.9991
+prauc: 0.9995
+acc: 0.9873
+Validation Results:
+rocauc: 0.8993
+prauc: 0.9368
+acc: 0.8346
+Test Results:
+rocauc: 0.9260
+prauc: 0.9624
+acc: 0.8737
+9/51
+train rocauc: 0.999630965099715, valid rocauc: 0.896047959955765, test rocauc: 0.9197580645161291
+Training Results:
+rocauc: 0.9996
+prauc: 0.9998
+acc: 0.9938
+Validation Results:
+rocauc: 0.8960
+prauc: 0.9332
+acc: 0.8295
+Test Results:
+rocauc: 0.9198
+prauc: 0.9588
+acc: 0.8660
+10/51
+train rocauc: 0.999844241681727, valid rocauc: 0.9068156684709854, test rocauc: 0.9283122119815669
+Training Results:
+rocauc: 0.9998
+prauc: 0.9999
+acc: 0.9938
+Validation Results:
+rocauc: 0.9068
+prauc: 0.9388
+acc: 0.8605
+Test Results:
+rocauc: 0.9283
+prauc: 0.9606
+acc: 0.8840
+11/51
+train rocauc: 0.9999301103988604, valid rocauc: 0.9011116931494094, test rocauc: 0.925057603686636
+Training Results:
+rocauc: 0.9999
+prauc: 1.0000
+acc: 0.9954
+Validation Results:
+rocauc: 0.9011
+prauc: 0.9388
+acc: 0.8475
+Test Results:
+rocauc: 0.9251
+prauc: 0.9628
+acc: 0.8737
+12/51
+train rocauc: 0.9999336118072961, valid rocauc: 0.9021011582562133, test rocauc: 0.921918202764977
+Training Results:
+rocauc: 0.9999
+prauc: 1.0000
+acc: 0.9958
+Validation Results:
+rocauc: 0.9021
+prauc: 0.9343
+acc: 0.8398
+Test Results:
+rocauc: 0.9219
+prauc: 0.9595
+acc: 0.8711
+13/51
+train rocauc: 0.999996439809868, valid rocauc: 0.899278272510331, test rocauc: 0.9261808755760368
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9987
+Validation Results:
+rocauc: 0.8993
+prauc: 0.9315
+acc: 0.8372
+Test Results:
+rocauc: 0.9262
+prauc: 0.9616
+acc: 0.8814
+14/51
+train rocauc: 0.9999955484330484, valid rocauc: 0.8998894127233571, test rocauc: 0.9255184331797236
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9977
+Validation Results:
+rocauc: 0.8999
+prauc: 0.9314
+acc: 0.8475
+Test Results:
+rocauc: 0.9255
+prauc: 0.9624
+acc: 0.8943
+15/51
+train rocauc: 0.9999773105430344, valid rocauc: 0.8916244688900529, test rocauc: 0.9269873271889401
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9958
+Validation Results:
+rocauc: 0.8916
+prauc: 0.9259
+acc: 0.8295
+Test Results:
+rocauc: 0.9270
+prauc: 0.9629
+acc: 0.8686
+16/51
+train rocauc: 1.0, valid rocauc: 0.8979395844246552, test rocauc: 0.9283698156682028
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9993
+Validation Results:
+rocauc: 0.8979
+prauc: 0.9290
+acc: 0.8424
+Test Results:
+rocauc: 0.9284
+prauc: 0.9637
+acc: 0.8814
+17/51
+train rocauc: 1.0, valid rocauc: 0.9005587567661952, test rocauc: 0.9299827188940092
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9993
+Validation Results:
+rocauc: 0.9006
+prauc: 0.9300
+acc: 0.8475
+Test Results:
+rocauc: 0.9300
+prauc: 0.9645
+acc: 0.8711
+18/51
+train rocauc: 1.0, valid rocauc: 0.8996274954892033, test rocauc: 0.9294930875576036
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.8996
+prauc: 0.9305
+acc: 0.8501
+Test Results:
+rocauc: 0.9295
+prauc: 0.9644
+acc: 0.8763
+19/51
+train rocauc: 1.0, valid rocauc: 0.8995110878295792, test rocauc: 0.9299251152073733
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.8995
+prauc: 0.9299
+acc: 0.8501
+Test Results:
+rocauc: 0.9299
+prauc: 0.9646
+acc: 0.8763
+20/51
+train rocauc: 1.0, valid rocauc: 0.8998312088935452, test rocauc: 0.9294642857142857
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.8998
+prauc: 0.9297
+acc: 0.8475
+Test Results:
+rocauc: 0.9295
+prauc: 0.9644
+acc: 0.8763
+21/51
+train rocauc: 1.0, valid rocauc: 0.8992782725103312, test rocauc: 0.9300403225806452
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.8993
+prauc: 0.9294
+acc: 0.8475
+Test Results:
+rocauc: 0.9300
+prauc: 0.9646
+acc: 0.8763
+22/51
+train rocauc: 1.0, valid rocauc: 0.9013154065537512, test rocauc: 0.9303859447004609
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.9013
+prauc: 0.9315
+acc: 0.8450
+Test Results:
+rocauc: 0.9304
+prauc: 0.9646
+acc: 0.8789
+23/51
+train rocauc: 1.0, valid rocauc: 0.8992200686805191, test rocauc: 0.9283410138248849
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.8992
+prauc: 0.9295
+acc: 0.8450
+Test Results:
+rocauc: 0.9283
+prauc: 0.9638
+acc: 0.8789
+24/51
+train rocauc: 1.0, valid rocauc: 0.8978813805948431, test rocauc: 0.929061059907834
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.8979
+prauc: 0.9278
+acc: 0.8475
+Test Results:
+rocauc: 0.9291
+prauc: 0.9641
+acc: 0.8789
+break!
+train_time:  362.85756945610046
+train: 0.9827, val: 0.9080, test: 0.9318
+eval_time:  1.2130224704742432
+end_test_result: (0.9318260368663595, 0.9633000528708252, 0.8530927835051546)
+args.seed: 2044
+model have 90.143705M paramerters in total
+1/51
+train rocauc: 0.8723876548627079, valid rocauc: 0.8512892148303358, test rocauc: 0.8733582949308756
+Training Results:
+rocauc: 0.8724
+prauc: 0.9099
+acc: 0.7988
+Validation Results:
+rocauc: 0.8513
+prauc: 0.9052
+acc: 0.7804
+Test Results:
+rocauc: 0.8734
+prauc: 0.9258
+acc: 0.7990
+2/51
+train rocauc: 0.9342696739318287, valid rocauc: 0.8983470112333393, test rocauc: 0.913594470046083
+Training Results:
+rocauc: 0.9343
+prauc: 0.9561
+acc: 0.8545
+Validation Results:
+rocauc: 0.8983
+prauc: 0.9380
+acc: 0.8114
+Test Results:
+rocauc: 0.9136
+prauc: 0.9519
+acc: 0.8067
+3/51
+train rocauc: 0.9639291205727082, valid rocauc: 0.9027122984692392, test rocauc: 0.9313076036866359
+Training Results:
+rocauc: 0.9639
+prauc: 0.9774
+acc: 0.9069
+Validation Results:
+rocauc: 0.9027
+prauc: 0.9389
+acc: 0.8424
+Test Results:
+rocauc: 0.9313
+prauc: 0.9636
+acc: 0.8505
+4/51
+train rocauc: 0.9855574933043858, valid rocauc: 0.9041964961294453, test rocauc: 0.9296947004608295
+Training Results:
+rocauc: 0.9856
+prauc: 0.9908
+acc: 0.9336
+Validation Results:
+rocauc: 0.9042
+prauc: 0.9375
+acc: 0.8320
+Test Results:
+rocauc: 0.9297
+prauc: 0.9636
+acc: 0.8479
+5/51
+train rocauc: 0.992707443019943, valid rocauc: 0.8925848320819509, test rocauc: 0.9260944700460829
+Training Results:
+rocauc: 0.9927
+prauc: 0.9952
+acc: 0.9622
+Validation Results:
+rocauc: 0.8926
+prauc: 0.9304
+acc: 0.8450
+Test Results:
+rocauc: 0.9261
+prauc: 0.9598
+acc: 0.8402
+6/51
+train rocauc: 0.9953829533531964, valid rocauc: 0.8869099586752809, test rocauc: 0.919786866359447
+Training Results:
+rocauc: 0.9954
+prauc: 0.9972
+acc: 0.9707
+Validation Results:
+rocauc: 0.8869
+prauc: 0.9275
+acc: 0.8114
+Test Results:
+rocauc: 0.9198
+prauc: 0.9560
+acc: 0.8608
+7/51
+train rocauc: 0.9978354448247717, valid rocauc: 0.8928758512310109, test rocauc: 0.9128168202764977
+Training Results:
+rocauc: 0.9978
+prauc: 0.9988
+acc: 0.9733
+Validation Results:
+rocauc: 0.8929
+prauc: 0.9313
+acc: 0.7959
+Test Results:
+rocauc: 0.9128
+prauc: 0.9533
+acc: 0.8325
+8/51
+train rocauc: 0.9982697475958704, valid rocauc: 0.8903148827192829, test rocauc: 0.9126440092165898
+Training Results:
+rocauc: 0.9983
+prauc: 0.9990
+acc: 0.9857
+Validation Results:
+rocauc: 0.8903
+prauc: 0.9321
+acc: 0.8450
+Test Results:
+rocauc: 0.9126
+prauc: 0.9514
+acc: 0.8454
+9/51
+train rocauc: 0.9994496214366216, valid rocauc: 0.9007042663407253, test rocauc: 0.9214573732718895
+Training Results:
+rocauc: 0.9994
+prauc: 0.9997
+acc: 0.9938
+Validation Results:
+rocauc: 0.9007
+prauc: 0.9406
+acc: 0.8475
+Test Results:
+rocauc: 0.9215
+prauc: 0.9578
+acc: 0.8634
+10/51
+train rocauc: 0.9997251734035559, valid rocauc: 0.9029742157033933, test rocauc: 0.9251440092165899
+Training Results:
+rocauc: 0.9997
+prauc: 0.9998
+acc: 0.9925
+Validation Results:
+rocauc: 0.9030
+prauc: 0.9411
+acc: 0.8398
+Test Results:
+rocauc: 0.9251
+prauc: 0.9589
+acc: 0.8582
+11/51
+train rocauc: 0.9999870827045432, valid rocauc: 0.9005878586811011, test rocauc: 0.9227822580645162
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9984
+Validation Results:
+rocauc: 0.9006
+prauc: 0.9418
+acc: 0.8450
+Test Results:
+rocauc: 0.9228
+prauc: 0.9585
+acc: 0.8582
+12/51
+train rocauc: 0.9999808467688054, valid rocauc: 0.8985507246376812, test rocauc: 0.9254032258064517
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9974
+Validation Results:
+rocauc: 0.8986
+prauc: 0.9381
+acc: 0.8062
+Test Results:
+rocauc: 0.9254
+prauc: 0.9602
+acc: 0.8557
+13/51
+train rocauc: 0.9994190705128205, valid rocauc: 0.9052150631511554, test rocauc: 0.9254032258064516
+Training Results:
+rocauc: 0.9994
+prauc: 0.9994
+acc: 0.9977
+Validation Results:
+rocauc: 0.9052
+prauc: 0.9426
+acc: 0.8553
+Test Results:
+rocauc: 0.9254
+prauc: 0.9597
+acc: 0.8737
+14/51
+train rocauc: 0.9996402055993449, valid rocauc: 0.896135265700483, test rocauc: 0.9228974654377881
+Training Results:
+rocauc: 0.9996
+prauc: 0.9998
+acc: 0.9964
+Validation Results:
+rocauc: 0.8961
+prauc: 0.9384
+acc: 0.8372
+Test Results:
+rocauc: 0.9229
+prauc: 0.9586
+acc: 0.8634
+15/51
+train rocauc: 0.9999817485754986, valid rocauc: 0.9016937314475292, test rocauc: 0.9251152073732719
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9977
+Validation Results:
+rocauc: 0.9017
+prauc: 0.9418
+acc: 0.8475
+Test Results:
+rocauc: 0.9251
+prauc: 0.9605
+acc: 0.8686
+16/51
+train rocauc: 0.9999977755434347, valid rocauc: 0.8998021069786393, test rocauc: 0.9248271889400922
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9990
+Validation Results:
+rocauc: 0.8998
+prauc: 0.9392
+acc: 0.8450
+Test Results:
+rocauc: 0.9248
+prauc: 0.9602
+acc: 0.8660
+17/51
+train rocauc: 1.0, valid rocauc: 0.8987835399569292, test rocauc: 0.9285138248847926
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.8988
+prauc: 0.9394
+acc: 0.8372
+Test Results:
+rocauc: 0.9285
+prauc: 0.9623
+acc: 0.8608
+18/51
+train rocauc: 0.9999973306521217, valid rocauc: 0.9070193818753273, test rocauc: 0.9227822580645161
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9990
+Validation Results:
+rocauc: 0.9070
+prauc: 0.9444
+acc: 0.8475
+Test Results:
+rocauc: 0.9228
+prauc: 0.9578
+acc: 0.8711
+19/51
+train rocauc: 0.9999928732162997, valid rocauc: 0.9066701588964554, test rocauc: 0.9259792626728112
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.9067
+prauc: 0.9436
+acc: 0.8424
+Test Results:
+rocauc: 0.9260
+prauc: 0.9606
+acc: 0.8660
+20/51
+train rocauc: 0.9999991086136446, valid rocauc: 0.9096822070892265, test rocauc: 0.9216589861751152
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.9097
+prauc: 0.9463
+acc: 0.8553
+Test Results:
+rocauc: 0.9217
+prauc: 0.9581
+acc: 0.8531
+21/51
+train rocauc: 0.9999982188396007, valid rocauc: 0.9107153250683895, test rocauc: 0.925086405529954
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.9107
+prauc: 0.9475
+acc: 0.8475
+Test Results:
+rocauc: 0.9251
+prauc: 0.9604
+acc: 0.8634
+22/51
+train rocauc: 1.0, valid rocauc: 0.9045748210232233, test rocauc: 0.9235311059907835
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9046
+prauc: 0.9416
+acc: 0.8346
+Test Results:
+rocauc: 0.9235
+prauc: 0.9596
+acc: 0.8582
+23/51
+train rocauc: 1.0, valid rocauc: 0.9068738723007973, test rocauc: 0.925979262672811
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9069
+prauc: 0.9435
+acc: 0.8372
+Test Results:
+rocauc: 0.9260
+prauc: 0.9609
+acc: 0.8608
+24/51
+train rocauc: 1.0, valid rocauc: 0.9082416623013795, test rocauc: 0.9276209677419355
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9082
+prauc: 0.9446
+acc: 0.8346
+Test Results:
+rocauc: 0.9276
+prauc: 0.9622
+acc: 0.8582
+25/51
+train rocauc: 1.0, valid rocauc: 0.9096094523019614, test rocauc: 0.9282834101382488
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9096
+prauc: 0.9457
+acc: 0.8320
+Test Results:
+rocauc: 0.9283
+prauc: 0.9626
+acc: 0.8634
+26/51
+train rocauc: 1.0, valid rocauc: 0.9103661020895175, test rocauc: 0.9288306451612903
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9104
+prauc: 0.9465
+acc: 0.8295
+Test Results:
+rocauc: 0.9288
+prauc: 0.9631
+acc: 0.8634
+27/51
+train rocauc: 1.0, valid rocauc: 0.9106280193236714, test rocauc: 0.9290034562211982
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9106
+prauc: 0.9466
+acc: 0.8346
+Test Results:
+rocauc: 0.9290
+prauc: 0.9633
+acc: 0.8634
+28/51
+train rocauc: 1.0, valid rocauc: 0.9108317327280134, test rocauc: 0.929176267281106
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9108
+prauc: 0.9468
+acc: 0.8346
+Test Results:
+rocauc: 0.9292
+prauc: 0.9635
+acc: 0.8634
+29/51
+train rocauc: 1.0, valid rocauc: 0.9108608346429196, test rocauc: 0.9293778801843318
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9109
+prauc: 0.9468
+acc: 0.8346
+Test Results:
+rocauc: 0.9294
+prauc: 0.9637
+acc: 0.8634
+30/51
+train rocauc: 1.0, valid rocauc: 0.9110645480472614, test rocauc: 0.9294642857142857
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9111
+prauc: 0.9471
+acc: 0.8346
+Test Results:
+rocauc: 0.9295
+prauc: 0.9638
+acc: 0.8634
+31/51
+train rocauc: 1.0, valid rocauc: 0.9112682614516036, test rocauc: 0.9295506912442396
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9113
+prauc: 0.9472
+acc: 0.8346
+Test Results:
+rocauc: 0.9296
+prauc: 0.9638
+acc: 0.8634
+32/51
+train rocauc: 1.0, valid rocauc: 0.9114137710261335, test rocauc: 0.9296370967741936
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9114
+prauc: 0.9474
+acc: 0.8346
+Test Results:
+rocauc: 0.9296
+prauc: 0.9639
+acc: 0.8660
+33/51
+train rocauc: 1.0, valid rocauc: 0.9114137710261335, test rocauc: 0.9296082949308756
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9114
+prauc: 0.9474
+acc: 0.8346
+Test Results:
+rocauc: 0.9296
+prauc: 0.9639
+acc: 0.8660
+34/51
+train rocauc: 1.0, valid rocauc: 0.9115301786857576, test rocauc: 0.9297235023041475
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9115
+prauc: 0.9475
+acc: 0.8346
+Test Results:
+rocauc: 0.9297
+prauc: 0.9639
+acc: 0.8660
+35/51
+train rocauc: 1.0, valid rocauc: 0.9114719748559456, test rocauc: 0.9296370967741935
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9115
+prauc: 0.9475
+acc: 0.8346
+Test Results:
+rocauc: 0.9296
+prauc: 0.9639
+acc: 0.8660
+36/51
+train rocauc: 1.0, valid rocauc: 0.9115301786857575, test rocauc: 0.9296658986175116
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9115
+prauc: 0.9475
+acc: 0.8346
+Test Results:
+rocauc: 0.9297
+prauc: 0.9639
+acc: 0.8660
+37/51
+train rocauc: 1.0, valid rocauc: 0.9115883825155694, test rocauc: 0.9296658986175115
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9116
+prauc: 0.9476
+acc: 0.8346
+Test Results:
+rocauc: 0.9297
+prauc: 0.9640
+acc: 0.8660
+38/51
+train rocauc: 1.0, valid rocauc: 0.9115301786857575, test rocauc: 0.9296947004608295
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9115
+prauc: 0.9475
+acc: 0.8346
+Test Results:
+rocauc: 0.9297
+prauc: 0.9640
+acc: 0.8660
+39/51
+train rocauc: 1.0, valid rocauc: 0.9115010767708515, test rocauc: 0.9296947004608295
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9115
+prauc: 0.9475
+acc: 0.8346
+Test Results:
+rocauc: 0.9297
+prauc: 0.9640
+acc: 0.8660
+40/51
+train rocauc: 1.0, valid rocauc: 0.9115592806006636, test rocauc: 0.9297235023041476
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9116
+prauc: 0.9475
+acc: 0.8346
+Test Results:
+rocauc: 0.9297
+prauc: 0.9640
+acc: 0.8686
+41/51
+train rocauc: 1.0, valid rocauc: 0.9116756882602876, test rocauc: 0.9296658986175117
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9117
+prauc: 0.9476
+acc: 0.8346
+Test Results:
+rocauc: 0.9297
+prauc: 0.9640
+acc: 0.8686
+42/51
+train rocauc: 1.0, valid rocauc: 0.9117338920900995, test rocauc: 0.9295794930875577
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9117
+prauc: 0.9477
+acc: 0.8372
+Test Results:
+rocauc: 0.9296
+prauc: 0.9639
+acc: 0.8686
+43/51
+train rocauc: 1.0, valid rocauc: 0.9117629940050055, test rocauc: 0.9295506912442397
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9118
+prauc: 0.9477
+acc: 0.8372
+Test Results:
+rocauc: 0.9296
+prauc: 0.9639
+acc: 0.8686
+44/51
+train rocauc: 1.0, valid rocauc: 0.9117629940050055, test rocauc: 0.9295794930875577
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9118
+prauc: 0.9477
+acc: 0.8372
+Test Results:
+rocauc: 0.9296
+prauc: 0.9639
+acc: 0.8686
+45/51
+train rocauc: 1.0, valid rocauc: 0.9117629940050056, test rocauc: 0.9294642857142857
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9118
+prauc: 0.9477
+acc: 0.8372
+Test Results:
+rocauc: 0.9295
+prauc: 0.9639
+acc: 0.8686
+46/51
+train rocauc: 1.0, valid rocauc: 0.9117920959199115, test rocauc: 0.9294354838709677
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9118
+prauc: 0.9477
+acc: 0.8398
+Test Results:
+rocauc: 0.9294
+prauc: 0.9639
+acc: 0.8686
+47/51
+train rocauc: 1.0, valid rocauc: 0.9117338920900995, test rocauc: 0.9294930875576036
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9117
+prauc: 0.9477
+acc: 0.8398
+Test Results:
+rocauc: 0.9295
+prauc: 0.9639
+acc: 0.8686
+48/51
+train rocauc: 1.0, valid rocauc: 0.9117920959199115, test rocauc: 0.9294930875576036
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9118
+prauc: 0.9477
+acc: 0.8398
+Test Results:
+rocauc: 0.9295
+prauc: 0.9639
+acc: 0.8686
+49/51
+train rocauc: 1.0, valid rocauc: 0.9117629940050055, test rocauc: 0.9294930875576036
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9118
+prauc: 0.9477
+acc: 0.8398
+Test Results:
+rocauc: 0.9295
+prauc: 0.9639
+acc: 0.8686
+50/51
+train rocauc: 1.0, valid rocauc: 0.9117629940050055, test rocauc: 0.9295218894009216
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9118
+prauc: 0.9477
+acc: 0.8398
+Test Results:
+rocauc: 0.9295
+prauc: 0.9639
+acc: 0.8686
+train_time:  776.996951341629
+train: 1.0000, val: 0.9118, test: 0.9294
+eval_time:  1.261979341506958
+end_test_result: (0.9294354838709677, 0.9638908025132678, 0.8685567010309279)
+args.seed: 2054
+model have 90.143705M paramerters in total
+1/51
+train rocauc: 0.8557656652238094, valid rocauc: 0.857458820790408, test rocauc: 0.84602534562212
+Training Results:
+rocauc: 0.8558
+prauc: 0.8932
+acc: 0.7738
+Validation Results:
+rocauc: 0.8575
+prauc: 0.9191
+acc: 0.7597
+Test Results:
+rocauc: 0.8460
+prauc: 0.8988
+acc: 0.7345
+2/51
+train rocauc: 0.9277557936297245, valid rocauc: 0.9005296548512892, test rocauc: 0.9086405529953917
+Training Results:
+rocauc: 0.9278
+prauc: 0.9508
+acc: 0.8525
+Validation Results:
+rocauc: 0.9005
+prauc: 0.9432
+acc: 0.8165
+Test Results:
+rocauc: 0.9086
+prauc: 0.9460
+acc: 0.8247
+3/51
+train rocauc: 0.9621019334976465, valid rocauc: 0.9082998661311915, test rocauc: 0.9312788018433179
+Training Results:
+rocauc: 0.9621
+prauc: 0.9757
+acc: 0.8932
+Validation Results:
+rocauc: 0.9083
+prauc: 0.9460
+acc: 0.8346
+Test Results:
+rocauc: 0.9313
+prauc: 0.9626
+acc: 0.8299
+4/51
+train rocauc: 0.9828502858731113, valid rocauc: 0.9025667888947092, test rocauc: 0.9341301843317972
+Training Results:
+rocauc: 0.9829
+prauc: 0.9894
+acc: 0.9316
+Validation Results:
+rocauc: 0.9026
+prauc: 0.9411
+acc: 0.8450
+Test Results:
+rocauc: 0.9341
+prauc: 0.9653
+acc: 0.8531
+5/51
+train rocauc: 0.9928676040943967, valid rocauc: 0.9006169605960073, test rocauc: 0.9281394009216589
+Training Results:
+rocauc: 0.9929
+prauc: 0.9959
+acc: 0.9561
+Validation Results:
+rocauc: 0.9006
+prauc: 0.9363
+acc: 0.8165
+Test Results:
+rocauc: 0.9281
+prauc: 0.9606
+acc: 0.8557
+6/51
+train rocauc: 0.9955836127899786, valid rocauc: 0.9094639427274316, test rocauc: 0.9194988479262673
+Training Results:
+rocauc: 0.9956
+prauc: 0.9976
+acc: 0.9753
+Validation Results:
+rocauc: 0.9095
+prauc: 0.9452
+acc: 0.8372
+Test Results:
+rocauc: 0.9195
+prauc: 0.9574
+acc: 0.8402
+7/51
+train rocauc: 0.9983876788939914, valid rocauc: 0.8905185961236249, test rocauc: 0.9210253456221198
+Training Results:
+rocauc: 0.9984
+prauc: 0.9990
+acc: 0.9821
+Validation Results:
+rocauc: 0.8905
+prauc: 0.9297
+acc: 0.8269
+Test Results:
+rocauc: 0.9210
+prauc: 0.9575
+acc: 0.8222
+8/51
+train rocauc: 0.9986107490949596, valid rocauc: 0.9110936499621676, test rocauc: 0.9223502304147465
+Training Results:
+rocauc: 0.9986
+prauc: 0.9993
+acc: 0.9893
+Validation Results:
+rocauc: 0.9111
+prauc: 0.9428
+acc: 0.8630
+Test Results:
+rocauc: 0.9224
+prauc: 0.9568
+acc: 0.8479
+9/51
+train rocauc: 0.9993861656184047, valid rocauc: 0.9096676561317736, test rocauc: 0.9230990783410138
+Training Results:
+rocauc: 0.9994
+prauc: 0.9997
+acc: 0.9915
+Validation Results:
+rocauc: 0.9097
+prauc: 0.9432
+acc: 0.8579
+Test Results:
+rocauc: 0.9231
+prauc: 0.9586
+acc: 0.8608
+10/51
+train rocauc: 0.9995969284703747, valid rocauc: 0.8890635003783248, test rocauc: 0.9229550691244239
+Training Results:
+rocauc: 0.9996
+prauc: 0.9998
+acc: 0.9909
+Validation Results:
+rocauc: 0.8891
+prauc: 0.9288
+acc: 0.8372
+Test Results:
+rocauc: 0.9230
+prauc: 0.9549
+acc: 0.8454
+11/51
+train rocauc: 0.9999559030258542, valid rocauc: 0.9046039229381293, test rocauc: 0.9279377880184332
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9974
+Validation Results:
+rocauc: 0.9046
+prauc: 0.9394
+acc: 0.8295
+Test Results:
+rocauc: 0.9279
+prauc: 0.9613
+acc: 0.8582
+12/51
+train rocauc: 0.9999808696735387, valid rocauc: 0.9038181712356672, test rocauc: 0.9329781105990784
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9974
+Validation Results:
+rocauc: 0.9038
+prauc: 0.9392
+acc: 0.8656
+Test Results:
+rocauc: 0.9330
+prauc: 0.9638
+acc: 0.8608
+13/51
+train rocauc: 0.9999812865497076, valid rocauc: 0.896018858040859, test rocauc: 0.9269297235023042
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9977
+Validation Results:
+rocauc: 0.8960
+prauc: 0.9321
+acc: 0.8320
+Test Results:
+rocauc: 0.9269
+prauc: 0.9604
+acc: 0.8634
+14/51
+train rocauc: 0.9999839743589743, valid rocauc: 0.8988708457016471, test rocauc: 0.9246255760368663
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9980
+Validation Results:
+rocauc: 0.8989
+prauc: 0.9350
+acc: 0.8269
+Test Results:
+rocauc: 0.9246
+prauc: 0.9590
+acc: 0.8608
+15/51
+train rocauc: 0.9999973282594011, valid rocauc: 0.9052150631511554, test rocauc: 0.9288594470046084
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9987
+Validation Results:
+rocauc: 0.9052
+prauc: 0.9406
+acc: 0.8630
+Test Results:
+rocauc: 0.9289
+prauc: 0.9624
+acc: 0.8660
+16/51
+train rocauc: 0.9999977748811675, valid rocauc: 0.9058262033641814, test rocauc: 0.9322004608294931
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9993
+Validation Results:
+rocauc: 0.9058
+prauc: 0.9409
+acc: 0.8682
+Test Results:
+rocauc: 0.9322
+prauc: 0.9638
+acc: 0.8634
+17/51
+train rocauc: 0.9999986641297005, valid rocauc: 0.9046621267679412, test rocauc: 0.9345046082949309
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9993
+Validation Results:
+rocauc: 0.9047
+prauc: 0.9405
+acc: 0.8295
+Test Results:
+rocauc: 0.9345
+prauc: 0.9650
+acc: 0.8711
+18/51
+train rocauc: 1.0, valid rocauc: 0.9028287061288633, test rocauc: 0.9342165898617512
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9993
+Validation Results:
+rocauc: 0.9028
+prauc: 0.9394
+acc: 0.8346
+Test Results:
+rocauc: 0.9342
+prauc: 0.9656
+acc: 0.8737
+19/51
+train rocauc: 1.0, valid rocauc: 0.9055642861300274, test rocauc: 0.9371255760368663
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.9056
+prauc: 0.9405
+acc: 0.8295
+Test Results:
+rocauc: 0.9371
+prauc: 0.9666
+acc: 0.8686
+20/51
+train rocauc: 0.999868194130453, valid rocauc: 0.9075141144287293, test rocauc: 0.937384792626728
+Training Results:
+rocauc: 0.9999
+prauc: 0.9999
+acc: 0.9990
+Validation Results:
+rocauc: 0.9075
+prauc: 0.9409
+acc: 0.8269
+Test Results:
+rocauc: 0.9374
+prauc: 0.9668
+acc: 0.8686
+21/51
+train rocauc: 1.0, valid rocauc: 0.9054478784704032, test rocauc: 0.936607142857143
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.9054
+prauc: 0.9402
+acc: 0.8269
+Test Results:
+rocauc: 0.9366
+prauc: 0.9665
+acc: 0.8711
+22/51
+train rocauc: 1.0, valid rocauc: 0.9035562540015133, test rocauc: 0.936463133640553
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9036
+prauc: 0.9390
+acc: 0.8295
+Test Results:
+rocauc: 0.9365
+prauc: 0.9665
+acc: 0.8686
+23/51
+train rocauc: 1.0, valid rocauc: 0.9044875152785053, test rocauc: 0.9379608294930877
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.9045
+prauc: 0.9391
+acc: 0.8269
+Test Results:
+rocauc: 0.9380
+prauc: 0.9671
+acc: 0.8763
+24/51
+train rocauc: 1.0, valid rocauc: 0.9042255980443513, test rocauc: 0.9377592165898618
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9042
+prauc: 0.9386
+acc: 0.8295
+Test Results:
+rocauc: 0.9378
+prauc: 0.9669
+acc: 0.8737
+25/51
+train rocauc: 1.0, valid rocauc: 0.9038763750654794, test rocauc: 0.9378168202764977
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9039
+prauc: 0.9383
+acc: 0.8295
+Test Results:
+rocauc: 0.9378
+prauc: 0.9669
+acc: 0.8737
+26/51
+train rocauc: 1.0, valid rocauc: 0.9039927827251033, test rocauc: 0.9381048387096774
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9040
+prauc: 0.9382
+acc: 0.8295
+Test Results:
+rocauc: 0.9381
+prauc: 0.9671
+acc: 0.8737
+27/51
+train rocauc: 1.0, valid rocauc: 0.9040218846400092, test rocauc: 0.9383352534562212
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9040
+prauc: 0.9381
+acc: 0.8295
+Test Results:
+rocauc: 0.9383
+prauc: 0.9672
+acc: 0.8737
+28/51
+train rocauc: 1.0, valid rocauc: 0.9039636808101974, test rocauc: 0.9383352534562213
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.9040
+prauc: 0.9380
+acc: 0.8320
+Test Results:
+rocauc: 0.9383
+prauc: 0.9672
+acc: 0.8737
+break!
+train_time:  426.1712031364441
+train: 0.9986, val: 0.9111, test: 0.9224
+eval_time:  1.29276704788208
+end_test_result: (0.9223502304147465, 0.9567882572023279, 0.8479381443298969)
+args.seed: 2064
+model have 90.143705M paramerters in total
+1/51
+train rocauc: 0.8689378561253561, valid rocauc: 0.8580408590885279, test rocauc: 0.8738191244239631
+Training Results:
+rocauc: 0.8689
+prauc: 0.9047
+acc: 0.7988
+Validation Results:
+rocauc: 0.8580
+prauc: 0.9180
+acc: 0.7933
+Test Results:
+rocauc: 0.8738
+prauc: 0.9181
+acc: 0.8015
+2/51
+train rocauc: 0.9266727433922288, valid rocauc: 0.8908096152726849, test rocauc: 0.9143145161290323
+Training Results:
+rocauc: 0.9267
+prauc: 0.9503
+acc: 0.8532
+Validation Results:
+rocauc: 0.8908
+prauc: 0.9348
+acc: 0.8036
+Test Results:
+rocauc: 0.9143
+prauc: 0.9515
+acc: 0.8351
+3/51
+train rocauc: 0.9606509607351712, valid rocauc: 0.9032652348524534, test rocauc: 0.9282546082949308
+Training Results:
+rocauc: 0.9607
+prauc: 0.9745
+acc: 0.8997
+Validation Results:
+rocauc: 0.9033
+prauc: 0.9445
+acc: 0.8295
+Test Results:
+rocauc: 0.9283
+prauc: 0.9605
+acc: 0.8505
+4/51
+train rocauc: 0.9808481203007517, valid rocauc: 0.9070193818753274, test rocauc: 0.9341589861751153
+Training Results:
+rocauc: 0.9808
+prauc: 0.9886
+acc: 0.9209
+Validation Results:
+rocauc: 0.9070
+prauc: 0.9359
+acc: 0.8191
+Test Results:
+rocauc: 0.9342
+prauc: 0.9647
+acc: 0.8479
+5/51
+train rocauc: 0.9886824098872645, valid rocauc: 0.9140620452825796, test rocauc: 0.9175979262672811
+Training Results:
+rocauc: 0.9887
+prauc: 0.9930
+acc: 0.9574
+Validation Results:
+rocauc: 0.9141
+prauc: 0.9491
+acc: 0.8656
+Test Results:
+rocauc: 0.9176
+prauc: 0.9528
+acc: 0.8299
+6/51
+train rocauc: 0.9961492736857696, valid rocauc: 0.9032943367673593, test rocauc: 0.9314516129032259
+Training Results:
+rocauc: 0.9961
+prauc: 0.9977
+acc: 0.9717
+Validation Results:
+rocauc: 0.9033
+prauc: 0.9374
+acc: 0.8475
+Test Results:
+rocauc: 0.9315
+prauc: 0.9629
+acc: 0.8557
+7/51
+train rocauc: 0.9975099122162716, valid rocauc: 0.8967464059135091, test rocauc: 0.9256336405529955
+Training Results:
+rocauc: 0.9975
+prauc: 0.9986
+acc: 0.9811
+Validation Results:
+rocauc: 0.8967
+prauc: 0.9337
+acc: 0.8114
+Test Results:
+rocauc: 0.9256
+prauc: 0.9617
+acc: 0.8582
+8/51
+train rocauc: 0.9987643938759547, valid rocauc: 0.8977067691054071, test rocauc: 0.9290322580645162
+Training Results:
+rocauc: 0.9988
+prauc: 0.9993
+acc: 0.9834
+Validation Results:
+rocauc: 0.8977
+prauc: 0.9354
+acc: 0.8450
+Test Results:
+rocauc: 0.9290
+prauc: 0.9629
+acc: 0.8608
+9/51
+train rocauc: 0.9995255821067535, valid rocauc: 0.891391653570805, test rocauc: 0.9258064516129033
+Training Results:
+rocauc: 0.9995
+prauc: 0.9997
+acc: 0.9899
+Validation Results:
+rocauc: 0.8914
+prauc: 0.9339
+acc: 0.8398
+Test Results:
+rocauc: 0.9258
+prauc: 0.9619
+acc: 0.8608
+10/51
+train rocauc: 0.9998261505189696, valid rocauc: 0.9046039229381294, test rocauc: 0.9264400921658987
+Training Results:
+rocauc: 0.9998
+prauc: 0.9999
+acc: 0.9941
+Validation Results:
+rocauc: 0.9046
+prauc: 0.9445
+acc: 0.8243
+Test Results:
+rocauc: 0.9264
+prauc: 0.9620
+acc: 0.8531
+11/51
+train rocauc: 0.999952339634004, valid rocauc: 0.9002386357022292, test rocauc: 0.9287154377880185
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9967
+Validation Results:
+rocauc: 0.9002
+prauc: 0.9400
+acc: 0.8450
+Test Results:
+rocauc: 0.9287
+prauc: 0.9630
+acc: 0.8686
+12/51
+train rocauc: 0.9999363235157257, valid rocauc: 0.8987544380420232, test rocauc: 0.9211693548387098
+Training Results:
+rocauc: 0.9999
+prauc: 1.0000
+acc: 0.9958
+Validation Results:
+rocauc: 0.8988
+prauc: 0.9397
+acc: 0.8320
+Test Results:
+rocauc: 0.9212
+prauc: 0.9584
+acc: 0.8428
+13/51
+train rocauc: 0.9999598997493734, valid rocauc: 0.893341481869507, test rocauc: 0.9225230414746544
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9974
+Validation Results:
+rocauc: 0.8933
+prauc: 0.9356
+acc: 0.8320
+Test Results:
+rocauc: 0.9225
+prauc: 0.9600
+acc: 0.8531
+14/51
+train rocauc: 0.9999968801477562, valid rocauc: 0.8949711891042431, test rocauc: 0.9263536866359448
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9987
+Validation Results:
+rocauc: 0.8950
+prauc: 0.9341
+acc: 0.8424
+Test Results:
+rocauc: 0.9264
+prauc: 0.9603
+acc: 0.8531
+15/51
+train rocauc: 0.9999986653260609, valid rocauc: 0.891420755485711, test rocauc: 0.9258640552995391
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.8914
+prauc: 0.9316
+acc: 0.8372
+Test Results:
+rocauc: 0.9259
+prauc: 0.9605
+acc: 0.8505
+16/51
+train rocauc: 0.9999897705353168, valid rocauc: 0.894301845061405, test rocauc: 0.9272177419354839
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9980
+Validation Results:
+rocauc: 0.8943
+prauc: 0.9326
+acc: 0.8320
+Test Results:
+rocauc: 0.9272
+prauc: 0.9609
+acc: 0.8557
+17/51
+train rocauc: 0.9999991086136446, valid rocauc: 0.8939817239974389, test rocauc: 0.9273329493087559
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.8940
+prauc: 0.9335
+acc: 0.8372
+Test Results:
+rocauc: 0.9273
+prauc: 0.9613
+acc: 0.8557
+18/51
+train rocauc: 1.0, valid rocauc: 0.8921192014434549, test rocauc: 0.9274769585253456
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9987
+Validation Results:
+rocauc: 0.8921
+prauc: 0.9319
+acc: 0.8320
+Test Results:
+rocauc: 0.9275
+prauc: 0.9616
+acc: 0.8582
+19/51
+train rocauc: 1.0, valid rocauc: 0.8945928642104651, test rocauc: 0.9277649769585253
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.8946
+prauc: 0.9340
+acc: 0.8372
+Test Results:
+rocauc: 0.9278
+prauc: 0.9620
+acc: 0.8531
+20/51
+train rocauc: 1.0, valid rocauc: 0.8949420871893371, test rocauc: 0.9287154377880186
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 0.9997
+Validation Results:
+rocauc: 0.8949
+prauc: 0.9339
+acc: 0.8346
+Test Results:
+rocauc: 0.9287
+prauc: 0.9624
+acc: 0.8582
+21/51
+train rocauc: 1.0, valid rocauc: 0.8945055584657471, test rocauc: 0.9287730414746543
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.8945
+prauc: 0.9335
+acc: 0.8346
+Test Results:
+rocauc: 0.9288
+prauc: 0.9625
+acc: 0.8582
+22/51
+train rocauc: 1.0, valid rocauc: 0.894127233571969, test rocauc: 0.9286866359447005
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.8941
+prauc: 0.9332
+acc: 0.8346
+Test Results:
+rocauc: 0.9287
+prauc: 0.9624
+acc: 0.8582
+23/51
+train rocauc: 1.0, valid rocauc: 0.894651068040277, test rocauc: 0.9288018433179724
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.8947
+prauc: 0.9333
+acc: 0.8372
+Test Results:
+rocauc: 0.9288
+prauc: 0.9625
+acc: 0.8582
+24/51
+train rocauc: 1.0, valid rocauc: 0.894767475699901, test rocauc: 0.9287730414746543
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.8948
+prauc: 0.9334
+acc: 0.8372
+Test Results:
+rocauc: 0.9288
+prauc: 0.9625
+acc: 0.8582
+25/51
+train rocauc: 1.0, valid rocauc: 0.894854781444619, test rocauc: 0.9289746543778802
+Training Results:
+rocauc: 1.0000
+prauc: 1.0000
+acc: 1.0000
+Validation Results:
+rocauc: 0.8949
+prauc: 0.9335
+acc: 0.8372
+Test Results:
+rocauc: 0.9290
+prauc: 0.9626
+acc: 0.8582
+break!
+train_time:  385.9906098842621
+train: 0.9887, val: 0.9141, test: 0.9176
+eval_time:  1.236403226852417
+end_test_result: (0.9175979262672811, 0.9527694417286756, 0.8298969072164949)
+  Model     train_1     train_2  ...    test_3    test_4    test_5
+0  KPGT  629.085406  362.857569  ...  1.261979  1.292767  1.236403
+
+[1 rows x 11 columns]
+Time used on BBBP: 0:43:40

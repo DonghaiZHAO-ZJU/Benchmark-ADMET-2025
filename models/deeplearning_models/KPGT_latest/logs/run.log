@@ -1,0 +1,439 @@
+nohup: ignoring input
+Current seed: 2024, current split method: random, current task: constrained_logP
+Namespace(seed=2024, times=5, n_epochs=50, config='base', model_path='../models/pretrained/base/base.pth', dataset='constrained_logP', data_path='../datasets/', dataset_type='regression', use_scaler=True, metric=['r2', 'rmse', 'mae'], split='random_2024', weight_decay=0.0, dropout=0.0, lr=3e-05, n_threads=8)
+args.seed: 2024
+use label scaler
+use label scaler
+use label scaler
+model have 90.143705M paramerters in total
+train_dataset.mean: tensor([-2.4436]) train_dataset.std: tensor([1.9282])
+1/51
+train r2: 0.9106781302943316, valid r2: 0.8931062798419257, test r2: 0.8890799706205857
+Training Results:
+r2: 0.9107
+rmse: 0.5761
+mae: 0.4217
+Validation Results:
+r2: 0.8931
+rmse: 0.6413
+mae: 0.4672
+Test Results:
+r2: 0.8891
+rmse: 0.6284
+mae: 0.4604
+2/51
+train r2: 0.9738648258617897, valid r2: 0.9621816145090203, test r2: 0.9655547222673723
+Training Results:
+r2: 0.9739
+rmse: 0.3117
+mae: 0.2393
+Validation Results:
+r2: 0.9622
+rmse: 0.3814
+mae: 0.2809
+Test Results:
+r2: 0.9656
+rmse: 0.3502
+mae: 0.2658
+3/51
+train r2: 0.9791679437376142, valid r2: 0.9689049757536397, test r2: 0.9698932334614538
+Training Results:
+r2: 0.9792
+rmse: 0.2783
+mae: 0.2217
+Validation Results:
+r2: 0.9689
+rmse: 0.3459
+mae: 0.2601
+Test Results:
+r2: 0.9699
+rmse: 0.3274
+mae: 0.2569
+4/51
+train r2: 0.9793950887673956, valid r2: 0.9724244634729546, test r2: 0.9715556661264079
+Training Results:
+r2: 0.9794
+rmse: 0.2768
+mae: 0.2335
+Validation Results:
+r2: 0.9724
+rmse: 0.3257
+mae: 0.2626
+Test Results:
+r2: 0.9716
+rmse: 0.3182
+mae: 0.2604
+5/51
+train r2: 0.9913815563371994, valid r2: 0.9838437457507373, test r2: 0.9838205061267663
+Training Results:
+r2: 0.9914
+rmse: 0.1791
+mae: 0.1357
+Validation Results:
+r2: 0.9838
+rmse: 0.2493
+mae: 0.1783
+Test Results:
+r2: 0.9838
+rmse: 0.2400
+mae: 0.1781
+6/51
+train r2: 0.9919653772827951, valid r2: 0.9839480519208351, test r2: 0.98397155465504
+Training Results:
+r2: 0.9920
+rmse: 0.1729
+mae: 0.1306
+Validation Results:
+r2: 0.9839
+rmse: 0.2485
+mae: 0.1739
+Test Results:
+r2: 0.9840
+rmse: 0.2389
+mae: 0.1737
+7/51
+train r2: 0.9912338739310148, valid r2: 0.9812956290157677, test r2: 0.9838851347947503
+Training Results:
+r2: 0.9912
+rmse: 0.1805
+mae: 0.1500
+Validation Results:
+r2: 0.9813
+rmse: 0.2683
+mae: 0.1968
+Test Results:
+r2: 0.9839
+rmse: 0.2395
+mae: 0.1848
+8/51
+train r2: 0.9969550550905082, valid r2: 0.988922267367076, test r2: 0.9900972589984828
+Training Results:
+r2: 0.9970
+rmse: 0.1064
+mae: 0.0806
+Validation Results:
+r2: 0.9889
+rmse: 0.2064
+mae: 0.1418
+Test Results:
+r2: 0.9901
+rmse: 0.1878
+mae: 0.1353
+9/51
+train r2: 0.997694469796138, valid r2: 0.9896192571484811, test r2: 0.9914543049695436
+Training Results:
+r2: 0.9977
+rmse: 0.0925
+mae: 0.0714
+Validation Results:
+r2: 0.9896
+rmse: 0.1998
+mae: 0.1301
+Test Results:
+r2: 0.9915
+rmse: 0.1744
+mae: 0.1266
+10/51
+train r2: 0.9971922756348118, valid r2: 0.9893362851372371, test r2: 0.9904517694473618
+Training Results:
+r2: 0.9972
+rmse: 0.1022
+mae: 0.0771
+Validation Results:
+r2: 0.9893
+rmse: 0.2026
+mae: 0.1332
+Test Results:
+r2: 0.9905
+rmse: 0.1844
+mae: 0.1316
+11/51
+train r2: 0.99683233033315, valid r2: 0.9893704289417956, test r2: 0.9907888843383793
+Training Results:
+r2: 0.9968
+rmse: 0.1085
+mae: 0.0828
+Validation Results:
+r2: 0.9894
+rmse: 0.2022
+mae: 0.1377
+Test Results:
+r2: 0.9908
+rmse: 0.1811
+mae: 0.1347
+12/51
+train r2: 0.9971141293587338, valid r2: 0.9899269150747937, test r2: 0.9906159782047723
+Training Results:
+r2: 0.9971
+rmse: 0.1035
+mae: 0.0784
+Validation Results:
+r2: 0.9899
+rmse: 0.1969
+mae: 0.1338
+Test Results:
+r2: 0.9906
+rmse: 0.1828
+mae: 0.1299
+13/51
+train r2: 0.9957369835023622, valid r2: 0.988412268950154, test r2: 0.9898450785182813
+Training Results:
+r2: 0.9957
+rmse: 0.1259
+mae: 0.0971
+Validation Results:
+r2: 0.9884
+rmse: 0.2111
+mae: 0.1385
+Test Results:
+r2: 0.9898
+rmse: 0.1901
+mae: 0.1389
+14/51
+train r2: 0.9950735018687972, valid r2: 0.987490851010831, test r2: 0.9882806370583742
+Training Results:
+r2: 0.9951
+rmse: 0.1354
+mae: 0.1034
+Validation Results:
+r2: 0.9875
+rmse: 0.2194
+mae: 0.1487
+Test Results:
+r2: 0.9883
+rmse: 0.2043
+mae: 0.1439
+15/51
+train r2: 0.997178058964044, valid r2: 0.9900637895329395, test r2: 0.9917631150238063
+Training Results:
+r2: 0.9972
+rmse: 0.1024
+mae: 0.0780
+Validation Results:
+r2: 0.9901
+rmse: 0.1955
+mae: 0.1310
+Test Results:
+r2: 0.9918
+rmse: 0.1713
+mae: 0.1232
+16/51
+train r2: 0.9969888907805978, valid r2: 0.9904158319848431, test r2: 0.9905957554544954
+Training Results:
+r2: 0.9970
+rmse: 0.1059
+mae: 0.0761
+Validation Results:
+r2: 0.9904
+rmse: 0.1920
+mae: 0.1244
+Test Results:
+r2: 0.9906
+rmse: 0.1830
+mae: 0.1249
+17/51
+train r2: 0.9967597617889727, valid r2: 0.9898254212937293, test r2: 0.9903737995717125
+Training Results:
+r2: 0.9968
+rmse: 0.1097
+mae: 0.0827
+Validation Results:
+r2: 0.9898
+rmse: 0.1979
+mae: 0.1277
+Test Results:
+r2: 0.9904
+rmse: 0.1851
+mae: 0.1279
+18/51
+train r2: 0.998385012774295, valid r2: 0.9918565627913382, test r2: 0.9926947049580085
+Training Results:
+r2: 0.9984
+rmse: 0.0774
+mae: 0.0587
+Validation Results:
+r2: 0.9919
+rmse: 0.1770
+mae: 0.1144
+Test Results:
+r2: 0.9927
+rmse: 0.1613
+mae: 0.1151
+19/51
+train r2: 0.9987203534659291, valid r2: 0.9916052865357287, test r2: 0.9933322371286273
+Training Results:
+r2: 0.9987
+rmse: 0.0690
+mae: 0.0522
+Validation Results:
+r2: 0.9916
+rmse: 0.1797
+mae: 0.1106
+Test Results:
+r2: 0.9933
+rmse: 0.1541
+mae: 0.1077
+20/51
+train r2: 0.9982565155464559, valid r2: 0.991664218783801, test r2: 0.9932137454136573
+Training Results:
+r2: 0.9983
+rmse: 0.0805
+mae: 0.0614
+Validation Results:
+r2: 0.9917
+rmse: 0.1791
+mae: 0.1143
+Test Results:
+r2: 0.9932
+rmse: 0.1554
+mae: 0.1083
+21/51
+train r2: 0.9985172194695324, valid r2: 0.9918142051146139, test r2: 0.9934092615291791
+Training Results:
+r2: 0.9985
+rmse: 0.0743
+mae: 0.0560
+Validation Results:
+r2: 0.9918
+rmse: 0.1775
+mae: 0.1106
+Test Results:
+r2: 0.9934
+rmse: 0.1532
+mae: 0.1063
+break!
+train: 0.9107, val: 0.8931, test: 0.8891
+end_test_result: (0.8890799706205857, 0.6284271478652954, 0.46041783690452576)
+args.seed: 2034
+use label scaler
+use label scaler
+use label scaler
+model have 90.143705M paramerters in total
+train_dataset.mean: tensor([-2.4436]) train_dataset.std: tensor([1.9282])
+1/51
+train r2: 0.9105430847345771, valid r2: 0.9038181349530504, test r2: 0.8904828435628058
+Training Results:
+r2: 0.9105
+rmse: 0.5769
+mae: 0.4211
+Validation Results:
+r2: 0.9038
+rmse: 0.6083
+mae: 0.4394
+Test Results:
+r2: 0.8905
+rmse: 0.6244
+mae: 0.4627
+2/51
+train r2: 0.976517005732681, valid r2: 0.9680665501677855, test r2: 0.9672170238587952
+Training Results:
+r2: 0.9765
+rmse: 0.2953
+mae: 0.2175
+Validation Results:
+r2: 0.9681
+rmse: 0.3505
+mae: 0.2467
+Test Results:
+r2: 0.9672
+rmse: 0.3416
+mae: 0.2532
+3/51
+train r2: 0.9877483446907208, valid r2: 0.9772256938074129, test r2: 0.9778482153604443
+Training Results:
+r2: 0.9877
+rmse: 0.2134
+mae: 0.1649
+Validation Results:
+r2: 0.9772
+rmse: 0.2960
+mae: 0.2104
+Test Results:
+r2: 0.9778
+rmse: 0.2808
+mae: 0.2115
+4/51
+train r2: 0.9849204398343259, valid r2: 0.9741182395585674, test r2: 0.9754693510603266
+Training Results:
+r2: 0.9849
+rmse: 0.2366
+mae: 0.1905
+Validation Results:
+r2: 0.9741
+rmse: 0.3156
+mae: 0.2418
+Test Results:
+r2: 0.9755
+rmse: 0.2955
+mae: 0.2303
+5/51
+train r2: 0.9918988658464611, valid r2: 0.9813805887305651, test r2: 0.9822211690466768
+Training Results:
+r2: 0.9919
+rmse: 0.1735
+mae: 0.1352
+Validation Results:
+r2: 0.9814
+rmse: 0.2676
+mae: 0.1900
+Test Results:
+r2: 0.9822
+rmse: 0.2516
+mae: 0.1886
+6/51
+train r2: 0.9928403221103306, valid r2: 0.9836763293741368, test r2: 0.985067263675046
+Training Results:
+r2: 0.9928
+rmse: 0.1632
+mae: 0.1233
+Validation Results:
+r2: 0.9837
+rmse: 0.2506
+mae: 0.1732
+Test Results:
+r2: 0.9851
+rmse: 0.2306
+mae: 0.1720
+7/51
+train r2: 0.9942980469073002, valid r2: 0.985304263083929, test r2: 0.9857989807572108
+Training Results:
+r2: 0.9943
+rmse: 0.1456
+mae: 0.1140
+Validation Results:
+r2: 0.9853
+rmse: 0.2378
+mae: 0.1668
+Test Results:
+r2: 0.9858
+rmse: 0.2249
+mae: 0.1692
+8/51
+train r2: 0.9962458798474515, valid r2: 0.9883900862196154, test r2: 0.9891911622884149
+Training Results:
+r2: 0.9962
+rmse: 0.1182
+mae: 0.0895
+Validation Results:
+r2: 0.9884
+rmse: 0.2113
+mae: 0.1447
+Test Results:
+r2: 0.9892
+rmse: 0.1962
+mae: 0.1399
+9/51
+train r2: 0.9964797182783335, valid r2: 0.9879648269259477, test r2: 0.9889995722915725
+Training Results:
+r2: 0.9965
+rmse: 0.1144
+mae: 0.0899
+Validation Results:
+r2: 0.9880
+rmse: 0.2152
+mae: 0.1462
+Test Results:
+r2: 0.9890
+rmse: 0.1979
+mae: 0.1452
+10/51
