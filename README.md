@@ -35,6 +35,10 @@ The primary datasets used in this study are summarized below:
 | **VDss** | distribution                    | 1092    | `https://doi.org/10.48550/arXiv.2102.09548`                             |
 | **Tox21 NR ER** | toxicity                    | 5964    | `https://doi.org/10.1039/c7sc02664a`                             |
 | **Cycpept PAMPA** | absorption                    | 6637    | `https://pubs.acs.org/doi/10.1021/acs.jcim.2c01573`                             |
+| **CYP2C9 Substrate** | metabolism                    | 666    | `https://doi.org/10.48550/arXiv.2102.09548`                             |
+| **CYP2D6 Inhibition** | metabolism                    | 13083    | `https://doi.org/10.48550/arXiv.2102.09548`                             |
+| **LinPept CellPen** | absorption                    | 1960    | `https://doi.org/10.1021/acs.jcim.4c01158`                             |
+| **LinPept NonFouling** | distribution                    | 7239    | ` https://doi.org/10.1002/pep2.24079`                             |
 
 
 Please refer to [`data/dataprocessor.py`](data/dataprocessor.py) for the data cleaning and merging process of these datasets.
@@ -75,6 +79,7 @@ The complete implementation code and supplementary documentation (including vers
 | **MOLMCL** | Graph Transformer                  | Yes    | `https://doi.org/10.1038/s41467-024-55082-4`                             |
 | **GEM** | 3D GNN                    | Yes    | `https://doi.org/10.1038/s42256-021-00438-4`                             |
 | **Uni-Mol** | Graph Transformer                   | Yes    | `https://doi.org/10.26434/chemrxiv-2022-jjm0j-v4`                             |
+| **KA-GNN** | GNN                   | No    | `https://doi.org/10.1038/s42256-025-01087-7`                             |
 
 
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
