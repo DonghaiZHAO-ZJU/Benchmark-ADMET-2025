@@ -1,35 +1,39 @@
-# Evaluating the Use of GNNs and Transfer Learning for Oral Bioavailability Prediction
+# Vertical-GNN
 
+Vertical-GNN combines Graph Transformer and GIN (Graph Isomorphism Network) for molecular property prediction, specifically designed for oral bioavailability prediction.
 
-> ![TOC](https://user-images.githubusercontent.com/66246089/229825030-bf6dbc3f-ecdc-4adb-8c38-2d6427fc5a04.png)
+## Data Representation
 
-This repository consists of 2 folders and 4 python scripts:
+Vertical-GNN uses molecular graphs:
 
-1. data folder
-    1. graph_data: csv files of solubility dataset and oral bioavailability dataset
-    2. oral_avail_fingerprints: csv files of oral bioavailability dataset fingerprints
-    3. oral_mol_desc: csv files of oral bioavailability dataset molecular descriptors 
+- **Input format**: SMILES strings converted to graphs
+- **Graph features**: Node (atom) and edge (bond) features
+- **Additional features**: Molecular fingerprints and descriptors
 
-2. notebooks folder 
-    1. Random forest model
-    2. GNN from scratch models 
-    3. Transfer learning models 
-    
-3. config.py
-    1. hyperparameters and constant variables used in this project
+## How to Run
 
-4. engine.py, model.py, utils.py
-    1. Contains GNN models and helper functions used in this project 
-    
-To replicate, please install the dependencies below and follow the instructions in the notebooks.
-Please download the saved models from [here](https://drive.google.com/drive/folders/19O4Xo_F-6MKK5H6JE0ykrQ4ZNXoYdOCJ?usp=share_link).
+1. **Prepare data**:
+   - Place graph data in `./data/graph_data/`
+   - Place fingerprints in `./data/oral_avail_fingerprints/`
+   - Place molecular descriptors in `./data/oral_mol_desc/`
 
-## Requirements
+2. **Install dependencies**:
+   ```bash
+   conda env create -f environment.yml
+   ```
 
-To install requirements:
+3. **Run training**:
+   Use the Jupyter notebooks in `./notebooks/`:
+   ```bash
+   jupyter notebook notebooks/transfer_learning_model.ipynb
+   ```
 
-```setup
-conda env create -f environment.yml
-```
+## Model Architecture
 
+- **Encoders**: Graph Transformer + GIN
+- **Fusion**: Concatenation of features from both encoders
+- **Classifier/Regressor**: MLP head for final prediction
 
+## References
+
+- Wang, Y. et al. (2023). Evaluating the Use of GNNs and Transfer Learning for Oral Bioavailability Prediction.

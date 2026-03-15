@@ -1,19 +1,39 @@
-# Knowledge-based-BERT
- K-BERT is a model based on BERT that can extract molecular features from molecules like a computational chemist. The pre-training tasks are used in K-BERT: atom feature prediction task, global feature prediction task, and contrastive learning task. The atom feature prediction task allows the model to learn the manual extracted information in graph-based methods: atomic initial information, the global feature prediction task allows the model to learn the manual extracted information in descriptor-based methods: molecular descriptors/molecular fingerprints, and the contrastive learning task allows the model to make the embeddings of different SMILES strings of the same molecule more similar, thus enabling K-BERT to generalize to SMILES of different formats not limited to canonical SMILES.
+# K-BERT
 
-![image](<https://github.com/wzxxxx/Knowledge-based-BERT/blob/main/figure/Knowledge-based%20BERT.png>)
+K-BERT (Knowledge-based BERT) is a BERT-based molecular representation model that learns molecular features from SMILES sequences.
 
+## Data Representation
 
+K-BERT uses SMILES strings:
 
-**requirements：**
-python 3.7
-anaconda
-xgboost
-rdkit
-pytorch
-sklearn
+- **Input format**: SMILES sequences
+- **Pretraining**: Atomic feature prediction, molecular feature prediction, contrastive learning
+- **Supports**: Non-canonical SMILES
 
+## How to Run
 
+1. **Install dependencies**:
+   ```bash
+   pip install rdkit pytorch sklearn xgboost
+   ```
 
-The datasets and pre-trained models can be downloaded from the following link: https://pan.baidu.com/s/1yzhHwhELuJG-3lxlrVtRPA  Fetch code：WZXX
+2. **Download pretrained model and datasets**:
+   - Download from: https://pan.baidu.com/s/1yzhHwhELuJG-3lxlrVtRPA (code: WZXX)
 
+3. **Run training**:
+   Use the scripts in the repository:
+   ```bash
+   python train.py --data_path path/to/data --model_path path/to/pretrained_model
+   ```
+
+## Model Architecture
+
+- **Architecture**: Transformer encoder
+- **Pretraining tasks**:
+  1. Atom feature prediction (degree, aromaticity, hydrogens, chirality)
+  2. Molecular feature prediction (MACCS fingerprints)
+  3. Contrastive learning (same molecule, different SMILES)
+
+## References
+
+- Zhang, W. et al. (2022). K-BERT: A Knowledge-based BERT Model for Molecular Property Prediction.
