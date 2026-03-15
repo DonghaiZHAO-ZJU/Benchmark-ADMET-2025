@@ -1,0 +1,1 @@
+N=C(N)NCc1cccc(C[C@H](NC(=O)[C@@H](CCCc2ccccc2)NS(=O)(=O)Cc2cccc(C(=O)O)c2)C(=O)NCc2ccc(C(=N)N)cc2)c1

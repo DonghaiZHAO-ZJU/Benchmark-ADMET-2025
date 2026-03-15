@@ -1,0 +1,1 @@
+Cc1nn(CCOCCOCCNC(=O)CCCCCC2(C)C(/C=C/C=C/C=C3/N(CCCS(=O)(=O)O)c4ccc(S(=O)(=O)O)cc4C3(C)C)=[N+](CCCS(=O)(=O)O)c3ccc(S(=O)(=O)O)cc32)cc1-c1ccc2cc(CCN3CCC[C@H]3C)ccc2n1

@@ -1,0 +1,11 @@
+torch==2.0.1+cu117  
+dgl-cu117==2.1       
+numpy==1.23.1
+networkx==2.8
+rdkit-pypi==2022.3.4 
+scikit-learn==1.1.1
+pandas==1.4.2
+logzero==1.7.0
+PyYAML==6.0 
+jarvis-tools==2023.12.12
+pykan

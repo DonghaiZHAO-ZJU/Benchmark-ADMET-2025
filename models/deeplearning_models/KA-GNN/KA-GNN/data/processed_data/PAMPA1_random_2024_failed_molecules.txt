@@ -1,0 +1,2 @@
+CC[C@H](C)[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CC(C)C)NC(=O)[C@@H]1CC(=O)N[C@@H](Cc2ccccc2)C(=O)N(C)[C@@H](Cc2ccccc2)C(=O)N(C)[C@@H](CC(C)C)C(=O)N[C@@H]([C@@H](C)O)C(=O)N(C)[C@@H](C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N1)C(=O)N1CCCCC1
+CC[C@H](C)[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H]1CC(=O)N[C@@H](Cc2ccccc2)C(=O)N[C@@H](CC(C)C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N[C@@H]([C@@H](C)O)C(=O)N(C)[C@@H](Cc2cccc(Cl)c2)C(=O)N(C)[C@@H](C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N1)C(=O)N1CCCCC1

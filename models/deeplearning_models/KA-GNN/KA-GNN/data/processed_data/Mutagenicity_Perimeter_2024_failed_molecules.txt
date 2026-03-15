@@ -1,0 +1,7 @@
+Cc1c2ccccc2cc2c3c(ccc12)C(O)C(O)[C@@H]1O[C@@H]31
+c1cnc2c(c1)[C@@H]1O[C@H]1C1OC21
+[O-][NH+2]1C=CCc2cccc(O)c21
+Cc1cc(=O)oc2ccc3c(c12)C1(C)OOC1(C)O3
+COc1ccc2c3c1O[C@@H]1[C@@H](O)C=C[C@H]4[C@@H](C2)N(C)CC[C@@]314
+COc1cc2c(cc1OC)[C@@]13CCN4CC5=CCO[C@@H]6CC(=O)N2[C@H]1[C@H]6[C@@H]5C[C@@H]43
+ClC1=C(Cl)[C@]2(Cl)[C@H]3[C@@H]4C[C@@H]([C@@H]5O[C@H]45)[C@H]3[C@@]1(Cl)C2(Cl)Cl

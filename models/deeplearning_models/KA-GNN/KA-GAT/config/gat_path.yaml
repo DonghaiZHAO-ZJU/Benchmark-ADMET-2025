@@ -1,0 +1,26 @@
+model_select: "kagat"
+#mlp,mlp_two,kan_two,kan#GNN
+#kangat, GAT
+#kantran, Transformer
+#mlpgat,
+select_dataset: 'bace'
+#bbbp, bace, clintox,sider,tox21,hiv,muv
+force_field: 'uff'
+
+encoder_atom: "cgcnn"
+#encoder_method = ("atomic_number":1, "basic":11, "cfid":438, "cgcnn":92,'self':62,'gme':140)
+encoder_bond: "dim_14"
+pooling: 'avg'
+#max,sum,avg
+loss_sclect: 'bce'
+grid: 3
+head: 2
+num_layers: 2
+#l1,l2,sml1,bce
+LR: 0.0001
+NUM_EPOCHS: 500
+batch_size: 128
+train_ratio: 0.8
+vali_ratio: 0.1
+test_ratio: 0.1
+iter: 5
