@@ -12,6 +12,11 @@ MolMCL is a prompt-based multi-channel learning framework that integrates molecu
 
 Run training:
 ```bash
+bash finetune_example.sh
+```
+
+Or run with Python:
+```bash
 python scripts/finetune.py \
     --config ./config/ADMET_example.yaml \
     --split_type random_2024 \

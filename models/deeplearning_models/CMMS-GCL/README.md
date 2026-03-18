@@ -12,6 +12,11 @@ CMMS-GCL combines graph convolutional networks and SMILES sequence representatio
 ## How to Run
 
 Run training:
+```bash
+bash run.sh
+```
+
+Or run with Python:
 ```python
 from cmms_gcl import train
 

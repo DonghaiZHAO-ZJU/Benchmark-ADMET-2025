@@ -12,6 +12,11 @@ GEM is a 3D Graph Neural Network with spatial structure-based architecture (GeoG
 
 Run training:
 ```bash
+bash run.sh
+```
+
+Or run with Python:
+```bash
 python finetune_class2.py --task_name BBBP \
     --data_name BBBP_random_2024 \
     --data_path ./data/raw_data \

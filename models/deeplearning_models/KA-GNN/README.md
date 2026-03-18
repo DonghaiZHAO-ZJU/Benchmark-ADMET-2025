@@ -11,18 +11,19 @@ KA-GNN (Kolmogorov-Arnold Graph Neural Network) integrates Kolmogorov-Arnold Net
 
 ## How to Run
 
-Configure dataset in `./KA-GNN/config/c_path.yaml`:
-```yaml
-select_dataset: "BBBP"
+Run training:
+```bash
+cd KA-GNN
+bash run.sh
 ```
 
-Run training:
+Or run directly:
 ```bash
 cd KA-GNN
 python main.py
 ```
 
-Or use shell scripts:
-```bash
-bash run.sh
+Configure dataset in `./KA-GNN/config/c_path.yaml`:
+```yaml
+select_dataset: "BBBP"
 ```

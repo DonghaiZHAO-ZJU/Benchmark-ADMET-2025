@@ -11,7 +11,12 @@ Vertical-GNN combines Graph Transformer and GIN (Graph Isomorphism Network) for 
 
 ## How to Run
 
-Use the Jupyter notebooks in `./notebooks/`:
+Run training:
+```bash
+bash run.sh
+```
+
+Or use the Jupyter notebooks in `./notebooks/`:
 ```bash
 jupyter notebook notebooks/transfer_learning_model.ipynb
 ```

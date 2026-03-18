@@ -13,6 +13,11 @@ Chemprop is a message passing neural network (MPNN) based package for molecular 
 
 Run training:
 ```bash
+bash run.sh
+```
+
+Or run with chemprop command:
+```bash
 chemprop_train --data_path path/to/train.csv \
                --separate_val_path path/to/val.csv \
                --separate_test_path path/to/test.csv \

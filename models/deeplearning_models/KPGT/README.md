@@ -14,6 +14,12 @@ KPGT (Knowledge-Pretrained Graph Transformer) uses a Line Graph Transformer (LiG
 Run training:
 ```bash
 cd scripts
+bash run.sh
+```
+
+Or run with Python:
+```bash
+cd scripts
 python finetune_new.py --config base \
     --model_path ../models/pretrained/base/base.pth \
     --dataset BBBP \
