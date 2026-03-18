@@ -47,7 +47,3 @@ GEM uses 3D molecular structures:
 - **Encoder**: GeoGNN with bond-angle graph and atom-bond graph
 - **Layers**: 8 graph convolution layers
 - **Pretraining tasks**: Bond length, angle, and atomic distance prediction
-
-## References
-
-- Huang, Y. et al. (2021). Gem: An efficient neural network for large-scale molecular property prediction.

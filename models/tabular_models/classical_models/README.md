@@ -76,9 +76,3 @@ Key parameters:
 Models use Hyperopt for hyperparameter tuning:
 - Search space defined in each script
 - Bayesian optimization (TPE)
-
-## References
-
-- Chen, T. et al. (2016). XGBoost: A Scalable Tree Boosting System.
-- Ke, G. et al. (2017). LightGBM: A Highly Efficient Gradient Boosting Decision Tree.
-- Prokhorenkova, L. et al. (2018). CatBoost: unbiased boosting with categorical features.

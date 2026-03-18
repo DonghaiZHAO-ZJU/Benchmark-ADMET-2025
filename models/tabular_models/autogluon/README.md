@@ -38,7 +38,3 @@ AutoGluon uses molecular fingerprints and descriptors:
 - **Ensemble**: Multiple models combined for better performance
 - **Features**: Tabular features from molecular fingerprints
 - **Time limit**: Configurable training time (default: 3600s)
-
-## References
-
-- Erickson, N. et al. (2020). AutoGluon-Tabular: Robust Tabular Classification and Regression.

@@ -35,7 +35,3 @@ Uni-Mol uses 3D molecular structures:
 - **Position encoding**: Rotation and translation invariant spatial encoding
 - **Attention**: Pairwise representation with query-key product
 - **Tasks**: 3D position denoising, distance prediction
-
-## References
-
-- Zhou, G. et al. (2022). Uni-Mol: A Universal 3D Molecular Representation Learning Framework.

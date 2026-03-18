@@ -49,7 +49,3 @@ RGCN uses DGL graph representation:
 - **Dropout**: 0.2
 - **Optimizer**: Adam with learning rate 3e-3
 - **Epochs**: 500 with early stopping (patience 50)
-
-## References
-
-- Schlichtkrull, M. et al. (2018). Modeling Relational Data with Graph Convolutional Networks.

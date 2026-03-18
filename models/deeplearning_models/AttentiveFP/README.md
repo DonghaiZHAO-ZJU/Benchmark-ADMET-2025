@@ -48,7 +48,3 @@ AttentiveFP represents molecules as graph data structures using DGL (Deep Graph 
 - **Readout**: 2 timesteps of attention-based pooling
 - **Hidden size**: 200
 - **Output**: Task-specific prediction (classification/regression)
-
-## References
-
-- Xiong, Z. et al. (2020). Pushing the Boundaries of Molecular Representation for Drug Discovery with the Graph Attention Mechanism. J. Med. Chem.

@@ -33,7 +33,3 @@ K-BERT uses SMILES strings:
   1. Atom feature prediction (degree, aromaticity, hydrogens, chirality)
   2. Molecular feature prediction (MACCS fingerprints)
   3. Contrastive learning (same molecule, different SMILES)
-
-## References
-
-- Zhang, W. et al. (2022). K-BERT: A Knowledge-based BERT Model for Molecular Property Prediction.

@@ -33,7 +33,3 @@ GNNAK uses molecular graphs with subgraph extraction:
 - **Subgraph pattern**: Induces subgraph centered on each node
 - **Variants**: GNNAK, GNNAK+, GNNAK+-S
 - **Aggregation**: Subgraph encoding for each node
-
-## References
-
-- Fatemi, S. et al. (2021). GNNAK: Graph Neural Networks with Kernels.

@@ -48,7 +48,3 @@ Chemprop uses SMILES strings as input:
 - **Layers**: 3 MPNN layers
 - **FFN**: 2 hidden layers (300)
 - **Aggregation**: Readout function for graph-level prediction
-
-## References
-
-- Heid, E. et al. (2023). Chemprop: A Machine Learning Package for Chemical Property Prediction.

@@ -33,7 +33,3 @@ Vertical-GNN uses molecular graphs:
 - **Encoders**: Graph Transformer + GIN
 - **Fusion**: Concatenation of features from both encoders
 - **Classifier/Regressor**: MLP head for final prediction
-
-## References
-
-- Wang, Y. et al. (2023). Evaluating the Use of GNNs and Transfer Learning for Oral Bioavailability Prediction.

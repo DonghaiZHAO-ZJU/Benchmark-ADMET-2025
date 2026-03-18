@@ -46,7 +46,3 @@ TabPFNv2 uses molecular fingerprints:
 - **Few-shot learning**: Excellent performance with small datasets
 - **OOD robustness**: Good generalization to out-of-distribution data
 - **Fast inference**: Processes entire dataset in one forward pass
-
-## References
-
-- Hollmann, N. et al. (2024). TabPFNv2: Powerful General-Purpose Tabular Foundation Model. Nature.

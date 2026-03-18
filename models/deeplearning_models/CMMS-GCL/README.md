@@ -37,7 +37,3 @@ CMMS-GCL uses dual molecular representations:
 - **Sequence encoder**: Bidirectional GRU
 - **Fusion**: Concatenation of graph and sequence embeddings
 - **Contrastive learning**: Inter-view graph contrastive learning
-
-## References
-
-- Li, L. et al. (2022). CMMS-GCL: Cross-Modality Metabolic Stability Prediction with Graph Contrastive Learning. Bioinformatics.

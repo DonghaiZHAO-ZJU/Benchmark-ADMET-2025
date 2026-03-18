@@ -42,7 +42,3 @@ KA-GNN uses molecular graphs with enhanced spatial features:
 - **Activation**: Fourier series-based univariate functions
 - **Layers**: 3 Fourier GNN layers
 - **Readout**: 2 KAN Linear layers
-
-## References
-
-- Li, L. et al. (2025). Kolmogorov-Arnold Graph Neural Networks for Molecular Property Prediction. Nature Machine Intelligence.

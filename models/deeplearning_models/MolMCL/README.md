@@ -44,7 +44,3 @@ MolMCL uses molecular graphs:
   2. Scaffold contrastive learning
   3. Context prediction
 - **Prompt-weighted pooling**: Selects prompt weights based on Roughness Index
-
-## References
-
-- Liu, Y. et al. (2024). MolMCL: Prompt-based Multi-channel Learning for Molecular Property Prediction.

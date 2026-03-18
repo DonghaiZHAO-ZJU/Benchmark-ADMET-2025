@@ -47,7 +47,3 @@ KPGT uses molecular line graphs:
 - **Architecture**: Line Graph Transformer (LiGhT)
 - **Pretraining**: Masked node prediction, RDKit descriptors, ECFP fingerprints
 - **Global nodes**: 2 global nodes initialized with molecular descriptors
-
-## References
-
-- Zhang, Z. et al. (2023). KPGT: Knowledge-pretrained Graph Transformer for Molecular Property Prediction.
