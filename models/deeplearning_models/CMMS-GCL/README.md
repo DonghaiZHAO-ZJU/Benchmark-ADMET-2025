@@ -1,39 +1,29 @@
 # CMMS-GCL
 
-CMMS-GCL (Cross-Modality Metabolic Stability Prediction with Graph Contrastive Learning) combines graph convolutional networks and SMILES sequence representations with contrastive learning.
+CMMS-GCL combines graph convolutional networks and SMILES sequence representations with contrastive learning for metabolic stability prediction.
 
 ## Data Representation
 
-CMMS-GCL uses dual molecular representations:
-
-- **Graph representation**: Molecular graph with PyG (PyTorch Geometric)
-- **Sequence representation**: SMILES sequences via Smi2Vec
-- **Features**: Character-level embeddings for SMILES
+- **Input**: SMILES strings
+- **Graph representation**: PyG graphs
+- **Sequence representation**: Smi2Vec character embeddings
+- **Data format**: CSV with SMILES and labels
 
 ## How to Run
 
-1. **Install dependencies**:
-   ```bash
-   pip install torch scikit-learn pandas numpy rdkit networkx pyg
-   ```
+Run training:
+```python
+from cmms_gcl import train
 
-2. **Prepare data**:
-   - Place training data in the data directory
-   - Format: CSV with SMILES and labels
+train(dataset='HLM',
+      epochs=500,
+      batch_size=256,
+      lr=0.0005)
+```
 
-3. **Run training**:
-   ```python
-   from cmms_gcl import train
-
-   train(dataset='HLM',
-         epochs=500,
-         batch_size=256,
-         lr=0.0005)
-   ```
-
-## Model Architecture
-
-- **Graph encoder**: GCN (Graph Convolutional Network)
-- **Sequence encoder**: Bidirectional GRU
-- **Fusion**: Concatenation of graph and sequence embeddings
-- **Contrastive learning**: Inter-view graph contrastive learning
+Key parameters:
+- `dataset`: Dataset name
+- `epochs`: Number of training epochs
+- `batch_size`: Batch size
+- `lr`: Learning rate
+- `classification`: True/False

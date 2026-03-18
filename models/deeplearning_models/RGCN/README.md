@@ -4,12 +4,11 @@ RGCN (Relational Graph Convolutional Network) is a GNN architecture that handles
 
 ## Data Representation
 
-RGCN uses DGL graph representation:
-
+- **Input**: SMILES strings
+- **Graph format**: DGL graphs
 - **Node features**: Atomic properties (40 dimensions with chirality, 37 without)
 - **Edge features**: Bond properties with relation types
-- **Graph format**: Binary `.bin` files in `data/graph_data/`
-- **Data files**: `{dataset_name}.bin` and `{dataset_name}_group.csv`
+- **Data files**: `{dataset_name}.bin` and `{dataset_name}_group.csv` in `data/graph_data/`
 
 ## How to Run
 
@@ -18,13 +17,10 @@ RGCN uses DGL graph representation:
    python build_dataset.py
    ```
 
-2. **Train the model**:
-   ```bash
-   python train_rgcn.py
-   ```
-
-   Key parameters in `train_rgcn.py`:
+2. **Train model**:
    ```python
+   from train_rgcn import train_RGCN
+
    train_RGCN(
        times=3,
        task_name='BBBP',
@@ -34,18 +30,9 @@ RGCN uses DGL graph representation:
    )
    ```
 
-   Parameters:
+   Key parameters:
    - `times`: Number of training runs
    - `task_name`: Task name
    - `data_name`: Dataset name
-   - `split_method`: 'random', 'scaffold', or 'random'
-   - `classification`: True/False
-
-## Model Architecture
-
-- **Input**: Molecular graph with relation edges
-- **RGCN layers**: 2 hidden layers (64, 64)
-- **FFN**: 1 hidden layer (64)
-- **Dropout**: 0.2
-- **Optimizer**: Adam with learning rate 3e-3
-- **Epochs**: 500 with early stopping (patience 50)
+   - `split_method`: 'random', 'scaffold', or 'Perimeter'
+   - `classification`: True for classification, False for regression

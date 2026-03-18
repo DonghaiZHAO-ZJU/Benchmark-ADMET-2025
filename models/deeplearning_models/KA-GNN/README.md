@@ -1,44 +1,28 @@
 # KA-GNN
 
-KA-GNN (Kolmogorov-Arnold Graph Neural Network) integrates Kolmogorov-Arnold Networks (KAN) into GNN architectures for molecular property prediction.
+KA-GNN (Kolmogorov-Arnold Graph Neural Network) integrates Kolmogorov-Arnold Networks (KAN) into GNN architectures.
 
 ## Data Representation
 
-KA-GNN uses molecular graphs with enhanced spatial features:
-
-- **Input format**: SMILES strings
+- **Input**: SMILES strings
 - **Node features**: Atom properties (92 dimensions)
 - **Edge features**: Bond properties (21 dimensions)
 - **Additional**: Non-covalent interactions (5 Å spatial cutoff)
 
 ## How to Run
 
-1. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+Configure dataset in `./KA-GNN/config/c_path.yaml`:
+```yaml
+select_dataset: "BBBP"
+```
 
-2. **Configure dataset**:
-   Modify `./KA-GNN/config/c_path.yaml`:
-   ```yaml
-   select_dataset: "BBBP"
-   ```
+Run training:
+```bash
+cd KA-GNN
+python main.py
+```
 
-3. **Run training**:
-   ```bash
-   cd KA-GNN
-   python main.py
-   ```
-
-   Or use shell scripts:
-   ```bash
-   bash run.sh
-   ```
-
-## Model Architecture
-
-- **Variants**: KA-GCN and KA-GAT
-- **KAN integration**: Node embedding, message passing, and readout modules
-- **Activation**: Fourier series-based univariate functions
-- **Layers**: 3 Fourier GNN layers
-- **Readout**: 2 KAN Linear layers
+Or use shell scripts:
+```bash
+bash run.sh
+```
