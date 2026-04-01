@@ -22,6 +22,8 @@ The `dataprocessor.py` script is used to clean the raw dataset and remove any du
 python dataprocessor.py
 ```
 
+An alternative duplicate handling approach with IQR-based adaptive threshold is available in `dataprocessor_optimized.py`.
+
 **2. Split the Dataset**
 
 After cleaning, the `datasplitting.py` script partitions the dataset using various splitting methods(**Random Split, Scaffold Split and Perimeter Split**).
@@ -35,3 +37,15 @@ python datasplitting.py
 For splitting the **MoleculeACE** dataset, which specifically focuses on activity cliffs, the splitting logic is based on the implementation from the MolMCL repository.
 
 The script containing this splitter can be found at: [MolMCL Splitter Script](https://github.com/yuewan2/MolMCL/blob/main/molmcl/splitters.py).
+
+---
+
+## Class Imbalance Handling
+
+For imbalanced classification tasks (CYP2C9_Substrate, CYP2D6_Inhibition, Tox21_NR_ER), we use:
+
+- **Downsampling**: Majority class reduced to match minority; 4 subsets for CYP2C9_Substrate/CYP2D6_Inhibition, 7 subsets for Tox21_NR_ER → ensemble predictions
+- **Oversampling**: Minority class duplicated to match majority; single model
+- **Split methods**: Random, Scaffold; Seeds: 2024, 2034, 2044, 2054, 2064; Ratio: 80/10/10
+
+Processing script: `python datasplitting_class_imbalance.py` (includes sampling generation, KPGT/ChemProp/Merged formats)

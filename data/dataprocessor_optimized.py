@@ -1,3 +1,11 @@
+"""
+Optimized duplicate handling version with IQR-based adaptive threshold.
+This is an alternative to dataprocessor.py for handling duplicate molecules.
+
+Key differences from dataprocessor.py:
+- Uses IQR-based adaptive threshold instead of fixed RSD < 0.05 for regression tasks
+"""
+
 import tqdm
 import pandas as pd
 import numpy as np
@@ -29,6 +37,11 @@ def calculate_rsd(data):
     std_dev = np.std(data)
     rsd = std_dev / mean
     return abs(rsd)
+
+def calculate_iqr(series):
+    """Calculate Interquartile Range (IQR) for a series."""
+    q75, q25 = np.percentile(series.dropna(), [75, 25])
+    return q75 - q25
 
 def mean_with_min_decimal_places(column):
     decimal_places = min([len(str(x).split('.')[1]) for x in column])
@@ -79,20 +92,28 @@ for task in select_tasks:
                 data_new = data_new.drop(duplicate_rows.index[1:]).reset_index(drop=True)
                 print("{} has the same label {} and only save one".format(Canonical_smiles, len(duplicate_rows)))
                 m1+=1
-            elif task in regression_tasks and calculate_rsd(column) < 0.05:
-                for index in duplicate_rows.index:
-                    print(f"Deleted molecule: {data_new.loc[index, 'smiles']}")
-                data_new = data_new.drop(duplicate_rows.index).reset_index(drop=True)
-                new_row = pd.DataFrame({"smiles": [Canonical_smiles], task: [mean_with_min_decimal_places(column)]})
-                data_new = pd.concat([data_new, new_row], ignore_index=True)
-                print("{} has different labels {}, but they are very similar (Relative Error={}) so take average as their label".format(Canonical_smiles, len(duplicate_rows), calculate_rsd(column)))
-                m2+=1
             else:
-                for index in duplicate_rows.index:
-                    print(f"Deleted molecule: {data_new.loc[index, 'smiles']}")
-                data_new = data_new.drop(duplicate_rows.index).reset_index(drop=True)
-                print("{} has different labels {} and drop all of them".format(Canonical_smiles, len(duplicate_rows)))
-                n+=1
+                # Use IQR-based adaptive threshold
+                global_iqr = calculate_iqr(data_new[task])
+                iqr_threshold = 0.3
+                limit = iqr_threshold * global_iqr
+                std_dev = np.std(column.values)
+                print(f"  Task {task} stats: IQR={global_iqr:.4f}, Adaptive Threshold ({iqr_threshold}*IQR)={limit:.4f}, std_dev={std_dev:.4f}")
+
+                if std_dev <= limit:
+                    for index in duplicate_rows.index:
+                        print(f"Deleted molecule: {data_new.loc[index, 'smiles']}")
+                    data_new = data_new.drop(duplicate_rows.index).reset_index(drop=True)
+                    new_row = pd.DataFrame({"smiles": [Canonical_smiles], task: [mean_with_min_decimal_places(column)]})
+                    data_new = pd.concat([data_new, new_row], ignore_index=True)
+                    print("{} has different labels {}, but std_dev({:.4f}) <= limit({:.4f}) so take average as their label".format(Canonical_smiles, len(duplicate_rows), std_dev, limit))
+                    m2+=1
+                else:
+                    for index in duplicate_rows.index:
+                        print(f"Deleted molecule: {data_new.loc[index, 'smiles']}")
+                    data_new = data_new.drop(duplicate_rows.index).reset_index(drop=True)
+                    print("{} has different labels {} and std_dev({:.4f}) > limit({:.4f}) so drop all of them".format(Canonical_smiles, len(duplicate_rows), std_dev, limit))
+                    n+=1
         print("{} identical molecules has been dropped to one".format(m1))
         print("There are {} similar molecules".format(m2))
         print("There are {} strange molecules".format(n))
