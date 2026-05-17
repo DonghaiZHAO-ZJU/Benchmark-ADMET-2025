@@ -7,6 +7,9 @@
     <figcaption style="font-weight: bold; text-align: center; margin-top: 15px; font-size: 1.1em;">
         <strong>Protocol for the systematic evaluation of ADMET models</strong>
     </figcaption>
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 10px;">
+        <strong>Note:</strong> The "100,000+ model weights" refers to the total number of models trained throughout the study, including hyperparameter optimization, multiple random seed repeats for statistical robustness, and additional ablation studies. For classical machine learning models, we performed comprehensive pairwise combinations of multiple molecular descriptors and fingerprints. For GNNAK, we trained six architectural variants (GINE, GINEAK, GINEAK+, GraphTransform, GraphTransformAK, GraphTransformAK+), presenting one representative result in the main paper (see initial draft and supplementary information in <a href="./paper_docs/">paper_docs/</a> for full results).
+    </p>
 </figure>
 
 ## 🧪 **Datasets Assembling and Preprocessing**
