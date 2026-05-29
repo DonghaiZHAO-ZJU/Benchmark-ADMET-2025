@@ -3,7 +3,7 @@
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; margin: 20px 0; color: white; text-align: center;">
     <h3 style="margin: 0 0 10px 0;">📣 Published</h3>
     <p style="margin: 0; font-size: 1.1em;">
-        Zhao, D., Zhu, Y., Wu, Z. et al.<br>
+        Zhao, D., Zhu, Y., Wu, Z., Wan, Y., Liu, X., Li, S., Xu, H., Hou, T. & Hsieh, C..<br>
         <strong>Revisiting ADMET prediction reliability under real-world challenges in the foundation model era.</strong><br>
         J Cheminform (2026).<br>
         <a href="https://doi.org/10.1186/s13321-026-01217-2" style="color: #ffd700;">https://doi.org/10.1186/s13321-026-01217-2</a>
@@ -143,4 +143,4 @@ All three roughness indices (MODI, SARI, ROGI) were calculated using the [**rogi
 
 If this benchmark is useful for your research, please cite our paper:
 
-> Zhao, D., Zhu, Y., Wu, Z. et al. Revisiting ADMET prediction reliability under real-world challenges in the foundation model era. J Cheminform (2026). https://doi.org/10.1186/s13321-026-01217-2
+> Zhao, D., Zhu, Y., Wu, Z., Wan, Y., Liu, X., Li, S., Xu, H., Hou, T. & Hsieh, C.. Revisiting ADMET prediction reliability under real-world challenges in the foundation model era. J Cheminform (2026). https://doi.org/10.1186/s13321-026-01217-2
