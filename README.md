@@ -1,5 +1,15 @@
 # **A Comprehensive Benchmark of ADMET Predictors in the Era of Foundation Models**
 
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; margin: 20px 0; color: white; text-align: center;">
+    <h3 style="margin: 0 0 10px 0;">📣 Published</h3>
+    <p style="margin: 0; font-size: 1.1em;">
+        Zhao, D., Zhu, Y., Wu, Z. et al.<br>
+        <strong>Revisiting ADMET prediction reliability under real-world challenges in the foundation model era.</strong><br>
+        J Cheminform (2026).<br>
+        <a href="https://doi.org/10.1186/s13321-026-01217-2" style="color: #ffd700;">https://doi.org/10.1186/s13321-026-01217-2</a>
+    </p>
+</div>
+
 <figure style="text-align: center; margin: 20px 0;">
     <img src="./figure/Protocol.png" 
          alt="Protocol for the systematic evaluation of ADMET models" 
@@ -126,3 +136,11 @@ After completing the ADMET benchmark, we employed the **Roughness Index** to unc
    - **Key finding:** Among the three metrics, **MODI** showed the strongest correlation with out‑of‑distribution drop and overall error, making it the best predictor of task hardness.
 
 All three roughness indices (MODI, SARI, ROGI) were calculated using the [**rogi**](https://github.com/coleygroup/rogi) package made by **Coley et al. (2022)**.
+
+---
+
+## 📖 Citation
+
+If this benchmark is useful for your research, please cite our paper:
+
+> Zhao, D., Zhu, Y., Wu, Z. et al. Revisiting ADMET prediction reliability under real-world challenges in the foundation model era. J Cheminform (2026). https://doi.org/10.1186/s13321-026-01217-2
