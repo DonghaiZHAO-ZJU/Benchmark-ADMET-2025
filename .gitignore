@@ -22,7 +22,6 @@
 
 # 模型检查点和权重文件
 models/deeplearning_models/*/checkpoint*
-models/deeplearning_models/*/model*
 models/deeplearning_models/*/weights*
 
 # 临时文件和缓存
@@ -55,4 +54,11 @@ wheels/
 
 # 系统文件
 .DS_Store
+._*
+__MACOSX/
 Thumbs.db
+
+# 本地专用文件（论文自查提交材料与协作说明，不入库）
+2026+一作+JC/
+论文自查核查清单_模板.docx
+AGENTS.md
