@@ -12,11 +12,19 @@ K-BERT (Knowledge-based BERT) is a BERT-based molecular representation model tha
 
 Run training:
 ```bash
-python train.py --data_path path/to/data --model_path path/to/pretrained_model
+bash sh/K_BERT.sh
 ```
 
+`sh/K_BERT.sh` loops over 5 seeds (2024-2064) and 4 split methods, calling:
+
+```bash
+python practice.py --seed $seed --split_method $split_method --scaler StandardScaler
+```
+
+For classification tasks use `sh/K_BERT_classification.sh` instead (no scaler).
+To build the input data first, run `bash sh/K_BERT_data.sh` (calls `build_dataset_for_tasks.py`).
+
 Key parameters:
-- `--data_path`: Path to training data
-- `--model_path`: Path to pretrained model
-- `--task`: Task type (classification/regression)
-- `--epochs`: Number of training epochs
+- `--seed`: Random seed, one of 2024, 2034, 2044, 2054, 2064
+- `--split_method`: 'random', 'scaffold', 'Perimeter', 'Maximum_Dissimilarity' or 'MoleculeACE'
+- `--scaler`: 'StandardScaler', 'PowerTransformer' or 'RobustScaler'

@@ -13,11 +13,11 @@ GNNAK (GNN As Kernel) is a framework that extends local aggregation in MPNNs fro
 Run training:
 ```bash
 cd train
-python admet.py --cfg configs/gnnak_admet.yaml
+python admet.py --cfg configs/admet.yaml
 ```
 
 Key parameters (in config file):
-- `dataset_name`: Dataset name
-- `dataset_type`: 'classification' or 'regression'
+- `dataset`: Dataset name (e.g. `admet`)
 - `subgraph.hops`: Number of hops for subgraph extraction
-- `subgraph.walk_length`: Random walk length
+- `subgraph.online`: Whether subgraph sampling is done online
+- `train.runs` / `train.epochs` / `train.patience`: Training loop settings
