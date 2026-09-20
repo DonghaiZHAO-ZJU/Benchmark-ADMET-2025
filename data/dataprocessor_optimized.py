@@ -50,7 +50,11 @@ def mean_with_min_decimal_places(column):
 
 classification_tasks = ["BBBP","hERG","Mutagenicity","oral_bioavailability","HLM_metabolic_stability","Tox21_NR_ER","CYP2C9_Substrate","CYP2D6_Inhibition","LinPept_CellPen","LinPept_NonFouling"]
 regression_tasks = ["Caco2","HalfLife","VDss","PAMPA1"]
+# Fill in the tasks to process, e.g. ["BBBP", "hERG"]. Input files are expected at data/<task>.csv
 select_tasks = []
+if not select_tasks:
+    raise SystemExit("select_tasks is empty: fill in the task names to process (e.g. ['BBBP', 'hERG']); "
+                     "input files are expected at data/<task>.csv")
 for task in select_tasks:
     print("---------------------{}---------------------".format(task))
     data_origin = pd.read_csv("data/{}.csv".format(task), low_memory=False)
@@ -69,7 +73,7 @@ for task in select_tasks:
                 else:
                     Canonical_smiles_list.append(new_smiles)
                     valid_label_list.append(label)
-            except:
+            except Exception:
                 print(f'{smiles} can not be transformed to new smiles! So drop it')
     data_new = pd.DataFrame()
     data_new["smiles"] = Canonical_smiles_list
@@ -93,6 +97,15 @@ for task in select_tasks:
                 print("{} has the same label {} and only save one".format(Canonical_smiles, len(duplicate_rows)))
                 m1+=1
             else:
+                # Classification tasks: conflicting duplicate labels are always dropped,
+                # consistent with dataprocessor.py
+                if task not in regression_tasks:
+                    for index in duplicate_rows.index:
+                        print(f"Deleted molecule: {data_new.loc[index, 'smiles']}")
+                    data_new = data_new.drop(duplicate_rows.index).reset_index(drop=True)
+                    print("{} has different labels {} in a classification task and drop all of them".format(Canonical_smiles, len(duplicate_rows)))
+                    n+=1
+                    continue
                 # Use IQR-based adaptive threshold
                 global_iqr = calculate_iqr(data_new[task])
                 iqr_threshold = 0.3
