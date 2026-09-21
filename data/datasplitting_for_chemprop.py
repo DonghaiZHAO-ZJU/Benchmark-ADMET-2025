@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 classification_tasks = ["BBBP","hERG","Mutagenicity","oral_bioavailability","HLM_metabolic_stability","Tox21_NR_ER","CYP2C9_Substrate","CYP2D6_Inhibition","LinPept_CellPen","LinPept_NonFouling"]
-regression_tasks = ["Caco2","HalfLife","VDss",'PAMPA1'
+regression_tasks = ["Caco2","HalfLife","VDss",'PAMPA1',
                     # Following are MoleculeACE tasks
                     'CHEMBL1862_Ki', 'CHEMBL1871_Ki', 'CHEMBL2034_Ki', 'CHEMBL2047_EC50', 
                     'CHEMBL204_Ki', 'CHEMBL2147_Ki', 'CHEMBL214_Ki', 'CHEMBL218_EC50', 
@@ -12,7 +12,7 @@ regression_tasks = ["Caco2","HalfLife","VDss",'PAMPA1'
                     'CHEMBL262_Ki', 'CHEMBL264_Ki', 'CHEMBL2835_Ki', 'CHEMBL287_Ki', 
                     'CHEMBL2971_Ki', 'CHEMBL3979_EC50', 'CHEMBL4005_Ki', 'CHEMBL4203_Ki', 
                     'CHEMBL4616_EC50', 'CHEMBL4792_Ki']
-select_tasks = []
+select_tasks = classification_tasks + regression_tasks  # includes MoleculeACE tasks; see data/README.md for their dedicated splitter
 split_methods=["random","scaffold","Perimeter"] # Change to "MoleculeACE" if you want to use MoleculeACE tasks
 for i in range(5):
     seed = 2024+i*10

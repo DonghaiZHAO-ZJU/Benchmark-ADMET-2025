@@ -25,7 +25,7 @@ regression_tasks = ["Caco2","HalfLife","VDss",'PAMPA1',
                     'CHEMBL262_Ki', 'CHEMBL264_Ki', 'CHEMBL2835_Ki', 'CHEMBL287_Ki', 
                     'CHEMBL2971_Ki', 'CHEMBL3979_EC50', 'CHEMBL4005_Ki', 'CHEMBL4203_Ki', 
                     'CHEMBL4616_EC50', 'CHEMBL4792_Ki']
-select_tasks = []
+select_tasks = classification_tasks + regression_tasks  # includes MoleculeACE tasks; see data/README.md for their dedicated splitter
 split_methods=["random","scaffold","Perimeter"] # Change to "MoleculeACE" if you want to use MoleculeACE tasks
 
 for i in range(5):

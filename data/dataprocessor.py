@@ -37,7 +37,11 @@ def mean_with_min_decimal_places(column):
 
 classification_tasks = ["BBBP","hERG","Mutagenicity","oral_bioavailability","HLM_metabolic_stability","Tox21_NR_ER","CYP2C9_Substrate","CYP2D6_Inhibition","LinPept_CellPen","LinPept_NonFouling"]
 regression_tasks = ["Caco2","HalfLife","VDss","PAMPA1"]
-select_tasks = []
+# Fill in the tasks to process, e.g. ["BBBP", "hERG"]. Input files are expected at data/<task>.csv
+select_tasks = ["BBBP","hERG","Mutagenicity","oral_bioavailability","HLM_metabolic_stability","Tox21_NR_ER","CYP2C9_Substrate","CYP2D6_Inhibition","Caco2","HalfLife","VDss"]
+if not select_tasks:
+    raise SystemExit("select_tasks is empty: fill in the task names to process (e.g. ['BBBP', 'hERG']); "
+                     "input files are expected at data/<task>.csv")
 for task in select_tasks:
     print("---------------------{}---------------------".format(task))
     data_origin = pd.read_csv("data/{}.csv".format(task), low_memory=False)

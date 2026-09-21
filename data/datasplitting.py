@@ -13,7 +13,7 @@ from mood.splitter import PerimeterSplit, MaxDissimilaritySplit, MOODSplitter
 split_policys = ['random', 'scaffold', "Perimeter"] # change
 classification_tasks = ["BBBP","hERG","Mutagenicity","oral_bioavailability","HLM_metabolic_stability","Tox21_NR_ER","CYP2C9_Substrate","CYP2D6_Inhibition","LinPept_CellPen","LinPept_NonFouling"]
 regression_tasks = ["Caco2","HalfLife","VDss",'PAMPA1']
-select_tasks = []
+select_tasks = classification_tasks + regression_tasks
 
 for i in range(5):
     seed = 2024+i*10
