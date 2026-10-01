@@ -12,8 +12,8 @@ GNNAK (GNN As Kernel) is a framework that extends local aggregation in MPNNs fro
 
 Run training:
 ```bash
-cd train
-python admet.py --cfg configs/admet.yaml
+# run from the GNNAK/ directory
+python train/admet.py --config train/configs/admet.yaml
 ```
 
 Key parameters (in config file):

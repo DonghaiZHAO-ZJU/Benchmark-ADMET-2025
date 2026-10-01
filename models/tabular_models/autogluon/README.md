@@ -12,10 +12,12 @@ AutoGluon is an AutoML framework that automates model training, hyperparameter t
 
 Run training:
 ```bash
-python autogln.py
+python autogln.py --task BBBP --split_method random --split_seed 2024
 ```
 
-Key parameters (in code):
-- `task_name`: Name of the task
-- `task_type`: 'classification' or 'regression'
-- `time_limit`: Training time limit in seconds
+Key parameters:
+- `--task`: Name of the task
+- `--split_method`: `random` / `scaffold` / `Perimeter`
+- `--split_seed`: Split seed, e.g. `2024`
+- `--eval_metric`: Evaluation metric
+- `--time_limit`: Training time limit in seconds (default 3600)

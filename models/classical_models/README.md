@@ -6,7 +6,7 @@ This directory contains traditional machine learning models for molecular proper
 
 - **Input**: CSV files with SMILES and labels
 - **Features**: Molecular fingerprints (Morgan FP, MACCS keys, RDKit 2D descriptors)
-- **Data location**: `./data/processed_data1/`
+- **Data location**: `data/processed_data/` (repository root relative)
 
 ## How to Run
 
@@ -39,12 +39,12 @@ python KNN.py --data_name BBBP --task_name BBBP --task_type classification --fp_
 
 **DNN**:
 ```bash
-python DNN_script.py --data_name BBBP --task_name BBBP --task_type classification --fp_name MorganFP --seed 2024
+python DNN_script.py --data_name BBBP --task_type classification --fp_name MorganFP --seed 2024
 ```
 
 Key parameters:
 - `--data_name`: Dataset name
-- `--task_name`: Task name
+- `--task_name`: Task name (all scripts except `DNN_script.py`)
 - `--task_type`: 'classification' or 'regression'
 - `--fp_name`: Fingerprint name (MorganFP, MACCS, RDKFP, etc.)
 - `--seed`: Random seed
